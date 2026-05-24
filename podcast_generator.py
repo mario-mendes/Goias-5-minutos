@@ -426,61 +426,37 @@ def gerar_mp3(txt_content: str, hoje: date, saida: Path) -> float:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def _md_para_whatsapp(md_content: str, hoje_str: str, duracao_s: float) -> str:
+    """Gera mensagem curta de WhatsApp — apenas teaser, convida a ouvir o áudio."""
     hoje    = date.fromisoformat(hoje_str)
     hoje_br = hoje.strftime("%d/%m/%Y")
+    dia_sem = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"][hoje.weekday()]
     dur_min = int(duracao_s // 60)
     dur_seg = int(duracao_s % 60)
 
-    linhas_saida = [
-        f"🎙️ *Goiás Econômico em 5 Minutos*",
-        f"📅 {hoje_br} | ⏱️ {dur_min}min {dur_seg}s",
-        "",
-    ]
-
-    em_tabela = False
+    # Extrai títulos dos blocos de pauta (## ou ###) — máx 4
+    pautas = []
     for linha in md_content.splitlines():
-        if re.match(r"^\s*\|?[-|: ]+\|", linha):
-            em_tabela = True
-            continue
-        if linha.startswith("# ") or re.match(
-            r"^## (Sábado|Domingo|Segunda|Terça|Quarta|Quinta|Sexta)", linha
+        if re.match(r"^#{2,3} ", linha) and not re.match(
+            r"^## (Fontes|Sábado|Domingo|Segunda|Terça|Quarta|Quinta|Sexta)", linha
         ):
-            continue
-        if linha.strip() in ("## Fontes",) or linha.startswith("- [") \
-                or linha.startswith("*Produzido em"):
-            continue
-        if linha.startswith("### ") or linha.startswith("## "):
-            titulo = linha.lstrip("#").strip()
-            linhas_saida.append(f"\n*{titulo}*")
-            em_tabela = False
-            continue
-        if linha.startswith("|") and not em_tabela:
-            celulas = [c.strip() for c in linha.strip("|").split("|")]
-            celulas = [c for c in celulas if c and not re.match(r"^[-:]+$", c)]
-            if len(celulas) >= 2:
-                linhas_saida.append(f"• {celulas[0]}: {' | '.join(celulas[1:])}")
-            continue
-        em_tabela = False
-        if linha.startswith("> "):
-            texto = re.sub(r"\*\*(.+?)\*\*", r"\1",
-                   re.sub(r"\*(.+?)\*", r"_\1_", linha[2:].strip()))
-            linhas_saida.append(f"_{texto}_")
-            continue
-        if re.match(r"^---+$", linha.strip()):
-            continue
-        if linha.startswith("**") and linha.endswith("**"):
-            linhas_saida.append(f"*{linha.strip('*')}*")
-            continue
-        texto = re.sub(r"\*\*(.+?)\*\*", r"*\1*", linha.strip())
-        if texto:
-            linhas_saida.append(texto)
+            titulo = re.sub(r"^#{2,3} ", "", linha).strip()
+            if titulo and len(titulo) > 4:
+                pautas.append(titulo)
+        if len(pautas) == 4:
+            break
 
-    linhas_saida += [
-        "",
-        "—",
-        "_Gerado automaticamente · Goiás Econômico em 5 Minutos_ 🤖",
-    ]
-    return "\n".join(linhas_saida)
+    itens = "\n".join(f"▪️ {p}" for p in pautas)
+
+    return (
+        f"🎙️ *Goiás Econômico em 5 Minutos*\n"
+        f"📅 {dia_sem}, {hoje_br}\n"
+        f"\n"
+        f"A edição de hoje em {dur_min}min{f' {dur_seg}s' if dur_seg else ''}:\n"
+        f"\n"
+        f"{itens}\n"
+        f"\n"
+        f"Ouça o áudio abaixo 👇"
+    )
 
 
 def enviar_whatsapp(texto: str, audio_url: str) -> None:
