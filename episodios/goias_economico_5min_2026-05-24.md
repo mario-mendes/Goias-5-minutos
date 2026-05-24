@@ -1,167 +1,119 @@
-# 🎙️ Goiás Econômico em 5 Minutos
-**Edição:** 24 de maio de 2026 | Episódio de estreia
+# Goiás Econômico em 5 Minutos
+### Edição nº 001 — Domingo, 24 de maio de 2026
 
 ---
 
-## 📌 Destaques do Dia
+## 🔴 Bloco 1 — Fiscal | LDO 2027: Terceiro Déficit Seguido e Revisão da Meta de 2026
 
-| # | Tema | Relevância Fiscal |
-|---|------|-------------------|
-| 1 | LDO 2027 — 3º déficit consecutivo | Alta — resultado primário, metas fiscais |
-| 2 | RGA 4,26% na folha de maio | Alta — despesa de pessoal, LRF |
-| 3 | Terminal ferroviário de Porangatu | Média — logística do agro, ICMS futuro |
-| 4 | Acordo Mercosul-UE + exportações Goiás | Média — balança comercial, arrecadação |
-| 5 | Nota fiscal integrada — fase médias empresas | Alta — conformidade ICMS |
-| 6 | InvestGO + ProInvestimento (BID) | Média — atração de investimentos |
+O governo Daniel Vilela enviou à Alego o Projeto de Lei de Diretrizes Orçamentárias (PLDO) para 2027. O cenário fiscal é de alerta:
 
----
-
-## 1. 🔴 LDO 2027: Terceiro Déficit Seguido e Revisão da Meta de 2026
-
-O Projeto de **Lei de Diretrizes Orçamentárias (LDO) 2027**, enviado pelo governador **Daniel Vilela (MDB)** à Alego, projeta **déficit primário de R$ 347,1 milhões** para o próximo exercício.
-
-Mais preocupante é a revisão da meta para **2026**: o que estava previsto como ano de equilíbrio fiscal agora projeta um **rombo de R$ 2,53 bilhões**, reflexo do uso da "poupança acumulada" para bancar investimentos.
-
-### Metas Fiscais — LDO 2027
-
-| Indicador | Valor (R$ bilhões) |
+| Indicador | Valor projetado |
 |---|---|
-| Receita primária 2027 | 47,304 bi |
-| Despesa primária 2027 | 47,651 bi |
-| **Déficit primário sem RPPS** | **0,347 bi** |
-| Resultado com RPPS | + 0,141 bi (superávit) |
-| Folha de pessoal 2027 | 26,89 bi |
-| Dívida reestruturada (Propag) 2027 | 21,829 bi |
-| Investimentos previstos 2027 | 4,17 bi |
+| Déficit primário 2027 (sem RPPS) | R$ 334,4 milhões |
+| Resultado primário 2027 (com RPPS) | + R$ 140,6 milhões (superávit) |
+| Revisão do resultado em 2026 | **– R$ 2,53 bilhões** (era meta de equilíbrio) |
+| Déficit primário apurado em 2025 | – R$ 4,45 bilhões |
+| Receita primária estimada 2027 | R$ 47,304 bilhões |
+| Despesa primária 2027 (sem RPPS) | R$ 47,651 bilhões |
+| Folha de pessoal 2027 | R$ 26,89 bilhões |
+| Dívida reestruturada (Propag) em 2027 | R$ 21,829 bilhões |
+| Investimentos previstos 2027 | R$ 4,17 bilhões |
+| Aporte ao FEF (Propag) | ~ R$ 218,3 milhões |
 
-> **Nota técnica:** O governo defende que o uso de disponibilidades de caixa para investir não representa perda de equilíbrio fiscal estrutural. Contudo, a LDO recomenda "vigilância e cautela". O projeto ainda não teve tramitação iniciada na Alego.
-
-**Contexto:** Em 2025, o déficit primário foi de **R$ 4,45 bilhões**, justificado por investimentos recordes de R$ 5,66 bilhões. Goiás aderiu ao **Propag** em dezembro de 2025, encerrando o RRF.
+**Contexto:** Em 2025, Goiás registrou déficit primário de R$ 4,45 bilhões, justificado pelo governo pelo maior volume de investimentos da história: R$ 7,2 bilhões empenhados e R$ 5,7 bilhões liquidados. O governo defende o uso da "poupança acumulada" durante o RRF como justificativa técnica para o déficit. O próprio texto da LDO, contudo, exige "vigilância" e "cautela". Obras citadas na LDO: duplicação da GO-330 (trecho Goiandira–Rio Veríssimo), duplicação da GO-222 (Nerópolis–Inhumas) e pavimentação das GO-427, GO-116 e GO-236. O projeto ainda enfrenta lentidão na Alego, sem tramitação iniciada.
 
 ---
 
-## 2. 💼 Folha de Pessoal: RGA de 4,26% Vale a Partir de Maio/2026
+## 🟠 Bloco 2 — Folha de Pessoal | Data-Base de 4,26% Entra na Folha de Maio
 
-A **Revisão Geral Anual (RGA)** de **4,26%** foi aprovada pela Alego e entra na competência de **maio de 2026**, em parcela única.
+A Alego aprovou, em sessão ordinária e duas extraordinárias realizadas em 1º de abril de 2026, a revisão geral anual dos vencimentos dos servidores dos poderes não-executivos:
 
-### Abrangência
+| Poder / Órgão | Índice aprovado | Vigência |
+|---|---|---|
+| Poder Legislativo (Alego) — geral | 4,26% (+ 5% reposição RRF) = **9,26%** | A partir de maio/2026 |
+| Poder Judiciário | 4,26% | A partir de maio/2026 |
+| TCE-GO | 4,26% | A partir de maio/2026 |
+| TCM-GO | 4,26% | A partir de maio/2026 |
+| Ministério Público | 4,26% | A partir de maio/2026 |
+| Defensoria Pública | 4,26% | A partir de maio/2026 |
 
-| Categoria | Abrangido? |
+- O índice de 4,26% reflete o **IPCA acumulado em 2025**.
+- Cada órgão arca com o custo com seu próprio orçamento (sem repasse do Tesouro Estadual).
+- Servidores efetivos da Alego também receberam novo **plano de cargos e salários**: progressão vertical de 10% a cada dois anos (mín. 120h de capacitação), teto de cinco progressões (máximo 50% de ganho em dez anos). Auxílio-saúde de R$ 300 também aprovado.
+- O **Poder Executivo** havia sancionado data-base de **4,62%** para seus servidores, com vigência a partir de 1º de maio de 2026.
+
+> **Relevância LRF:** Gestores de orçamento devem atentar para os novos valores de referência no cálculo do percentual de despesa com pessoal sobre a Receita Corrente Líquida (RCL), tendo em vista o limite de alerta de 54% e limite máximo de 60% da RCL (art. 19 e 20 da LRF).
+
+---
+
+## 🟡 Bloco 3 — Infraestrutura e Agronegócio | Terminal Rodoferroviário de Porangatu
+
+A **Rumo (RAIL3)** e a **Olfar** iniciaram a fase de comissionamento do novo **terminal rodoferroviário de Porangatu (GO)**, conectando o norte de Goiás e o sul do Tocantins ao corredor ferroviário com destino ao **Porto de Santos (SP)**.
+
+| Dado | Valor |
 |---|---|
-| Servidores civis efetivos e comissionados | ✅ Sim |
-| Militares (ativos e inativos) | ✅ Sim |
-| Pensionistas com paridade | ✅ Sim |
-| Contratados temporários | ❌ Não |
-| Empregados de estatais | ❌ Não |
-| Professores do magistério estadual | ❌ Não (lei específica) |
+| Capacidade de transbordo | 1,5 milhão de toneladas/ano |
+| Capacidade de carga/descarga | Até 1.000 t/hora |
+| Volume já contratado (Olfar) | 3.000 t/dia de farelo de soja |
+| Embarques no 1º mês | 42.000 toneladas (6 carregamentos) |
+| Participação Rumo nas exportações goianas (2025) | 28% (era 25% em 2024) |
+| Movimentação Rumo em Goiás (2025) | 5,7 milhões de toneladas de grãos |
 
-A oposição (PT, Major Araújo/PL) criticou o índice como insuficiente para repor perdas inflacionárias acumuladas. O governo já incorporou o impacto nas projeções de pessoal para 2026 e seguintes.
-
-Além da RGA, a Alego aprovou bônus por resultado para professores vinculados ao **Ideb 2026** (Seduc).
+**Contexto:** A Olfar concluiu em 2026 o complexo industrial de soja de Porangatu, integrando processamento, armazenagem e logística. O terminal está às margens da BR-153 com acesso direto à Malha Central da Rumo. A operação reforça a cadeia agroindustrial do norte goiano e abre perspectiva de ampliação da base do ICMS na região, historicamente afastada dos grandes corredores.
 
 ---
 
-## 3. 🚂 Terminal Rodoferroviário de Porangatu Entra em Operação
+## 🟢 Bloco 4 — Comércio Exterior | Acordo Mercosul-UE: Até US$ 218 Milhões em Exportações Adicionais para Goiás
 
-A **Rumo** e a **Olfar** iniciaram o **comissionamento do novo terminal rodoferroviário de Porangatu**, conectando o Centro-Norte de Goiás e o Sul do Tocantins ao Porto de Santos pela Malha Central.
+O **Acordo Mercosul–União Europeia** entrou em vigor em 1º de maio de 2026, após 25 anos de negociações. Estudo da **Fieg (Gedin)** quantifica os impactos para Goiás:
 
-- Localização estratégica: acesso à **BR-153** e conexão à Malha Central
-- Volume contratado inicial: **3 mil toneladas/dia** de farelo de soja
-- A Olfar concluiu em 2026 a implantação de um **complexo industrial de soja** em Porangatu
-- Impacto esperado: redução do custo logístico e ampliação da competitividade do agro do norte goiano
-
----
-
-## 4. 🌍 Mercosul-UE: Potencial de US$ 218 Milhões em Exportações Goianas
-
-Estudo da **Fieg (Federação das Indústrias de Goiás)** aponta que o acordo Mercosul-União Europeia — em vigor desde **1º de maio de 2026** — pode gerar:
-
-| Indicador | Valor |
+| Indicador | Projeção |
 |---|---|
-| Potencial adicional de exportações goianas | US$ 218 milhões |
-| Empregos gerados no setor exportador | +24 mil |
-| Exportações goianas para UE em 2025 | US$ 1,68 bilhão |
-| Participação da UE nas vendas externas de Goiás | 12,5% |
+| Ganho potencial nas exportações goianas | Até **US$ 218 milhões** |
+| Exportações de Goiás para a UE em 2025 | US$ 1,68 bilhão |
+| Geração de empregos (estimativa Fieg) | Mais de 24 mil postos |
+| Aumento nas importações goianas da UE | + US$ 190 milhões (até 2041) |
+| Tarifas zeradas imediatamente pela UE | 2.900 produtos brasileiros (93% industriais) |
+| Prazo para o Brasil zerar tarifas (44% dos itens) | 10 a 15 anos |
+| Implementação integral do acordo | 2041 |
+| Incremento projetado para exportações top-10 produtos (2036) | + US$ 60,1 milhões |
 
-Principais produtos contemplados: **soja, cobre, minério de ferro e carne bovina**. Quando totalmente implementado (2036–2038), o ganho pode alcançar US$ 60,1 milhões só com os dez principais itens goianos. Já em 2026, a zeragem de tarifas de metade dos produtos pode gerar US$ 1 bilhão a mais nas exportações nacionais.
+**Principais produtos goianos na pauta exportadora para a UE:** soja, cobre, minério de ferro e carne bovina (12,5% das vendas externas totais do estado).
 
-**Contexto macro:** Em março/2026, as exportações goianas somaram **US$ 1,164 bilhão** (+62,3% vs. fevereiro), com superávit comercial de US$ 758 milhões. O agro respondeu por 82,7% do total exportado.
+**Setores mais beneficiados:** carnes bovina e frango, couro, açúcar, gelatinas, produtos químicos, metalurgia e alimentos processados. Só a carne bovina congelada pode crescer quase US$ 39 milhões/ano.
+
+> **Atenção fiscal:** A abertura gradual de tarifas de importação europeias sobre insumos e máquinas pode influenciar no médio prazo a demanda por benefícios e **renúncias de receita de ICMS** na importação de bens de capital pelo setor industrial goiano.
 
 ---
 
-## 5. 🧾 Nota Fiscal Integrada: Fase 3 em Vigor desde 1º/maio/2026
+## 📌 Resumo Executivo do Dia
 
-A Secretaria da Economia de Goiás implementou a **3ª fase da integração fiscal** entre pagamentos eletrônicos (cartão, Pix, débito) e a emissão automática de documentos fiscais (NF-e / NFC-e):
+| # | Tema | Impacto fiscal/orçamentário |
+|---|---|---|
+| 1 | LDO 2027: déficit de R$ 347 mi; revisão de 2026 para – R$ 2,53 bi | ⚠️ Alto — pressão sobre resultado primário e Propag |
+| 2 | Data-base 4,26% entra na folha de maio (Judiciário, MP, TCE, TCM, Alego) | ⚠️ Médio — impacto no percentual de pessoal/RCL (LRF) |
+| 3 | Terminal Porangatu (Rumo + Olfar): 42 mil t no 1º mês | ✅ Positivo — ampliação da base produtiva e do ICMS no norte goiano |
+| 4 | Mercosul-UE: + US$ 218 mi em exportações goianas projetadas | ✅ Positivo — diversificação de mercados; impacto fiscal gradual |
 
-### Cronograma de Implantação
+---
 
-| Data | Empresas obrigadas |
+## 🔗 Fontes
+
+| Fonte | Link |
 |---|---|
-| 1º nov/2025 | Supermercados, postos, farmácias (fat. > R$ 4,8 mi) |
-| 1º fev/2026 | Demais atividades (fat. > R$ 4,8 mi) |
-| **1º mai/2026** | **Médio porte (R$ 360 mil a R$ 4,8 mi)** ✅ atual |
-| 1º ago/2026 | Pequenas empresas (até R$ 360 mil) |
-| Dispensados | MEIs |
-
-Objetivo: ampliar a **conformidade tributária** do ICMS, reduzir fraudes e fortalecer a concorrência justa entre setores.
-
----
-
-## 6. 🏗️ Infraestrutura e InvestGO
-
-### Goinfra 2026
-- Previsão: **R$ 3,5 a 4,5 bilhões** em obras rodoviárias
-- Em licitação: GO-222 (Nerópolis-Inhumas), GO-330/2ª etapa (Catalão-Ipameri), GO-469 (Abadia-Aragoiânia)
-- Goiás ocupa hoje a **8ª posição** no ranking CNT (era 19ª em 2019), com 47% das rodovias "ótimas" ou "boas"
-
-### InvestGO — Nova Agência de Promoção de Investimentos
-- Governo avança na estruturação de agência inspirada em modelos internacionais (México)
-- Integra o **ProInvestimento**, programa com financiamento do **BID de R$ 820 milhões**
-- Setores prioritários: mineração, bioenergia, tecnologia, logística e transição energética
-- Plataforma digital de "janela única" para investidores (incentivos, licenciamento, infraestrutura)
+| O Popular — LDO 2027 déficit | https://opopular.com.br/politica/governo-de-goias-preve-2027-com-terceiro-deficit-seguido-1.3406916 |
+| Jornal Opção — LDO 2027 investimentos e Propag | https://www.jornalopcao.com.br/ultimas-noticias/ldo-preve-r-417-bilhoes-em-investimentos-e-abre-brecha-para-emendas-cumprirem-regra-do-propag-824700/ |
+| Goiás246 — déficit fiscal 2026/2027 | https://www.goias246.com.br/noticia/32436/ultimas/goias-tera-3-ordm-ano-seguido-de-deficit-em-2027-rombo-fiscal-deve-atingir-r-2-5-bilhoes-em-2026.html |
+| Portal Alego — reajuste 4,26% servidores | https://portal.al.go.leg.br/noticias/163627 |
+| Portal Alego — plano de cargos Alego | https://portal.al.go.leg.br/noticias/163596/alego-carimba-reajuste-e-regras-de-progressao-a-seus-servidores |
+| Jornal Opção — terminal Porangatu | https://www.jornalopcao.com.br/ultimas-noticias/porangatu-vira-ponto-estrategico-para-exportacao-de-soja-e-graos-em-goias-829262/ |
+| Money Times — primeiros embarques Rumo/Olfar | https://www.moneytimes.com.br/primeiros-embarques-da-rumo-rail3-e-olfar-em-porangatu-totalizam-42-mil-toneladas-em-um-mes/ |
+| Transporte Moderno — terminal Porangatu | https://transportemoderno.com.br/2026/05/19/rumo-e-olfar-colocam-porangatu-na-rota-ferroviaria/ |
+| Jornal Opção — Mercosul-UE exportações Goiás | https://www.jornalopcao.com.br/ultimas-noticias/exportacoes-em-goias-podem-aumentar-em-ate-us-218-milhoes-com-acordo-entre-mercosul-e-ue-826969/ |
+| A Redação — estudo Fieg Mercosul-UE | https://aredacao.com.br/estudo-da-fieg-aponta-potencial-de-ate-us-218-milhoes-em-exportacoes-goianas-com-acordo-mercosul-uniao-europeia/ |
+| O Presente Rural — balança comercial Goiás março/2026 | https://opresenterural.com.br/goias-supera-us-116-bilhao-em-exportacoes-com-alta-puxada-pelo-agronegocio/ |
 
 ---
 
-## 📊 Painel Rápido — Números do Dia
-
-| Indicador | Valor |
-|---|---|
-| Déficit projetado Goiás 2026 (revisado) | R$ 2,53 bilhões |
-| Déficit projetado Goiás 2027 (LDO) | R$ 347 milhões |
-| RGA servidores (folha mai/2026) | 4,26% |
-| Investimento em infraestrutura 2026 | R$ 3,5–4,5 bilhões |
-| Potencial exportações Mercosul-UE | US$ 218 milhões |
-| Financiamento BID (ProInvestimento) | R$ 820 milhões |
-| Exportações Goiás mar/2026 | US$ 1,164 bilhão |
-| Superávit balança comercial mar/2026 | US$ 758 milhões |
-
----
-
-## 📰 Fontes
-
-1. **O Popular** — "Governo de Goiás prevê 2027 com terceiro déficit seguido" · [opopular.com.br](https://opopular.com.br/politica/governo-de-goias-preve-2027-com-terceiro-deficit-seguido-1.3406916)
-
-2. **Jornal Opção** — "LDO prevê R$ 4,17 bilhões em investimentos e abre brecha para emendas cumprirem regra do Propag" · [jornalopcao.com.br](https://www.jornalopcao.com.br/ultimas-noticias/ldo-preve-r-417-bilhoes-em-investimentos-e-abre-brecha-para-emendas-cumprirem-regra-do-propag-824700/)
-
-3. **Goiás 246** — "Goiás terá 3º ano seguido de déficit em 2027" · [goias246.com.br](https://www.goias246.com.br/noticia/32436)
-
-4. **Portal Alego** — "Comissão Mista deliberou sobre projetos da Governadoria; maioria trata da revisão salarial" · [portal.al.go.leg.br](https://portal.al.go.leg.br/noticias/163572)
-
-5. **Portal Alego** — "Plano de carreira e revisão anual de proventos da Alego logram êxito definitivo" · [portal.al.go.leg.br](https://portal.al.go.leg.br/noticias/163588)
-
-6. **Jornal Opção** — "Porangatu vira ponto estratégico para exportação de soja e grãos em Goiás" · [jornalopcao.com.br](https://www.jornalopcao.com.br/ultimas-noticias/porangatu-vira-ponto-estrategico-para-exportacao-de-soja-e-graos-em-goias-829262/)
-
-7. **Jornal Opção** — "Exportações em Goiás podem aumentar em até US$ 218 milhões com acordo Mercosul-UE" · [jornalopcao.com.br](https://www.jornalopcao.com.br/ultimas-noticias/exportacoes-em-goias-podem-aumentar-em-ate-us-218-milhoes-com-acordo-entre-mercosul-e-ue-826969/)
-
-8. **Secretaria da Economia / LegiswEB** — "ICMS/GO: Economia orienta sobre nova forma de emissão integrada de documentos fiscais" · [goias.gov.br/economia](https://goias.gov.br/economia/economia-orienta-contribuintes-sobre-nova-forma-de-emissao-integrada-de-documentos-fiscais/)
-
-9. **Goinfra / Diário de Aparecida** — "Estado projeta R$ 3,5 bilhões em investimentos para 2026" · [diariodeaparecida.com.br](https://www.diariodeaparecida.com.br/2026/04/02/estado-projeta-r-35-bilhoes-em-investimentos-para-2026/)
-
-10. **Isso É Goiás** — "Goiás avança na criação da InvestGO para atrair investimentos e ampliar exportações" · [issoegoias.com.br](https://www.issoegoias.com.br/2026/05/goias-avanca-na-criacao-da-investgo.html)
-
-11. **O Presente Rural** — "Goiás supera US$ 1,16 bilhão em exportações com alta puxada pelo agronegócio" · [opresenterural.com.br](https://opresenterural.com.br/goias-supera-us-116-bilhao-em-exportacoes-com-alta-puxada-pelo-agronegocio/)
-
----
-
-*Goiás Econômico em 5 Minutos — produzido para os profissionais da Secretaria da Economia de Goiás.*
-*📅 24/05/2026 | 🎙️ Episódio 001*
+*Goiás Econômico em 5 Minutos — produção diária de análise fiscal e econômica para servidores da Secretaria da Economia de Goiás.*
+*Data de referência: 24/05/2026*
