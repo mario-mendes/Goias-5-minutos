@@ -9,20 +9,22 @@ on:
   # Permite execução manual pelo painel do GitHub (Actions → Run workflow)
   workflow_dispatch:
 
-# ── Permissões mínimas ────────────────────────────────────────────────────────
+# ── Permissões ────────────────────────────────────────────────────────────────
 permissions:
-  contents: read
+  contents: write   # necessário para git push e criação de GitHub Releases
 
 jobs:
   gerar-podcast:
     name: Gerar episódio do dia
     runs-on: ubuntu-latest
-    timeout-minutes: 40        # ElevenLabs pode demorar para 15 falas
+    timeout-minutes: 40        # ElevenLabs pode demorar para 15+ falas
 
     steps:
       # ── Checkout ──────────────────────────────────────────────────────────
       - name: Checkout do repositório
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # ── Python ────────────────────────────────────────────────────────────
       - name: Configurar Python 3.12
@@ -42,30 +44,60 @@ jobs:
       - name: Instalar dependências Python
         run: pip install -r requirements.txt
 
-      # ── Gerar episódio ────────────────────────────────────────────────────
-      - name: Gerar roteiro + MP3 e enviar ao Google Drive
+      # ── Gerar roteiro + MP3 ───────────────────────────────────────────────
+      - name: Gerar roteiro e MP3
         env:
-          ANTHROPIC_API_KEY:      ${{ secrets.ANTHROPIC_API_KEY }}
-          ELEVENLABS_API_KEY:     ${{ secrets.ELEVENLABS_API_KEY }}
-          GOOGLE_CLIENT_ID:       ${{ secrets.GOOGLE_CLIENT_ID }}
-          GOOGLE_CLIENT_SECRET:   ${{ secrets.GOOGLE_CLIENT_SECRET }}
-          GOOGLE_REFRESH_TOKEN:   ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
-          ZAPI_INSTANCE_ID:       ${{ secrets.ZAPI_INSTANCE_ID }}
-          ZAPI_TOKEN:             ${{ secrets.ZAPI_TOKEN }}
-          ZAPI_CLIENT_TOKEN:      ${{ secrets.ZAPI_CLIENT_TOKEN }}
-          WHATSAPP_GROUP_ID:      ${{ secrets.WHATSAPP_GROUP_ID }}
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          GITHUB_REPOSITORY:  ${{ github.repository }}
         run: python podcast_generator.py
+
+      # ── Commit dos textos (.txt e .md) no repositório ─────────────────────
+      - name: Commitar roteiro e markdown em episodios/
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "episodios/texto_tts_goias_economico_5min_${TODAY}.txt" \
+                  "episodios/goias_economico_5min_${TODAY}.md"
+          git commit -m "ep ${TODAY}: roteiro + markdown" || echo "Nada a commitar"
+          git push
+
+      # ── Publicar MP3 como GitHub Release ──────────────────────────────────
+      - name: Publicar MP3 no GitHub Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          gh release create "ep-${TODAY}" \
+            "episodios/goias_economico_5min_${TODAY}.mp3" \
+            --title "Goiás Econômico em 5 Minutos — ${TODAY}" \
+            --notes "Episódio gerado automaticamente em ${TODAY}." \
+            --repo "${{ github.repository }}"
+
+      # ── Enviar ao WhatsApp (após o Release estar disponível) ──────────────
+      - name: Enviar resumo e áudio ao WhatsApp
+        env:
+          ZAPI_INSTANCE_ID:  ${{ secrets.ZAPI_INSTANCE_ID }}
+          ZAPI_TOKEN:        ${{ secrets.ZAPI_TOKEN }}
+          ZAPI_CLIENT_TOKEN: ${{ secrets.ZAPI_CLIENT_TOKEN }}
+          WHATSAPP_GROUP_ID: ${{ secrets.WHATSAPP_GROUP_ID }}
+        run: python podcast_generator.py --whatsapp
 
       # ── Sumário no painel do GitHub ───────────────────────────────────────
       - name: Registrar resultado no sumário
         if: always()
         run: |
           TODAY=$(date -u +%Y-%m-%d)
-          echo "## 🎙️ Goiás Econômico — $TODAY" >> $GITHUB_STEP_SUMMARY
+          META="episodios/.meta_${TODAY}.env"
+          echo "## 🎙️ Goiás Econômico — ${TODAY}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           if [ "${{ job.status }}" == "success" ]; then
-            echo "✅ Episódio gerado e enviado ao Google Drive com sucesso." >> $GITHUB_STEP_SUMMARY
+            echo "✅ Episódio gerado, commitado no repo e enviado ao WhatsApp." >> $GITHUB_STEP_SUMMARY
+            if [ -f "$META" ]; then
+              echo "" >> $GITHUB_STEP_SUMMARY
+              cat "$META" | sed 's/^/- /' >> $GITHUB_STEP_SUMMARY
+            fi
           else
             echo "❌ Falha na geração do episódio. Verifique os logs acima." >> $GITHUB_STEP_SUMMARY
           fi

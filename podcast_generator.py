@@ -4,30 +4,37 @@ podcast_generator.py
 Goiás Econômico em 5 Minutos — Gerador autônomo para servidor (GitHub Actions)
 
 Fluxo:
-  1. Baixa episódio anterior do Google Drive (deduplicação)
+  1. Lê episódio anterior de episodios/ no próprio repo (deduplicação local, sem API)
   2. Chama Claude API com web_search para pesquisar notícias e gerar roteiro
   3. Gera MP3 via ElevenLabs + ffmpeg
-  4. Sobe os 3 arquivos (.txt, .md, .mp3) para o Google Drive
+  4. Salva .txt, .md e .mp3 em episodios/
+     (o workflow commita os textos e publica o MP3 como GitHub Release)
+  5. Envia resumo em texto + áudio para o grupo do WhatsApp via Z-API
 
 Variáveis de ambiente obrigatórias:
-  ANTHROPIC_API_KEY          — chave da API Anthropic
-  ELEVENLABS_API_KEY         — chave da API ElevenLabs
-  GOOGLE_SERVICE_ACCOUNT_JSON — conteúdo do JSON da conta de serviço GCP
-  GOOGLE_DRIVE_FOLDER_ID     — ID da pasta no Google Drive
+  ANTHROPIC_API_KEY    — chave da API Anthropic
+  ELEVENLABS_API_KEY   — chave da API ElevenLabs
+
+Variáveis opcionais (WhatsApp):
+  ZAPI_INSTANCE_ID     — ID da instância Z-API
+  ZAPI_TOKEN           — Token da instância Z-API
+  ZAPI_CLIENT_TOKEN    — Client-Token de segurança Z-API
+  WHATSAPP_GROUP_ID    — ID do grupo (formato: XXXXXXXXXXX@g.us)
+  GITHUB_REPOSITORY    — preenchido automaticamente pelo GitHub Actions
 """
 
-import io
-import json
 import os
 import re
 import subprocess
 import sys
 import tempfile
 import time
+import urllib.request
+import json
 from datetime import date, timedelta
 from pathlib import Path
 
-# ── Verificação antecipada de dependências ────────────────────────────────────
+# ── Verificação de dependências ───────────────────────────────────────────────
 try:
     import anthropic
 except ImportError:
@@ -38,26 +45,19 @@ try:
 except ImportError:
     sys.exit("[ERRO] pip install elevenlabs")
 
-try:
-    from google.oauth2.credentials import Credentials
-    from google.auth.transport.requests import Request
-    from googleapiclient.discovery import build
-    from googleapiclient.errors import HttpError
-    from googleapiclient.http import MediaIoBaseDownload, MediaIoBaseUpload
-except ImportError:
-    sys.exit("[ERRO] pip install google-auth google-api-python-client")
-
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  CONFIGURAÇÃO
 # ══════════════════════════════════════════════════════════════════════════════
 
-ANTHROPIC_MODEL     = "claude-sonnet-4-6"
-DRIVE_FOLDER_ID     = os.environ["GOOGLE_DRIVE_FOLDER_ID"]
-ANTHROPIC_API_KEY   = os.environ["ANTHROPIC_API_KEY"]
-ELEVENLABS_API_KEY  = os.environ["ELEVENLABS_API_KEY"]
+ANTHROPIC_MODEL   = "claude-sonnet-4-6"
+ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
+ELEVENLABS_API_KEY = os.environ["ELEVENLABS_API_KEY"]
 
-# IDs de voz ElevenLabs (mesmos do gerador_mp3_goias.py)
+REPO_ROOT      = Path(__file__).parent
+EPISODIOS_DIR  = REPO_ROOT / "episodios"
+
+# IDs de voz ElevenLabs
 VOICE_M = "pNInz6obpgDQGcFmaJgB"   # Adam  — âncora masculino
 VOICE_F = "21m00Tcm4TlvDq8ikWAM"   # Rachel — repórter feminina
 
@@ -66,89 +66,13 @@ EL_MODEL       = "eleven_multilingual_v2"
 EL_STABILITY   = 0.55
 EL_SIMILARITY  = 0.80
 EL_SPEED       = 0.95
-VOLUME_BOOST_F = 3      # dB extra na voz feminina
+VOLUME_BOOST_F = 3
 PAUSA_MS       = 800
 PAUSA_CURTA_MS = 300
 
-# Vinhetas — repo deve ter pasta vinhetas/ com os arquivos MP3
-REPO_ROOT = Path(__file__).parent
-VINHETAS  = [REPO_ROOT / "vinhetas" / f"Vinheta_Goias_Economico_{i}.mp3"
-             for i in range(1, 5)]
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-#  GOOGLE DRIVE
-# ══════════════════════════════════════════════════════════════════════════════
-
-def get_drive_service():
-    """Autentica via OAuth2 refresh token (funciona com Google Drive pessoal)."""
-    creds = Credentials(
-        token=None,
-        refresh_token=os.environ["GOOGLE_REFRESH_TOKEN"],
-        client_id=os.environ["GOOGLE_CLIENT_ID"],
-        client_secret=os.environ["GOOGLE_CLIENT_SECRET"],
-        token_uri="https://oauth2.googleapis.com/token",
-        scopes=["https://www.googleapis.com/auth/drive"],
-    )
-    # Força renovação do access token antes de usar
-    creds.refresh(Request())
-    return build("drive", "v3", credentials=creds, cache_discovery=False)
-
-
-def drive_find(svc, folder_id: str, name: str) -> dict | None:
-    q = f"name='{name}' and '{folder_id}' in parents and trashed=false"
-    try:
-        r = svc.files().list(q=q, fields="files(id,name)", pageSize=5).execute()
-        files = r.get("files", [])
-        return files[0] if files else None
-    except HttpError as e:
-        if e.resp.status == 404:
-            sys.exit(
-                f"\n[ERRO] Pasta do Google Drive não encontrada (HTTP 404).\n"
-                f"  Folder ID configurado: {folder_id}\n\n"
-                f"  Causas prováveis:\n"
-                f"  1. A pasta NÃO foi compartilhada com a conta de serviço.\n"
-                f"     → Abra o Drive, clique com botão direito na pasta,\n"
-                f"       'Compartilhar' e adicione o e-mail da conta de serviço\n"
-                f"       (termina em @...iam.gserviceaccount.com) como Editor.\n"
-                f"  2. O GOOGLE_DRIVE_FOLDER_ID está errado.\n"
-                f"     → Confira o ID na URL da pasta: drive.google.com/drive/folders/<ID>\n"
-            )
-        raise
-
-
-def drive_download_text(svc, file_id: str) -> str:
-    req = svc.files().get_media(fileId=file_id)
-    buf = io.BytesIO()
-    dl  = MediaIoBaseDownload(buf, req)
-    done = False
-    while not done:
-        _, done = dl.next_chunk()
-    return buf.getvalue().decode("utf-8")
-
-
-def drive_upload(svc, folder_id: str, name: str, data: bytes, mime: str) -> str:
-    media    = MediaIoBaseUpload(io.BytesIO(data), mimetype=mime, resumable=True)
-    existing = drive_find(svc, folder_id, name)
-    if existing:
-        f = svc.files().update(
-            fileId=existing["id"], media_body=media
-        ).execute()
-    else:
-        meta = {"name": name, "parents": [folder_id]}
-        f = svc.files().create(
-            body=meta, media_body=media, fields="id"
-        ).execute()
-    return f["id"]
-
-
-def drive_make_public(svc, file_id: str) -> str:
-    """Torna o arquivo público (leitura para todos) e retorna URL de download direto."""
-    svc.permissions().create(
-        fileId=file_id,
-        body={"type": "anyone", "role": "reader"},
-    ).execute()
-    return f"https://drive.google.com/uc?export=download&id={file_id}"
+# Vinhetas (pasta vinhetas/ no repo)
+VINHETAS = [REPO_ROOT / "vinhetas" / f"Vinheta_Goias_Economico_{i}.mp3"
+            for i in range(1, 5)]
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -257,7 +181,7 @@ def gerar_roteiro(episodio_anterior: str, hoje: str) -> tuple[str, str]:
     prompt = PROMPT_TEMPLATE.format(
         hoje=hoje,
         hoje_br=hoje_br,
-        episodio_anterior=episodio_anterior or "(sem episódio anterior — primeiro episódio)",
+        episodio_anterior=episodio_anterior or "(sem episódio anterior)",
     )
 
     messages = [{"role": "user", "content": prompt}]
@@ -265,7 +189,7 @@ def gerar_roteiro(episodio_anterior: str, hoje: str) -> tuple[str, str]:
 
     print("[CLA] Chamando Claude API com web_search...")
 
-    for turno in range(25):  # limite de segurança
+    for turno in range(25):
         response = client.messages.create(
             model=ANTHROPIC_MODEL,
             max_tokens=8000,
@@ -277,7 +201,6 @@ def gerar_roteiro(episodio_anterior: str, hoje: str) -> tuple[str, str]:
             messages=messages,
         )
 
-        # Adiciona a resposta do assistente ao histórico
         messages.append({"role": "assistant", "content": response.content})
 
         if response.stop_reason == "end_turn":
@@ -285,16 +208,13 @@ def gerar_roteiro(episodio_anterior: str, hoje: str) -> tuple[str, str]:
             break
 
         if response.stop_reason == "tool_use":
-            # Mapeia tool_use_id → resultados (vindos dos blocos web_search_tool_result)
             result_map: dict[str, list] = {}
             for block in response.content:
-                btype = getattr(block, "type", "")
-                if btype == "web_search_tool_result":
+                if getattr(block, "type", "") == "web_search_tool_result":
                     tid = getattr(block, "tool_use_id", None)
                     if tid:
                         result_map[tid] = getattr(block, "content", [])
 
-            # Monta tool_result para cada tool_use
             tool_results = []
             for block in response.content:
                 if getattr(block, "type", "") == "tool_use":
@@ -308,25 +228,20 @@ def gerar_roteiro(episodio_anterior: str, hoje: str) -> tuple[str, str]:
                 messages.append({"role": "user", "content": tool_results})
             continue
 
-        # Qualquer outro stop_reason (ex: max_tokens) — sai do loop
         print(f"[CLA] Stop reason inesperado: {response.stop_reason}")
         break
 
     if response is None:
         raise RuntimeError("Claude não retornou resposta.")
 
-    # Extrai texto final do assistente
-    final_text = "".join(
-        getattr(b, "text", "") for b in response.content
-    )
+    final_text = "".join(getattr(b, "text", "") for b in response.content)
 
-    # Parse das tags de saída
     txt_m = re.search(r"<TTS_FILE>\s*(.*?)\s*</TTS_FILE>", final_text, re.DOTALL)
     md_m  = re.search(r"<MD_FILE>\s*(.*?)\s*</MD_FILE>",  final_text, re.DOTALL)
 
     if not txt_m or not md_m:
         raise RuntimeError(
-            "Claude não retornou no formato esperado (<TTS_FILE> / <MD_FILE>).\n"
+            "Claude não retornou no formato esperado.\n"
             f"Resposta (primeiros 3000 chars):\n{final_text[:3000]}"
         )
 
@@ -334,7 +249,7 @@ def gerar_roteiro(episodio_anterior: str, hoje: str) -> tuple[str, str]:
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  GERAÇÃO DE MP3 (lógica de gerador_mp3_goias.py integrada)
+#  GERAÇÃO DE MP3
 # ══════════════════════════════════════════════════════════════════════════════
 
 def _check_ffmpeg() -> bool:
@@ -370,7 +285,6 @@ def _sintetizar(client_el: ElevenLabs, texto: str, voice_id: str, destino: Path)
 
 
 def _gerar_silencio(ms: int, destino: Path) -> None:
-    # Gera silêncio diretamente em MP3 (libmp3lame) — evita conflito de codec/extensão
     subprocess.run([
         "ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
         "-t", str(ms / 1000),
@@ -444,7 +358,6 @@ def _duracao_mp3(caminho: Path) -> float:
 
 
 def gerar_mp3(txt_content: str, hoje: date, saida: Path) -> float:
-    """Gera o MP3 a partir do roteiro TTS. Retorna duração em segundos."""
     if not _check_ffmpeg():
         raise RuntimeError("ffmpeg não encontrado no PATH.")
 
@@ -453,11 +366,8 @@ def gerar_mp3(txt_content: str, hoje: date, saida: Path) -> float:
     falas     = [s for s in segs if s["tipo"] in ("M", "F")]
     vinheta   = _selecionar_vinheta(hoje)
 
-    if vinheta:
-        print(f"[EL ] Vinheta: {vinheta.name}")
-    else:
-        print("[EL ] Vinheta não encontrada — usando silêncio de 1s")
-
+    status_vin = vinheta.name if vinheta else "não encontrada — usando silêncio"
+    print(f"[EL ] Vinheta: {status_vin}")
     print(f"[EL ] {len(falas)} falas — iniciando síntese...")
 
     partes:   list[Path] = []
@@ -492,20 +402,18 @@ def gerar_mp3(txt_content: str, hoje: date, saida: Path) -> float:
             elif tipo in ("M", "F"):
                 contador += 1
                 voice_id = VOICE_M if tipo == "M" else VOICE_F
-                label    = "M (âncora)" if tipo == "M" else "F (repórt)"
+                label    = "M" if tipo == "M" else "F"
                 trecho   = seg["conteudo"]
                 trecho   = (trecho[:65] + "...") if len(trecho) > 65 else trecho
                 print(f"  [{contador:02d}/{len(falas)}] {label}: {trecho}")
-
                 try:
                     _sintetizar(client_el, seg["conteudo"], voice_id, destino)
                     if tipo == "F" and VOLUME_BOOST_F != 0:
                         _aplicar_volume(destino, VOLUME_BOOST_F)
                     partes.append(destino)
                 except Exception as e:
-                    print(f"    [AVISO] Fala {contador} falhou: {e} — pulando")
-
-                time.sleep(0.4)  # rate limit
+                    print(f"    [AVISO] Fala {contador}: {e} — pulando")
+                time.sleep(0.4)
 
         print("[EL ] Concatenando segmentos...")
         _concatenar(partes, saida)
@@ -518,7 +426,6 @@ def gerar_mp3(txt_content: str, hoje: date, saida: Path) -> float:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def _md_para_whatsapp(md_content: str, hoje_str: str, duracao_s: float) -> str:
-    """Converte o markdown do episódio em texto formatado para WhatsApp."""
     hoje    = date.fromisoformat(hoje_str)
     hoje_br = hoje.strftime("%d/%m/%Y")
     dur_min = int(duracao_s // 60)
@@ -530,35 +437,23 @@ def _md_para_whatsapp(md_content: str, hoje_str: str, duracao_s: float) -> str:
         "",
     ]
 
-    bloco_atual = ""
-    em_tabela   = False
-
+    em_tabela = False
     for linha in md_content.splitlines():
-        # Ignora linhas de tabela (---|---|---)
         if re.match(r"^\s*\|?[-|: ]+\|", linha):
             em_tabela = True
             continue
-
-        # Título principal e data — já inseridos no cabeçalho
-        if linha.startswith("# ") or linha.startswith("## Sábado") \
-                or linha.startswith("## Domingo") or linha.startswith("## Segunda") \
-                or linha.startswith("## Terça") or linha.startswith("## Quarta") \
-                or linha.startswith("## Quinta") or linha.startswith("## Sexta"):
+        if linha.startswith("# ") or re.match(
+            r"^## (Sábado|Domingo|Segunda|Terça|Quarta|Quinta|Sexta)", linha
+        ):
             continue
-
-        # Seção "Fontes" — não vai para o WhatsApp
-        if linha.strip() in ("## Fontes", "## Fontes\\n") or linha.startswith("- [") \
+        if linha.strip() in ("## Fontes",) or linha.startswith("- [") \
                 or linha.startswith("*Produzido em"):
             continue
-
-        # Subtítulo de bloco (### ou ##)
         if linha.startswith("### ") or linha.startswith("## "):
             titulo = linha.lstrip("#").strip()
             linhas_saida.append(f"\n*{titulo}*")
             em_tabela = False
             continue
-
-        # Linha de tabela com conteúdo (| col | col |)
         if linha.startswith("|") and not em_tabela:
             celulas = [c.strip() for c in linha.strip("|").split("|")]
             celulas = [c for c in celulas if c and not re.match(r"^[-:]+$", c)]
@@ -566,55 +461,36 @@ def _md_para_whatsapp(md_content: str, hoje_str: str, duracao_s: float) -> str:
                 linhas_saida.append(f"• {celulas[0]}: {' | '.join(celulas[1:])}")
             continue
         em_tabela = False
-
-        # Citação (> texto)
         if linha.startswith("> "):
-            texto = linha[2:].strip()
-            # Remove markdown de negrito e itálico
-            texto = re.sub(r"\*\*(.+?)\*\*", r"\1", texto)
-            texto = re.sub(r"\*(.+?)\*",     r"_\1_", texto)
+            texto = re.sub(r"\*\*(.+?)\*\*", r"\1",
+                   re.sub(r"\*(.+?)\*", r"_\1_", linha[2:].strip()))
             linhas_saida.append(f"_{texto}_")
             continue
-
-        # Linha separadora ---
         if re.match(r"^---+$", linha.strip()):
             continue
-
-        # Manchete/destaque (linha de negrito isolada)
         if linha.startswith("**") and linha.endswith("**"):
-            texto = linha.strip("*")
-            linhas_saida.append(f"*{texto}*")
+            linhas_saida.append(f"*{linha.strip('*')}*")
             continue
-
-        # Linha normal — converte markdown bold para WhatsApp bold
-        texto = linha.strip()
-        texto = re.sub(r"\*\*(.+?)\*\*", r"*\1*", texto)
+        texto = re.sub(r"\*\*(.+?)\*\*", r"*\1*", linha.strip())
         if texto:
             linhas_saida.append(texto)
 
     linhas_saida += [
         "",
         "—",
-        "_Gerado automaticamente pelo Goiás Econômico em 5 Minutos_ 🤖",
+        "_Gerado automaticamente · Goiás Econômico em 5 Minutos_ 🤖",
     ]
-
     return "\n".join(linhas_saida)
 
 
 def enviar_whatsapp(texto: str, audio_url: str) -> None:
-    """Envia resumo em texto e áudio para o grupo via Z-API."""
-    import urllib.request
-
     instance_id  = os.environ["ZAPI_INSTANCE_ID"]
     token        = os.environ["ZAPI_TOKEN"]
     client_token = os.environ["ZAPI_CLIENT_TOKEN"]
-    group_id     = os.environ["WHATSAPP_GROUP_ID"]  # ex: 5562999999999-1234567890@g.us
+    group_id     = os.environ["WHATSAPP_GROUP_ID"]
 
     base_url = f"https://api.z-api.io/instances/{instance_id}/token/{token}"
-    headers  = {
-        "Content-Type":  "application/json",
-        "Client-Token":  client_token,
-    }
+    headers  = {"Content-Type": "application/json", "Client-Token": client_token}
 
     def _post(endpoint: str, payload: dict) -> dict:
         data = json.dumps(payload).encode("utf-8")
@@ -624,21 +500,15 @@ def enviar_whatsapp(texto: str, audio_url: str) -> None:
         with urllib.request.urlopen(req, timeout=30) as resp:
             return json.loads(resp.read())
 
-    # 1. Envia o resumo em texto
     print("[WPP] Enviando resumo em texto...")
     r = _post("send-text", {"phone": group_id, "message": texto})
-    print(f"[WPP] ✅ Texto enviado (zaapId: {r.get('zaapId', '?')})")
+    print(f"[WPP] ✅ Texto (zaapId: {r.get('zaapId', '?')})")
 
-    time.sleep(2)  # pequena pausa entre mensagens
+    time.sleep(3)
 
-    # 2. Envia o áudio como nota de voz (ptt=True)
     print("[WPP] Enviando áudio...")
-    r = _post("send-audio", {
-        "phone": group_id,
-        "audio": audio_url,
-        "ptt":   True,       # True = aparece como nota de voz; False = arquivo de áudio
-    })
-    print(f"[WPP] ✅ Áudio enviado (zaapId: {r.get('zaapId', '?')})")
+    r = _post("send-audio", {"phone": group_id, "audio": audio_url, "ptt": True})
+    print(f"[WPP] ✅ Áudio (zaapId: {r.get('zaapId', '?')})")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -646,9 +516,8 @@ def enviar_whatsapp(texto: str, audio_url: str) -> None:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def main() -> None:
-    hoje  = date.today()
-    ontem = hoje - timedelta(days=1)
-
+    hoje      = date.today()
+    ontem     = hoje - timedelta(days=1)
     hoje_str  = hoje.isoformat()
     ontem_str = ontem.isoformat()
 
@@ -656,89 +525,98 @@ def main() -> None:
     nome_md  = f"goias_economico_5min_{hoje_str}.md"
     nome_mp3 = f"goias_economico_5min_{hoje_str}.mp3"
 
+    EPISODIOS_DIR.mkdir(exist_ok=True)
+
     print(f"\n{'='*60}")
     print(f"  Goiás Econômico em 5 Minutos — {hoje_str}")
     print(f"{'='*60}\n")
 
-    # ── 1. Google Drive ────────────────────────────────────────────────────────
-    print("[DRV] Conectando ao Google Drive...")
-    drive = get_drive_service()
-
-    # ── 2. Episódio anterior (deduplicação) ───────────────────────────────────
-    prev_name = f"goias_economico_5min_{ontem_str}.md"
-    prev_file = drive_find(drive, DRIVE_FOLDER_ID, prev_name)
-
-    if prev_file:
-        print(f"[DRV] Episódio anterior encontrado: {prev_name}")
-        episodio_anterior = drive_download_text(drive, prev_file["id"])
+    # ── 1. Episódio anterior (leitura local — sem API) ─────────────────────────
+    prev_md = EPISODIOS_DIR / f"goias_economico_5min_{ontem_str}.md"
+    if prev_md.exists():
+        print(f"[DED] ✅ Episódio anterior encontrado: {prev_md.name}")
+        episodio_anterior = prev_md.read_text(encoding="utf-8")
     else:
-        print(f"[DRV] Episódio anterior não encontrado ({prev_name}) — sem deduplicação")
+        print(f"[DED] ℹ️  Episódio anterior não encontrado ({prev_md.name}) — sem deduplicação")
         episodio_anterior = ""
 
-    # ── 3. Gerar roteiro via Claude ────────────────────────────────────────────
+    # ── 2. Gerar roteiro via Claude ────────────────────────────────────────────
     txt_content, md_content = gerar_roteiro(episodio_anterior, hoje_str)
 
-    falas_count = sum(
-        1 for linha in txt_content.splitlines()
-        if linha.startswith(("M:", "F:"))
-    )
+    falas = sum(1 for l in txt_content.splitlines() if l.startswith(("M:", "F:")))
     palavras = len(" ".join(
-        linha[2:] for linha in txt_content.splitlines()
-        if linha.startswith(("M:", "F:"))
+        l[2:] for l in txt_content.splitlines() if l.startswith(("M:", "F:"))
     ).split())
-    print(f"[OK ] Roteiro: {falas_count} falas | ~{palavras} palavras faladas")
+    print(f"[OK ] Roteiro: {falas} falas | ~{palavras} palavras")
+
+    # ── 3. Salvar .txt e .md no repo ──────────────────────────────────────────
+    (EPISODIOS_DIR / nome_txt).write_text(txt_content, encoding="utf-8")
+    (EPISODIOS_DIR / nome_md).write_text(md_content,  encoding="utf-8")
+    print(f"[OK ] Textos salvos em episodios/")
 
     # ── 4. Gerar MP3 ──────────────────────────────────────────────────────────
-    with tempfile.TemporaryDirectory() as work_dir:
-        mp3_path = Path(work_dir) / nome_mp3
-        duracao  = gerar_mp3(txt_content, hoje, mp3_path)
-        tamanho  = mp3_path.stat().st_size
-        print(f"[OK ] MP3: {int(duracao // 60)}min {int(duracao % 60)}s | {tamanho // 1024} KB")
+    mp3_path = EPISODIOS_DIR / nome_mp3
+    duracao  = gerar_mp3(txt_content, hoje, mp3_path)
+    tamanho  = mp3_path.stat().st_size
+    print(f"[OK ] MP3: {int(duracao // 60)}min {int(duracao % 60)}s | {tamanho // 1024} KB")
 
-        # ── 5. Upload para Google Drive ────────────────────────────────────────
-        print("\n[DRV] Enviando arquivos para o Google Drive...")
+    # ── 5. WhatsApp ────────────────────────────────────────────────────────────
+    # A URL do áudio é o GitHub Release criado pelo workflow após este script.
+    # O workflow lê RELEASE_MP3_URL do arquivo .env gerado abaixo.
+    repo    = os.environ.get("GITHUB_REPOSITORY", "mario-mendes/Goias-5-minutos")
+    mp3_url = (f"https://github.com/{repo}/releases/download/"
+               f"ep-{hoje_str}/{nome_mp3}")
 
-        drive_upload(drive, DRIVE_FOLDER_ID, nome_txt,
-                     txt_content.encode("utf-8"), "text/plain")
-        print(f"[DRV] ✅ {nome_txt}")
-
-        drive_upload(drive, DRIVE_FOLDER_ID, nome_md,
-                     md_content.encode("utf-8"), "text/markdown")
-        print(f"[DRV] ✅ {nome_md}")
-
-        mp3_file_id = drive_upload(drive, DRIVE_FOLDER_ID, nome_mp3,
-                                   mp3_path.read_bytes(), "audio/mpeg")
-        print(f"[DRV] ✅ {nome_mp3}")
-
-        # Torna o MP3 público para que o Z-API consiga baixá-lo via URL
-        mp3_url = drive_make_public(drive, mp3_file_id)
-        print(f"[DRV] 🌐 URL pública: {mp3_url}")
-
-    # ── 6. Distribuição no WhatsApp ────────────────────────────────────────────
-    zapi_ok = all(k in os.environ for k in (
-        "ZAPI_INSTANCE_ID", "ZAPI_TOKEN", "ZAPI_CLIENT_TOKEN", "WHATSAPP_GROUP_ID"
-    ))
-
-    if zapi_ok:
-        print("\n[WPP] Distribuindo no WhatsApp...")
-        texto_wpp = _md_para_whatsapp(md_content, hoje_str, duracao)
-        try:
-            enviar_whatsapp(texto_wpp, mp3_url)
-        except Exception as e:
-            print(f"[WPP] ⚠️ Falha no envio WhatsApp: {e}")
-            print("[WPP]    Os arquivos no Drive estão ok. Verifique os secrets Z-API.")
-    else:
-        print("\n[WPP] Secrets Z-API não configurados — distribuição WhatsApp pulada.")
+    # Salva metadados para o workflow usar no step de WhatsApp e sumário
+    meta = (EPISODIOS_DIR / f".meta_{hoje_str}.env")
+    meta.write_text(
+        f"RELEASE_MP3_URL={mp3_url}\n"
+        f"DURACAO={int(duracao // 60)}m{int(duracao % 60)}s\n"
+        f"FALAS={falas}\n"
+        f"PALAVRAS={palavras}\n",
+        encoding="utf-8",
+    )
 
     print(f"\n{'='*60}")
-    print(f"  CONCLUÍDO ✅ — {hoje_str}")
-    print(f"  Duração MP3 : {int(duracao // 60)}min {int(duracao % 60)}s")
-    print(f"  Falas       : {falas_count}  |  Palavras: ~{palavras}")
-    print(f"  Drive folder: {DRIVE_FOLDER_ID}")
-    if zapi_ok:
-        print(f"  WhatsApp    : ✅ enviado ao grupo")
+    print(f"  GERAÇÃO CONCLUÍDA ✅ — {hoje_str}")
+    print(f"  MP3        : {int(duracao // 60)}min {int(duracao % 60)}s | {tamanho // 1024} KB")
+    print(f"  Falas      : {falas} | Palavras: ~{palavras}")
+    print(f"  Release URL: {mp3_url}")
     print(f"{'='*60}\n")
 
 
+def whatsapp_main() -> None:
+    """Lê metadados do episódio de hoje e envia ao WhatsApp (usado pelo workflow após o Release)."""
+    hoje_str  = date.today().isoformat()
+
+    meta_path = EPISODIOS_DIR / f".meta_{hoje_str}.env"
+    if not meta_path.exists():
+        raise FileNotFoundError(f"Metadados não encontrados: {meta_path}")
+
+    meta: dict[str, str] = {}
+    for linha in meta_path.read_text(encoding="utf-8").splitlines():
+        if "=" in linha:
+            k, v = linha.split("=", 1)
+            meta[k.strip()] = v.strip()
+
+    audio_url = meta["RELEASE_MP3_URL"]
+
+    dur_match = re.match(r"(\d+)m(\d+)s", meta.get("DURACAO", "0m0s"))
+    duracao_s = (int(dur_match.group(1)) * 60 + int(dur_match.group(2))) if dur_match else 0.0
+
+    md_path = EPISODIOS_DIR / f"goias_economico_5min_{hoje_str}.md"
+    if not md_path.exists():
+        raise FileNotFoundError(f"Markdown não encontrado: {md_path}")
+
+    md_content = md_path.read_text(encoding="utf-8")
+    texto      = _md_para_whatsapp(md_content, hoje_str, duracao_s)
+
+    enviar_whatsapp(texto, audio_url)
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "--whatsapp":
+        whatsapp_main()
+    else:
+        main()

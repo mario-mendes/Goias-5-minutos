@@ -1,7 +1,3 @@
-# Goiás Econômico em 5 Minutos — dependências do servidor
+# Goiás Econômico em 5 Minutos — dependências
 anthropic>=0.50.0
 elevenlabs>=1.15.0
-google-auth>=2.30.0
-google-auth-oauthlib>=1.2.0
-google-api-python-client>=2.130.0
-httpx[socks]>=0.27.0
