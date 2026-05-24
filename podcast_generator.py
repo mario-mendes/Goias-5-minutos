@@ -290,7 +290,10 @@ pontos de milhar (ex: PROIBIDO "1.234.567.890"). Percentuais podem ficar \
 como "3,5%" ou "três vírgula cinco por cento".
 • Alternar M: e F: naturalmente — nunca duas falas da mesma voz sem necessidade
 • Termos fiscais com *asteriscos* (ex: *resultado primário*, *ICMS*, *empenho*)
-• Duração alvo: 650-780 palavras faladas (M+F juntos)
+• Duração OBRIGATÓRIA: mínimo 650 palavras faladas (M+F juntos), ideal 720-780. \
+  Se faltar pauta local, complemente com: impactos federais em Goiás (FPE, FUNDEB, \
+  emendas parlamentares, câmbio e commodities que afetam o agro goiano, decisões \
+  do STF ou TCU com reflexo no estado). NUNCA entregue um roteiro abaixo de 600 palavras.
 
 Marcadores TTS disponíveis:
   [VINHETA_IN]   → acorde de abertura
@@ -771,6 +774,9 @@ def main() -> None:
         l[2:] for l in txt_content.splitlines() if l.startswith(("M:", "F:"))
     ).split())
     print(f"[OK ] Roteiro: {falas} falas | ~{palavras} palavras")
+    if palavras < 600:
+        print(f"[AVISO] ⚠️  Roteiro curto ({palavras} palavras < mínimo 600). "
+              "Verifique o arquivo .txt gerado — pode indicar falta de pauta.")
 
     # ── 4. Salvar .txt e .md no repo ──────────────────────────────────────────
     (EPISODIOS_DIR / nome_txt).write_text(txt_content, encoding="utf-8")
