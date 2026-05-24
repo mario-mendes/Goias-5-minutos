@@ -45,10 +45,16 @@ jobs:
       # ── Gerar episódio ────────────────────────────────────────────────────
       - name: Gerar roteiro + MP3 e enviar ao Google Drive
         env:
-          ANTHROPIC_API_KEY:           ${{ secrets.ANTHROPIC_API_KEY }}
-          ELEVENLABS_API_KEY:          ${{ secrets.ELEVENLABS_API_KEY }}
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          GOOGLE_DRIVE_FOLDER_ID:      ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          ANTHROPIC_API_KEY:      ${{ secrets.ANTHROPIC_API_KEY }}
+          ELEVENLABS_API_KEY:     ${{ secrets.ELEVENLABS_API_KEY }}
+          GOOGLE_CLIENT_ID:       ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET:   ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN:   ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          ZAPI_INSTANCE_ID:       ${{ secrets.ZAPI_INSTANCE_ID }}
+          ZAPI_TOKEN:             ${{ secrets.ZAPI_TOKEN }}
+          ZAPI_CLIENT_TOKEN:      ${{ secrets.ZAPI_CLIENT_TOKEN }}
+          WHATSAPP_GROUP_ID:      ${{ secrets.WHATSAPP_GROUP_ID }}
         run: python podcast_generator.py
 
       # ── Sumário no painel do GitHub ───────────────────────────────────────
