@@ -69,6 +69,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TODAY=$(date -u +%Y-%m-%d)
+          # Remove release e tag anteriores do mesmo dia (re-runs não falham)
+          gh release delete "ep-${TODAY}" --cleanup-tag --yes 2>/dev/null || true
           gh release create "ep-${TODAY}" \
             "episodios/goias_economico_5min_${TODAY}.mp3" \
             --title "Goiás Econômico em 5 Minutos — ${TODAY}" \
