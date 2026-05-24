@@ -41,6 +41,7 @@ except ImportError:
 try:
     from google.oauth2.service_account import Credentials
     from googleapiclient.discovery import build
+    from googleapiclient.errors import HttpError
     from googleapiclient.http import MediaIoBaseDownload, MediaIoBaseUpload
 except ImportError:
     sys.exit("[ERRO] pip install google-auth google-api-python-client")
@@ -88,9 +89,24 @@ def get_drive_service():
 
 def drive_find(svc, folder_id: str, name: str) -> dict | None:
     q = f"name='{name}' and '{folder_id}' in parents and trashed=false"
-    r = svc.files().list(q=q, fields="files(id,name)", pageSize=5).execute()
-    files = r.get("files", [])
-    return files[0] if files else None
+    try:
+        r = svc.files().list(q=q, fields="files(id,name)", pageSize=5).execute()
+        files = r.get("files", [])
+        return files[0] if files else None
+    except HttpError as e:
+        if e.resp.status == 404:
+            sys.exit(
+                f"\n[ERRO] Pasta do Google Drive não encontrada (HTTP 404).\n"
+                f"  Folder ID configurado: {folder_id}\n\n"
+                f"  Causas prováveis:\n"
+                f"  1. A pasta NÃO foi compartilhada com a conta de serviço.\n"
+                f"     → Abra o Drive, clique com botão direito na pasta,\n"
+                f"       'Compartilhar' e adicione o e-mail da conta de serviço\n"
+                f"       (termina em @...iam.gserviceaccount.com) como Editor.\n"
+                f"  2. O GOOGLE_DRIVE_FOLDER_ID está errado.\n"
+                f"     → Confira o ID na URL da pasta: drive.google.com/drive/folders/<ID>\n"
+            )
+        raise
 
 
 def drive_download_text(svc, file_id: str) -> str:
