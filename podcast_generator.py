@@ -290,10 +290,11 @@ pontos de milhar (ex: PROIBIDO "1.234.567.890"). Percentuais podem ficar \
 como "3,5%" ou "três vírgula cinco por cento".
 • Alternar M: e F: naturalmente — nunca duas falas da mesma voz sem necessidade
 • Termos fiscais com *asteriscos* (ex: *resultado primário*, *ICMS*, *empenho*)
-• Duração OBRIGATÓRIA: mínimo 650 palavras faladas (M+F juntos), ideal 720-780. \
-  Se faltar pauta local, complemente com: impactos federais em Goiás (FPE, FUNDEB, \
-  emendas parlamentares, câmbio e commodities que afetam o agro goiano, decisões \
-  do STF ou TCU com reflexo no estado). NUNCA entregue um roteiro abaixo de 600 palavras.
+• Duração OBRIGATÓRIA: entre 650 e 780 palavras faladas (M+F juntos). \
+  Nem mais, nem menos — o programa tem exatamente cinco minutos. \
+  Se faltar pauta local, complemente com impactos federais em Goiás (FPE, FUNDEB, \
+  emendas parlamentares, câmbio e commodities do agro, decisões do STF ou TCU \
+  com reflexo no estado). NUNCA entregue abaixo de 620 ou acima de 800 palavras.
 
 Marcadores TTS disponíveis:
   [VINHETA_IN]   → acorde de abertura
@@ -651,15 +652,23 @@ def gerar_mp3(txt_content: str, hoje: date, saida: Path) -> float:
                 trecho   = seg["conteudo"]
                 trecho   = (trecho[:65] + "...") if len(trecho) > 65 else trecho
                 print(f"  [{contador:02d}/{len(falas)}] {label}: {trecho}")
-                try:
-                    conteudo_norm = _normalizar_numeros_tts(seg["conteudo"])
-                    _sintetizar(client_el, conteudo_norm, voice_id, destino)
-                    if tipo == "F" and VOLUME_BOOST_F != 0:
-                        _aplicar_volume(destino, VOLUME_BOOST_F)
-                    partes.append(destino)
-                except Exception as e:
-                    print(f"    [AVISO] Fala {contador}: {e} — pulando")
-                time.sleep(0.4)
+                conteudo_norm = _normalizar_numeros_tts(seg["conteudo"])
+                ok = False
+                for tentativa in range(1, 4):  # até 3 tentativas
+                    try:
+                        _sintetizar(client_el, conteudo_norm, voice_id, destino)
+                        if tipo == "F" and VOLUME_BOOST_F != 0:
+                            _aplicar_volume(destino, VOLUME_BOOST_F)
+                        partes.append(destino)
+                        ok = True
+                        break
+                    except Exception as e:
+                        print(f"    [AVISO] Fala {contador} tentativa {tentativa}/3: {e}")
+                        if tentativa < 3:
+                            time.sleep(3 * tentativa)  # backoff: 3s, 6s
+                if not ok:
+                    print(f"    [ERRO] Fala {contador} falhou após 3 tentativas — pulando")
+                time.sleep(0.8)  # intervalo entre falas (era 0.4s)
 
         print("[EL ] Concatenando segmentos...")
         _concatenar(partes, saida)
@@ -774,9 +783,12 @@ def main() -> None:
         l[2:] for l in txt_content.splitlines() if l.startswith(("M:", "F:"))
     ).split())
     print(f"[OK ] Roteiro: {falas} falas | ~{palavras} palavras")
-    if palavras < 600:
-        print(f"[AVISO] ⚠️  Roteiro curto ({palavras} palavras < mínimo 600). "
-              "Verifique o arquivo .txt gerado — pode indicar falta de pauta.")
+    if palavras < 620:
+        print(f"[AVISO] ⚠️  Roteiro curto ({palavras} palavras). "
+              "Pode indicar falta de pauta ou Claude ignorou o limite mínimo.")
+    elif palavras > 800:
+        print(f"[AVISO] ⚠️  Roteiro longo ({palavras} palavras > 800). "
+              "O episódio vai ultrapassar 5 minutos.")
 
     # ── 4. Salvar .txt e .md no repo ──────────────────────────────────────────
     (EPISODIOS_DIR / nome_txt).write_text(txt_content, encoding="utf-8")
