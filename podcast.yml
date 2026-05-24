@@ -1,0 +1,65 @@
+name: Goiás Econômico em 5 Minutos
+
+# ── Gatilhos ──────────────────────────────────────────────────────────────────
+on:
+  schedule:
+    # 09:00 UTC = 06:00 Brasília (UTC-3, sem horário de verão desde 2019)
+    - cron: "0 9 * * *"
+
+  # Permite execução manual pelo painel do GitHub (Actions → Run workflow)
+  workflow_dispatch:
+
+# ── Permissões mínimas ────────────────────────────────────────────────────────
+permissions:
+  contents: read
+
+jobs:
+  gerar-podcast:
+    name: Gerar episódio do dia
+    runs-on: ubuntu-latest
+    timeout-minutes: 40        # ElevenLabs pode demorar para 15 falas
+
+    steps:
+      # ── Checkout ──────────────────────────────────────────────────────────
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      # ── Python ────────────────────────────────────────────────────────────
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      # ── ffmpeg ────────────────────────────────────────────────────────────
+      - name: Instalar ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          ffmpeg -version | head -1
+
+      # ── Dependências Python ───────────────────────────────────────────────
+      - name: Instalar dependências Python
+        run: pip install -r requirements.txt
+
+      # ── Gerar episódio ────────────────────────────────────────────────────
+      - name: Gerar roteiro + MP3 e enviar ao Google Drive
+        env:
+          ANTHROPIC_API_KEY:           ${{ secrets.ANTHROPIC_API_KEY }}
+          ELEVENLABS_API_KEY:          ${{ secrets.ELEVENLABS_API_KEY }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_DRIVE_FOLDER_ID:      ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+        run: python podcast_generator.py
+
+      # ── Sumário no painel do GitHub ───────────────────────────────────────
+      - name: Registrar resultado no sumário
+        if: always()
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          echo "## 🎙️ Goiás Econômico — $TODAY" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ job.status }}" == "success" ]; then
+            echo "✅ Episódio gerado e enviado ao Google Drive com sucesso." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Falha na geração do episódio. Verifique os logs acima." >> $GITHUB_STEP_SUMMARY
+          fi
