@@ -39,7 +39,8 @@ except ImportError:
     sys.exit("[ERRO] pip install elevenlabs")
 
 try:
-    from google.oauth2.service_account import Credentials
+    from google.oauth2.credentials import Credentials
+    from google.auth.transport.requests import Request
     from googleapiclient.discovery import build
     from googleapiclient.errors import HttpError
     from googleapiclient.http import MediaIoBaseDownload, MediaIoBaseUpload
@@ -80,10 +81,17 @@ VINHETAS  = [REPO_ROOT / "vinhetas" / f"Vinheta_Goias_Economico_{i}.mp3"
 # ══════════════════════════════════════════════════════════════════════════════
 
 def get_drive_service():
-    info  = json.loads(os.environ["GOOGLE_SERVICE_ACCOUNT_JSON"])
-    creds = Credentials.from_service_account_info(
-        info, scopes=["https://www.googleapis.com/auth/drive"]
+    """Autentica via OAuth2 refresh token (funciona com Google Drive pessoal)."""
+    creds = Credentials(
+        token=None,
+        refresh_token=os.environ["GOOGLE_REFRESH_TOKEN"],
+        client_id=os.environ["GOOGLE_CLIENT_ID"],
+        client_secret=os.environ["GOOGLE_CLIENT_SECRET"],
+        token_uri="https://oauth2.googleapis.com/token",
+        scopes=["https://www.googleapis.com/auth/drive"],
     )
+    # Força renovação do access token antes de usar
+    creds.refresh(Request())
     return build("drive", "v3", credentials=creds, cache_discovery=False)
 
 
@@ -132,6 +140,15 @@ def drive_upload(svc, folder_id: str, name: str, data: bytes, mime: str) -> str:
             body=meta, media_body=media, fields="id"
         ).execute()
     return f["id"]
+
+
+def drive_make_public(svc, file_id: str) -> str:
+    """Torna o arquivo público (leitura para todos) e retorna URL de download direto."""
+    svc.permissions().create(
+        fileId=file_id,
+        body={"type": "anyone", "role": "reader"},
+    ).execute()
+    return f"https://drive.google.com/uc?export=download&id={file_id}"
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -497,6 +514,134 @@ def gerar_mp3(txt_content: str, hoje: date, saida: Path) -> float:
 
 
 # ══════════════════════════════════════════════════════════════════════════════
+#  WHATSAPP — Z-API
+# ══════════════════════════════════════════════════════════════════════════════
+
+def _md_para_whatsapp(md_content: str, hoje_str: str, duracao_s: float) -> str:
+    """Converte o markdown do episódio em texto formatado para WhatsApp."""
+    hoje    = date.fromisoformat(hoje_str)
+    hoje_br = hoje.strftime("%d/%m/%Y")
+    dur_min = int(duracao_s // 60)
+    dur_seg = int(duracao_s % 60)
+
+    linhas_saida = [
+        f"🎙️ *Goiás Econômico em 5 Minutos*",
+        f"📅 {hoje_br} | ⏱️ {dur_min}min {dur_seg}s",
+        "",
+    ]
+
+    bloco_atual = ""
+    em_tabela   = False
+
+    for linha in md_content.splitlines():
+        # Ignora linhas de tabela (---|---|---)
+        if re.match(r"^\s*\|?[-|: ]+\|", linha):
+            em_tabela = True
+            continue
+
+        # Título principal e data — já inseridos no cabeçalho
+        if linha.startswith("# ") or linha.startswith("## Sábado") \
+                or linha.startswith("## Domingo") or linha.startswith("## Segunda") \
+                or linha.startswith("## Terça") or linha.startswith("## Quarta") \
+                or linha.startswith("## Quinta") or linha.startswith("## Sexta"):
+            continue
+
+        # Seção "Fontes" — não vai para o WhatsApp
+        if linha.strip() in ("## Fontes", "## Fontes\\n") or linha.startswith("- [") \
+                or linha.startswith("*Produzido em"):
+            continue
+
+        # Subtítulo de bloco (### ou ##)
+        if linha.startswith("### ") or linha.startswith("## "):
+            titulo = linha.lstrip("#").strip()
+            linhas_saida.append(f"\n*{titulo}*")
+            em_tabela = False
+            continue
+
+        # Linha de tabela com conteúdo (| col | col |)
+        if linha.startswith("|") and not em_tabela:
+            celulas = [c.strip() for c in linha.strip("|").split("|")]
+            celulas = [c for c in celulas if c and not re.match(r"^[-:]+$", c)]
+            if len(celulas) >= 2:
+                linhas_saida.append(f"• {celulas[0]}: {' | '.join(celulas[1:])}")
+            continue
+        em_tabela = False
+
+        # Citação (> texto)
+        if linha.startswith("> "):
+            texto = linha[2:].strip()
+            # Remove markdown de negrito e itálico
+            texto = re.sub(r"\*\*(.+?)\*\*", r"\1", texto)
+            texto = re.sub(r"\*(.+?)\*",     r"_\1_", texto)
+            linhas_saida.append(f"_{texto}_")
+            continue
+
+        # Linha separadora ---
+        if re.match(r"^---+$", linha.strip()):
+            continue
+
+        # Manchete/destaque (linha de negrito isolada)
+        if linha.startswith("**") and linha.endswith("**"):
+            texto = linha.strip("*")
+            linhas_saida.append(f"*{texto}*")
+            continue
+
+        # Linha normal — converte markdown bold para WhatsApp bold
+        texto = linha.strip()
+        texto = re.sub(r"\*\*(.+?)\*\*", r"*\1*", texto)
+        if texto:
+            linhas_saida.append(texto)
+
+    linhas_saida += [
+        "",
+        "—",
+        "_Gerado automaticamente pelo Goiás Econômico em 5 Minutos_ 🤖",
+    ]
+
+    return "\n".join(linhas_saida)
+
+
+def enviar_whatsapp(texto: str, audio_url: str) -> None:
+    """Envia resumo em texto e áudio para o grupo via Z-API."""
+    import urllib.request
+
+    instance_id  = os.environ["ZAPI_INSTANCE_ID"]
+    token        = os.environ["ZAPI_TOKEN"]
+    client_token = os.environ["ZAPI_CLIENT_TOKEN"]
+    group_id     = os.environ["WHATSAPP_GROUP_ID"]  # ex: 5562999999999-1234567890@g.us
+
+    base_url = f"https://api.z-api.io/instances/{instance_id}/token/{token}"
+    headers  = {
+        "Content-Type":  "application/json",
+        "Client-Token":  client_token,
+    }
+
+    def _post(endpoint: str, payload: dict) -> dict:
+        data = json.dumps(payload).encode("utf-8")
+        req  = urllib.request.Request(
+            f"{base_url}/{endpoint}", data=data, headers=headers, method="POST"
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read())
+
+    # 1. Envia o resumo em texto
+    print("[WPP] Enviando resumo em texto...")
+    r = _post("send-text", {"phone": group_id, "message": texto})
+    print(f"[WPP] ✅ Texto enviado (zaapId: {r.get('zaapId', '?')})")
+
+    time.sleep(2)  # pequena pausa entre mensagens
+
+    # 2. Envia o áudio como nota de voz (ptt=True)
+    print("[WPP] Enviando áudio...")
+    r = _post("send-audio", {
+        "phone": group_id,
+        "audio": audio_url,
+        "ptt":   True,       # True = aparece como nota de voz; False = arquivo de áudio
+    })
+    print(f"[WPP] ✅ Áudio enviado (zaapId: {r.get('zaapId', '?')})")
+
+
+# ══════════════════════════════════════════════════════════════════════════════
 #  MAIN
 # ══════════════════════════════════════════════════════════════════════════════
 
@@ -561,15 +706,37 @@ def main() -> None:
                      md_content.encode("utf-8"), "text/markdown")
         print(f"[DRV] ✅ {nome_md}")
 
-        drive_upload(drive, DRIVE_FOLDER_ID, nome_mp3,
-                     mp3_path.read_bytes(), "audio/mpeg")
+        mp3_file_id = drive_upload(drive, DRIVE_FOLDER_ID, nome_mp3,
+                                   mp3_path.read_bytes(), "audio/mpeg")
         print(f"[DRV] ✅ {nome_mp3}")
+
+        # Torna o MP3 público para que o Z-API consiga baixá-lo via URL
+        mp3_url = drive_make_public(drive, mp3_file_id)
+        print(f"[DRV] 🌐 URL pública: {mp3_url}")
+
+    # ── 6. Distribuição no WhatsApp ────────────────────────────────────────────
+    zapi_ok = all(k in os.environ for k in (
+        "ZAPI_INSTANCE_ID", "ZAPI_TOKEN", "ZAPI_CLIENT_TOKEN", "WHATSAPP_GROUP_ID"
+    ))
+
+    if zapi_ok:
+        print("\n[WPP] Distribuindo no WhatsApp...")
+        texto_wpp = _md_para_whatsapp(md_content, hoje_str, duracao)
+        try:
+            enviar_whatsapp(texto_wpp, mp3_url)
+        except Exception as e:
+            print(f"[WPP] ⚠️ Falha no envio WhatsApp: {e}")
+            print("[WPP]    Os arquivos no Drive estão ok. Verifique os secrets Z-API.")
+    else:
+        print("\n[WPP] Secrets Z-API não configurados — distribuição WhatsApp pulada.")
 
     print(f"\n{'='*60}")
     print(f"  CONCLUÍDO ✅ — {hoje_str}")
     print(f"  Duração MP3 : {int(duracao // 60)}min {int(duracao % 60)}s")
     print(f"  Falas       : {falas_count}  |  Palavras: ~{palavras}")
     print(f"  Drive folder: {DRIVE_FOLDER_ID}")
+    if zapi_ok:
+        print(f"  WhatsApp    : ✅ enviado ao grupo")
     print(f"{'='*60}\n")
 
 
