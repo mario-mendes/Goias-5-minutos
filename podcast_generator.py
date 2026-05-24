@@ -353,9 +353,12 @@ def _sintetizar(client_el: ElevenLabs, texto: str, voice_id: str, destino: Path)
 
 
 def _gerar_silencio(ms: int, destino: Path) -> None:
+    # Gera silêncio diretamente em MP3 (libmp3lame) — evita conflito de codec/extensão
     subprocess.run([
         "ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
-        "-t", str(ms / 1000), "-acodec", "pcm_s16le", str(destino),
+        "-t", str(ms / 1000),
+        "-acodec", "libmp3lame", "-b:a", "128k",
+        str(destino),
     ], capture_output=True, check=True)
 
 
