@@ -53,9 +53,10 @@ except ImportError:
 #  CONFIGURAÇÃO
 # ══════════════════════════════════════════════════════════════════════════════
 
-ANTHROPIC_MODEL   = "claude-sonnet-4-6"
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
-ELEVENLABS_API_KEY = os.environ["ELEVENLABS_API_KEY"]
+ANTHROPIC_MODEL    = "claude-sonnet-4-6"
+# Chaves lidas sob demanda dentro de cada função (evita falha em modos que não precisam delas)
+ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY",  "")
+ELEVENLABS_API_KEY = os.environ.get("ELEVENLABS_API_KEY", "")
 
 REPO_ROOT      = Path(__file__).parent
 EPISODIOS_DIR  = REPO_ROOT / "episodios"
@@ -327,6 +328,8 @@ Retorne EXATAMENTE neste formato (sem texto fora das tags):
 def gerar_roteiro(episodio_anterior: str, hoje: str,
                   manchetes_opopular: str = "") -> tuple[str, str]:
     """Chama Claude com web_search e retorna (txt_content, md_content)."""
+    if not ANTHROPIC_API_KEY:
+        raise RuntimeError("Variável de ambiente ANTHROPIC_API_KEY não definida.")
     hoje_br = date.fromisoformat(hoje).strftime("%d/%m/%Y")
     client  = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
@@ -595,6 +598,8 @@ def _duracao_mp3(caminho: Path) -> float:
 
 
 def gerar_mp3(txt_content: str, hoje: date, saida: Path) -> float:
+    if not ELEVENLABS_API_KEY:
+        raise RuntimeError("Variável de ambiente ELEVENLABS_API_KEY não definida.")
     if not _check_ffmpeg():
         raise RuntimeError("ffmpeg não encontrado no PATH.")
 
