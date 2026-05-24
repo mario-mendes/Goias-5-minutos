@@ -3,8 +3,8 @@ name: Goiás Econômico em 5 Minutos
 # ── Gatilhos ──────────────────────────────────────────────────────────────────
 on:
   schedule:
-    # 09:00 UTC = 06:00 Brasília (UTC-3, sem horário de verão desde 2019)
-    - cron: "0 9 * * *"
+    # 09:30 UTC = 06:30 Brasília (UTC-3, sem horário de verão desde 2019)
+    - cron: "30 9 * * *"
 
   # Permite execução manual pelo painel do GitHub (Actions → Run workflow)
   workflow_dispatch:
