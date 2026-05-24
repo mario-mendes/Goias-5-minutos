@@ -283,7 +283,10 @@ Roteiro com marcadores para síntese de voz. Regras obrigatórias:
     F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
     [PAUSA CURTA]
     [VINHETA_OUT]
-• Números SEMPRE por extenso (ex: "cinquenta e três bilhões de reais")
+• Números: use escala abreviada legível para TTS (ex: "3,7 bilhões de reais", \
+"450 milhões", "12,5 mil vagas", "1,2 trilhão"). NUNCA escreva dígitos com \
+pontos de milhar (ex: PROIBIDO "1.234.567.890"). Percentuais podem ficar \
+como "3,5%" ou "três vírgula cinco por cento".
 • Alternar M: e F: naturalmente — nunca duas falas da mesma voz sem necessidade
 • Termos fiscais com *asteriscos* (ex: *resultado primário*, *ICMS*, *empenho*)
 • Duração alvo: 650-780 palavras faladas (M+F juntos)
@@ -401,6 +404,90 @@ def gerar_roteiro(episodio_anterior: str, hoje: str,
 # ══════════════════════════════════════════════════════════════════════════════
 #  GERAÇÃO DE MP3
 # ══════════════════════════════════════════════════════════════════════════════
+
+def _normalizar_numeros_tts(texto: str) -> str:
+    """
+    Converte números grandes para escala legível antes da síntese de voz.
+
+    Exemplos:
+      1.234.567.890   → "1,2 bilhão"
+      R$ 3.700.000    → "R$ 3,7 milhões"
+      450.000.000     → "450 milhões"
+      12.500          → "12,5 mil"
+      3,7%            → inalterado (percentuais não são convertidos)
+      2026            → inalterado (anos de 4 dígitos não são convertidos)
+    """
+
+    def _dec(v: float) -> str:
+        """Formata com uma casa decimal apenas se necessário."""
+        arred = round(v, 1)
+        if arred == int(arred):
+            return str(int(arred))
+        return f"{arred:.1f}".replace(".", ",")
+
+    def _escala(valor: float) -> str | None:
+        if valor >= 1_000_000_000_000:
+            v = valor / 1_000_000_000_000
+            nome = "trilhão" if round(v, 1) < 2 else "trilhões"
+            return f"{_dec(v)} {nome}"
+        if valor >= 1_000_000_000:
+            v = valor / 1_000_000_000
+            nome = "bilhão" if round(v, 1) < 2 else "bilhões"
+            return f"{_dec(v)} {nome}"
+        if valor >= 1_000_000:
+            v = valor / 1_000_000
+            nome = "milhão" if round(v, 1) < 2 else "milhões"
+            return f"{_dec(v)} {nome}"
+        if valor >= 10_000:
+            return f"{_dec(valor / 1_000)} mil"
+        return None  # número pequeno — não converter
+
+    def _substituir(m: re.Match) -> str:
+        pref    = (m.group("pref") or "").strip()   # "R$" se presente
+        num_str = m.group("num")
+        suf     = (m.group("suf")  or "").strip()   # "%" se presente
+
+        # Percentuais: não alterar
+        if suf == "%":
+            return m.group(0)
+
+        # Normaliza para float (formato BR: ponto=milhar, vírgula=decimal)
+        limpo = num_str.replace(".", "")
+        # Vírgula como separador decimal (ex: 1.234,56)
+        if "," in limpo:
+            partes = limpo.split(",")
+            if len(partes) == 2 and len(partes[1]) <= 2:
+                limpo = limpo.replace(",", ".")
+            else:
+                limpo = limpo.replace(",", "")
+
+        try:
+            valor = float(limpo)
+        except ValueError:
+            return m.group(0)
+
+        resultado = _escala(valor)
+        if resultado is None:
+            return m.group(0)
+
+        if pref in ("R$", "R $"):
+            return f"R$ {resultado}"
+        return resultado
+
+    # Captura números com separadores de milhar no padrão brasileiro
+    # Ex: 1.234.567  |  R$ 1.234.567,89  |  1234567 (sem pontos, 7+ dígitos)
+    pattern = re.compile(
+        r"(?P<pref>R\s*\$\s*)?"
+        r"(?P<num>"
+        r"\d{1,3}(?:\.\d{3})+"           # formato BR com pontos: 1.234.567
+        r"(?:,\d{1,2})?"                  # centavos opcionais
+        r"|\d{7,}"                        # número bruto sem pontos com 7+ dígitos
+        r")"
+        r"(?P<suf>\s*%)?",
+        re.IGNORECASE,
+    )
+    return pattern.sub(_substituir, texto)
+
 
 def _check_ffmpeg() -> bool:
     try:
@@ -557,7 +644,8 @@ def gerar_mp3(txt_content: str, hoje: date, saida: Path) -> float:
                 trecho   = (trecho[:65] + "...") if len(trecho) > 65 else trecho
                 print(f"  [{contador:02d}/{len(falas)}] {label}: {trecho}")
                 try:
-                    _sintetizar(client_el, seg["conteudo"], voice_id, destino)
+                    conteudo_norm = _normalizar_numeros_tts(seg["conteudo"])
+                    _sintetizar(client_el, conteudo_norm, voice_id, destino)
                     if tipo == "F" and VOLUME_BOOST_F != 0:
                         _aplicar_volume(destino, VOLUME_BOOST_F)
                     partes.append(destino)
