@@ -23,6 +23,7 @@ Variáveis opcionais (WhatsApp):
   GITHUB_REPOSITORY    — preenchido automaticamente pelo GitHub Actions
 """
 
+import html.parser
 import os
 import re
 import subprocess
@@ -30,7 +31,9 @@ import sys
 import tempfile
 import time
 import urllib.request
+import urllib.error
 import json
+import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -76,6 +79,142 @@ VINHETAS = [REPO_ROOT / "vinhetas" / f"Vinheta_Goias_Economico_{i}.mp3"
 
 
 # ══════════════════════════════════════════════════════════════════════════════
+#  O POPULAR — CAPTURA VIA RSS + PRÉ-PAYWALL
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Feeds RSS d'O Popular (tentados em ordem; falhas são ignoradas silenciosamente)
+RSS_OPOPULAR = [
+    "https://www.opopular.com.br/rss",
+    "https://www.opopular.com.br/economia/rss",
+    "https://www.opopular.com.br/politica/rss",
+    "https://www.opopular.com.br/cidades/rss",
+]
+
+# Quantos caracteres do artigo tentar extrair antes do paywall
+PAYWALL_TRECHO_CHARS = 900
+
+
+class _TextExtractor(html.parser.HTMLParser):
+    """HTMLParser minimalista: extrai texto visível, pula scripts/estilos."""
+    _SKIP_TAGS = {"script", "style", "noscript", "nav", "header", "footer",
+                  "aside", "iframe", "form"}
+    _BLOCK_TAGS = {"p", "h1", "h2", "h3", "h4", "li", "blockquote", "figcaption"}
+
+    def __init__(self) -> None:
+        super().__init__()
+        self._skip_depth = 0
+        self._parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs) -> None:
+        if tag in self._SKIP_TAGS:
+            self._skip_depth += 1
+        elif tag in self._BLOCK_TAGS:
+            self._parts.append("\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in self._SKIP_TAGS:
+            self._skip_depth = max(0, self._skip_depth - 1)
+
+    def handle_data(self, data: str) -> None:
+        if self._skip_depth == 0:
+            chunk = data.strip()
+            if chunk:
+                self._parts.append(chunk)
+
+    def get_text(self) -> str:
+        return re.sub(r" {2,}", " ", " ".join(self._parts)).strip()
+
+
+def _get(url: str, timeout: int = 10) -> str:
+    """HTTP GET simples; retorna '' em qualquer erro."""
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; PodcastBot/1.0)"},
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            charset = resp.headers.get_content_charset() or "utf-8"
+            return resp.read().decode(charset, errors="replace")
+    except Exception:
+        return ""
+
+
+def _pre_paywall(url: str) -> str:
+    """
+    Baixa a página e extrai os primeiros PAYWALL_TRECHO_CHARS de texto visível.
+    Heurística: pega o texto até encontrar palavras típicas de paywall.
+    """
+    raw = _get(url, timeout=8)
+    if not raw:
+        return ""
+    ext = _TextExtractor()
+    ext.feed(raw)
+    texto = ext.get_text()
+    # Corta no primeiro sinal de paywall
+    paywall_re = re.compile(
+        r"(assine|assinar|seja assinante|conteúdo exclusivo|faça login|"
+        r"acesso restrito|para continuar lendo|leia mais com)",
+        re.IGNORECASE,
+    )
+    m = paywall_re.search(texto)
+    corte = m.start() if m else len(texto)
+    return texto[:min(corte, PAYWALL_TRECHO_CHARS)].strip()
+
+
+def buscar_opopular(max_artigos: int = 10) -> str:
+    """
+    Busca manchetes recentes d'O Popular via RSS e tenta extrair
+    o início de cada artigo antes do paywall.
+    Retorna bloco de texto formatado para injeção no prompt do Claude.
+    """
+    vistos: set[str] = set()
+    artigos: list[dict] = []
+
+    for rss_url in RSS_OPOPULAR:
+        xml_raw = _get(rss_url, timeout=12)
+        if not xml_raw:
+            continue
+        try:
+            root = ET.fromstring(xml_raw)
+        except ET.ParseError:
+            continue
+        for item in root.iter("item"):
+            titulo = (item.findtext("title") or "").strip()
+            link   = (item.findtext("link")  or "").strip()
+            desc   = (item.findtext("description") or "").strip()
+            desc   = re.sub(r"<[^>]+>", " ", desc)
+            desc   = re.sub(r"\s+", " ", desc).strip()
+            if not titulo or link in vistos:
+                continue
+            vistos.add(link)
+            artigos.append({"titulo": titulo, "link": link, "desc": desc})
+            if len(artigos) >= max_artigos:
+                break
+        if len(artigos) >= max_artigos:
+            break
+
+    if not artigos:
+        print("[OPO] RSS indisponível — O Popular será buscado via web_search.")
+        return "(RSS d'O Popular indisponível — use web_search para buscar notícias recentes do site.)"
+
+    print(f"[OPO] {len(artigos)} manchetes obtidas via RSS.")
+
+    linhas: list[str] = ["### Manchetes recentes — O Popular (via RSS)\n"]
+    for a in artigos:
+        linhas.append(f"**{a['titulo']}**")
+        trecho = _pre_paywall(a["link"]) if a["link"] else ""
+        if trecho and len(trecho) > len(a["desc"]) + 60:
+            linhas.append(trecho)
+        elif a["desc"]:
+            linhas.append(a["desc"][:500])
+        if a["link"]:
+            linhas.append(f"Fonte: {a['link']}")
+        linhas.append("")
+
+    return "\n".join(linhas)
+
+
+# ══════════════════════════════════════════════════════════════════════════════
 #  PROMPT PARA O CLAUDE
 # ══════════════════════════════════════════════════════════════════════════════
 
@@ -99,19 +238,28 @@ ser DESCARTADA. Se ainda relevante, trate como desdobramento explícito \
 ("Em desdobramento ao que noticiamos ontem...").
 
 ══════════════════════════════════════════
+MANCHETES D'O POPULAR (maior jornal de Goiás)
+══════════════════════════════════════════
+As manchetes abaixo foram coletadas automaticamente via RSS. Use-as como ponto \
+de partida prioritário: se um título for relevante para economia/política de Goiás, \
+aprofunde com web_search buscando exatamente aquele título no Google \
+(ex: "site:opopular.com.br <título>") para obter mais detalhes.
+
+{manchetes_opopular}
+
+══════════════════════════════════════════
 PASSO 1 — PESQUISAR NOTÍCIAS DAS ÚLTIMAS 24H
 ══════════════════════════════════════════
-Use a ferramenta web_search para realizar AO MENOS 5 buscas com queries como:
-- "Goiás economia fiscal {hoje_br} 2026"
+Use a ferramenta web_search para realizar AO MENOS 6 buscas. Inclua obrigatoriamente:
+- Uma busca "site:opopular.com.br Goiás economia {hoje_br}" para complementar o RSS
 - "Goiás ICMS arrecadação {hoje_br} 2026"
 - "Assembleia Legislativa Goiás sessão votação {hoje_br} 2026"
 - "Goiás investimento obra decreto {hoje_br} 2026"
 - "Goiás agronegócio exportação {hoje_br} 2026"
 - "Secretaria Economia Goiás nota decreto {hoje_br} 2026"
-- "Goiás orçamento LOA empenho resultado {hoje_br} 2026"
 
-Fontes prioritárias: O Popular, Jornal Opção, Portal da Alego \
-(portal.al.go.leg.br), Portal 6, Mais Goiás, Goinfra, STG News, \
+Fontes prioritárias (em ordem): O Popular (opopular.com.br), Jornal Opção, \
+Portal da Alego (portal.al.go.leg.br), Portal 6, Mais Goiás, Goinfra, STG News, \
 Secretaria da Economia (goias.gov.br/economia), Agência Cora Coralina, \
 G1 Goiás, Diário de Aparecida.
 
@@ -173,7 +321,8 @@ Retorne EXATAMENTE neste formato (sem texto fora das tags):
 #  GERAÇÃO DO ROTEIRO VIA CLAUDE API
 # ══════════════════════════════════════════════════════════════════════════════
 
-def gerar_roteiro(episodio_anterior: str, hoje: str) -> tuple[str, str]:
+def gerar_roteiro(episodio_anterior: str, hoje: str,
+                  manchetes_opopular: str = "") -> tuple[str, str]:
     """Chama Claude com web_search e retorna (txt_content, md_content)."""
     hoje_br = date.fromisoformat(hoje).strftime("%d/%m/%Y")
     client  = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
@@ -182,6 +331,7 @@ def gerar_roteiro(episodio_anterior: str, hoje: str) -> tuple[str, str]:
         hoje=hoje,
         hoje_br=hoje_br,
         episodio_anterior=episodio_anterior or "(sem episódio anterior)",
+        manchetes_opopular=manchetes_opopular or "(não disponível — use web_search)",
     )
 
     messages = [{"role": "user", "content": prompt}]
@@ -516,8 +666,12 @@ def main() -> None:
         print(f"[DED] ℹ️  Episódio anterior não encontrado ({prev_md.name}) — sem deduplicação")
         episodio_anterior = ""
 
-    # ── 2. Gerar roteiro via Claude ────────────────────────────────────────────
-    txt_content, md_content = gerar_roteiro(episodio_anterior, hoje_str)
+    # ── 2. Buscar manchetes d'O Popular ───────────────────────────────────────
+    manchetes_opopular = buscar_opopular()
+
+    # ── 3. Gerar roteiro via Claude ────────────────────────────────────────────
+    txt_content, md_content = gerar_roteiro(episodio_anterior, hoje_str,
+                                            manchetes_opopular)
 
     falas = sum(1 for l in txt_content.splitlines() if l.startswith(("M:", "F:")))
     palavras = len(" ".join(
@@ -525,18 +679,18 @@ def main() -> None:
     ).split())
     print(f"[OK ] Roteiro: {falas} falas | ~{palavras} palavras")
 
-    # ── 3. Salvar .txt e .md no repo ──────────────────────────────────────────
+    # ── 4. Salvar .txt e .md no repo ──────────────────────────────────────────
     (EPISODIOS_DIR / nome_txt).write_text(txt_content, encoding="utf-8")
     (EPISODIOS_DIR / nome_md).write_text(md_content,  encoding="utf-8")
     print(f"[OK ] Textos salvos em episodios/")
 
-    # ── 4. Gerar MP3 ──────────────────────────────────────────────────────────
+    # ── 5. Gerar MP3 ──────────────────────────────────────────────────────────
     mp3_path = EPISODIOS_DIR / nome_mp3
     duracao  = gerar_mp3(txt_content, hoje, mp3_path)
     tamanho  = mp3_path.stat().st_size
     print(f"[OK ] MP3: {int(duracao // 60)}min {int(duracao % 60)}s | {tamanho // 1024} KB")
 
-    # ── 5. WhatsApp ────────────────────────────────────────────────────────────
+    # ── 6. WhatsApp ────────────────────────────────────────────────────────────
     # A URL do áudio é o GitHub Release criado pelo workflow após este script.
     # O workflow lê RELEASE_MP3_URL do arquivo .env gerado abaixo.
     repo    = os.environ.get("GITHUB_REPOSITORY", "mario-mendes/Goias-5-minutos")
