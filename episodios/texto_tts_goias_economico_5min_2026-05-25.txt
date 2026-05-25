@@ -2,51 +2,49 @@
 
 M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
 
+[PAUSA CURTA]
+
+M: Hoje é segunda-feira, 25 de maio de 2026. Quatro pautas frescas para quem trabalha com orçamento, tributos e agronegócio no estado de Goiás.
+
 [PAUSA]
 
-M: Segunda-feira, vinte e cinco de maio de dois mil e vinte e seis. Eu sou o âncora do programa, e estamos ao vivo com quatro temas que afetam diretamente o orçamento e a economia goiana. Começamos com um fato inédito na história do Poder Legislativo estadual.
+M: *Bloco 1 — ICMS e conformidade tributária.* A partir do dia 1º de maio, empresas de médio porte — aquelas com faturamento entre 360 mil reais e 4,8 milhões de reais — passaram a ser obrigadas a vincular os pagamentos eletrônicos diretamente à emissão de Nota Fiscal Eletrônica. A regra já valia desde novembro de 2025 para grandes contribuintes e, desde fevereiro, para demais empresas com faturamento acima de 4,8 milhões. Agora chegou a vez do estrato intermediário.
 
-[PAUSA CURTA]
+F: Exatamente. A *Instrução Normativa número 1.608 de 2025* da Secretaria da Economia de Goiás exige que toda transação via cartão de crédito, débito, Pix ou qualquer instrumento do Sistema de Pagamentos Brasileiro esteja automaticamente vinculada à *NF-e ou à NFC-e* no momento do registro do pagamento. Fica expressamente proibida a utilização de maquininhas de cartão que não estejam integradas ao sistema emissor da nota fiscal.
 
-F: *Duodécimo*, *resultado primário* e *infraestrutura* numa mesma notícia. No dia cinco de maio, a Assembleia Legislativa de Goiás realizou a maior devolução de recursos da sua história ao *Tesouro Estadual*: quinhentos e cinquenta milhões de reais. O valor, acumulado a partir das sobras orçamentárias dos *duodécimos* de dois mil e vinte e cinco, será destinado integralmente a obras de duplicação de rodovias estratégicas.
+M: O calendário tem ainda uma fase final: em 1º de agosto de 2026, entram as pequenas empresas com faturamento de até 360 mil reais. Microempreendedores individuais estão dispensados. Do ponto de vista fiscal, a medida tem efeito direto: ao eliminar a possibilidade de venda sem emissão de documento, o governo fecha uma brecha histórica de evasão do *ICMS* no varejo e amplia a base de arrecadação de forma estrutural, sem elevação de alíquota.
 
-M: Para quem trabalha com *resultado primário*, esse repasse tem peso. O *duodécimo* é o recurso que o Executivo transfere mensalmente ao Legislativo — equivalente a um doze avos do orçamento aprovado. Quando há economia na execução, o saldo pode voltar ao Tesouro. E foi exatamente isso que aconteceu aqui.
+F: Um ponto técnico importante para os colegas auditores: a conformidade já se aplica também ao Evento de Conciliação Financeira — o chamado *ECONF* — nos casos em que o pagamento for posterior à emissão da nota. É um reforço ao cruzamento de dados entre o fisco estadual e as operadoras de meios de pagamento.
 
-F: As rodovias prioritárias anunciadas pelo governador Daniel Vilela são três: o eixo Goiânia–Nova Veneza, Goiânia–Orizona e Bela Vista de Goiás–Catalão. Além disso, o presidente Bruno Peixoto informou que a Alego ainda acumula mais cento e cinquenta milhões de reais em duodécimos economizados — o que pode elevar o volume total devolvido neste ciclo a cerca de setecentos milhões de reais.
+[PAUSA]
 
-M: Em termos comparativos, vale registrar: em dois mil e vinte e três, a Casa devolveu treze milhões de reais. Em dois mil e vinte e quatro, dezoito milhões. O salto para quinhentos e cinquenta milhões é expressivo e coloca a Alego como segunda maior devolução legislativa nacional em dois mil e vinte e cinco, atrás apenas do Paraná.
+M: *Bloco 2 — LOA 2026 e folha de pessoal.* Com o orçamento estadual fixado em 53,4 bilhões de reais para este ano, os gestores precisam ter atenção redobrada para um número: a *folha de pessoal* está prevista em 29,4 bilhões de reais, o equivalente a 56,4% do orçamento total. Isso inclui servidores ativos, inativos e o déficit previdenciário da GoiásPrev.
 
-F: Do ponto de vista da *Lei de Responsabilidade Fiscal*, o mecanismo é virtuoso: os recursos retornam ao caixa do Estado, são incorporados ao *Tesouro* e entram no fluxo de *empenho* e *liquidação* dentro do planejamento orçamentário existente. Ainda assim, o impacto real sobre o *déficit primário* projetado para dois mil e vinte e seis — estimado em dois vírgula cinco bilhões de reais — é parcial, pois os recursos destinados a obras representam *despesa de capital*, não redução de déficit corrente.
+F: E esse déficit previdenciário merece destaque. A projeção é de 5,6 bilhões de reais só para 2026. Somando: 14,8 bilhões para ativos do Poder Executivo, 8,7 bilhões para inativos e 5,6 bilhões de déficit da previdência. Do orçamento restante, excluída a folha, sobram aproximadamente 18,5 bilhões para custeio e investimentos. A *Receita Corrente Líquida* estimada para 2026 é de 46,97 bilhões de reais.
 
-[PAUSA CURTA]
+M: Por que isso importa agora? Porque as datas-base aprovadas em abril — 4,62% no Executivo e 4,26% nos demais poderes — com vigência a partir de maio, vão elevar esse denominador da despesa com pessoal. Os gestores precisam monitorar se a relação *pessoal sobre RCL* se aproxima do limite de alerta de 54% previsto na *Lei de Responsabilidade Fiscal*. Goiás, que acumulou déficit primário de 4,45 bilhões em 2025, não tem margem para surpresas na folha.
 
-M: Bloco dois — agronegócio e comércio exterior. Uma boa notícia para a cadeia de carnes goiana: a China reabilitou, no dia vinte de maio, o frigorífico da JBS em Mozarlândia, no noroeste de Goiás. A unidade, a maior processadora de carnes do mundo naquele município, estava suspensa dos embarques ao mercado chinês desde março de dois mil e vinte e cinco.
+F: E há o efeito de segunda ordem: as emendas impositivas dos deputados estaduais para 2026 somam 567,89 milhões de reais — sendo 13,85 milhões por parlamentar — com 70% obrigatoriamente direcionados a saúde e educação. Esse é o espaço fiscal real para a *LOA* acomodar investimentos sem pressionar ainda mais o *resultado primário*.
 
-F: A reabilitação foi confirmada pela Associação Brasileira das Indústrias Exportadoras de Carnes, a Abiec, após reunião entre autoridades dos dois países em Pequim. O registro na plataforma chinesa de importadores — o sistema CIFER — aponta a data de retomada como dezenove de maio.
+[PAUSA]
 
-M: Para o orçamento público goiano, a relevância é direta. A China responde por mais de cinquenta e um por cento do destino das exportações goianas, segundo dados de março de dois mil e vinte e seis. O *complexo carnes* representa dezenove vírgula um por cento das exportações do estado — e Mozarlândia é o quinto maior município exportador de Goiás. A retomada dos embarques pressiona positivamente a base do *ICMS* sobre operações fiscais ligadas ao processamento e circulação de carnes.
+M: *Bloco 3 — Agronegócio e o fator China.* A bovinocultura goiana deve movimentar 23,7 bilhões de reais em 2026, crescimento de 7,5% sobre 2025, segundo projeção do Ministério da Agricultura. O setor representa 20,3% do Valor Bruto da Produção estadual e 10% do VBP bovino nacional.
 
-F: Atenção, porém, para um risco concomitante. Na mesma semana em que a JBS de Mozarlândia foi reabilitada, a China suspendeu outras três plantas brasileiras — nenhuma goiana, mas o episódio revela a volatilidade sanitária desse corredor comercial. Além disso, o país asiático impôs para dois mil e vinte e seis uma cota de um vírgula um milhão de toneladas de carne bovina brasileira isentas da sobretarifa de cinquenta e cinco por cento. O Brasil já está próximo desse limite, o que pode travar novos embarques a partir de junho.
+F: Os números do primeiro trimestre de 2026 são expressivos. Goiás exportou 511,6 milhões de dólares em carne bovina — crescimento de 32% sobre o mesmo período de 2025 — com 92,2 mil toneladas embarcadas. O preço médio da tonelada alcançou 5.545 dólares, 15,6% acima da média nacional. Estados Unidos e China são os principais destinos, respondendo por 33,7% e 20,6% das vendas, respectivamente.
 
-M: É um termômetro de risco para a *arrecadação* estadual no segundo semestre. Gestores do orçamento devem monitorar as projeções de exportação de carnes nas revisões da *Receita Corrente Líquida*.
+M: Mas existe um risco concreto que o setor acompanha com atenção. A China fixou para 2026 uma cota de salvaguarda de 1,1 milhão de toneladas para a carne brasileira — 500 mil toneladas abaixo do que foi praticado em 2025. A Abiec estima que as exportações nacionais possam recuar 10% no ano. Por outro lado, o analista Marcelo Penha, do *IFAG*, avalia que problemas sanitários internos da China com febre aftosa podem levar à revisão dessa cota.
 
-[PAUSA CURTA]
+F: E aqui entra o reflexo fiscal para Goiás. A carne bovina goiana responde por 79,1% do valor exportado pelo segmento de carnes no estado. Uma oscilação nessa pauta afeta diretamente o *ICMS* arrecadado no elo de saída da cadeia: abate, processamento e expedição. Gestores de receita precisam monitorar os embarques mensais como indicador antecedente da arrecadação.
 
-F: Bloco três — conformidade tributária e *ICMS*. Desde primeiro de maio de dois mil e vinte e seis, uma nova obrigação fiscal passou a valer para empresas goianas de médio porte: a integração obrigatória entre sistemas de pagamento eletrônico e emissão de documentos fiscais — a chamada Nota Fiscal eletrônica integrada. A fase atual abrange contribuintes com faturamento entre trezentos e sessenta mil e quatro vírgula oito milhões de reais anuais.
+[PAUSA]
 
-M: A lógica é simples: quando o cliente paga por cartão, Pix ou débito, a nota fiscal passa a ser emitida automaticamente no momento do registro do pagamento. O objetivo declarado pela Secretaria de Estado da Economia é aumentar a conformidade tributária, reduzir fraudes e ampliar a segurança das transações.
+M: *Bloco 4 — Infraestrutura estadual e contingenciamento federal.* A Goinfra avança com dois programas de apoio aos municípios do sudoeste goiano. O GMM garante conservação asfáltica e sinalização horizontal em vias urbanas sem custo para as prefeituras. O GME, mais recente, implanta bueiros de concreto armado nas estradas rurais, substituindo pontes de madeira e ampliando o escoamento da produção agropecuária.
 
-F: O cronograma é gradual. Supermercados e postos de grande porte já se adaptaram desde novembro de dois mil e vinte e cinco. A partir de primeiro de agosto de dois mil e vinte e seis, entram as pequenas empresas com faturamento de até trezentos e sessenta mil reais. Microempreendedores Individuais, os MEIs, estão dispensados da regra.
+F: Municípios como Caçu, Chapadão do Céu, Itarumã, Lagoa Santa e São Simão já são beneficiados. A atuação integrada dos programas fortalece a logística regional e tem impacto indireto na base do *ICMS*, ao facilitar o transporte de grãos, carnes e derivados no interior produtivo do estado.
 
-M: O impacto esperado na *arrecadação do ICMS* é positivo no médio prazo: quanto menor a janela de tempo entre o pagamento e a emissão do documento fiscal, menor a margem para sonegação. Para os gestores de orçamento, é um dado a ser monitorado nas projeções de *receita própria* da *LOA* e nas metas do *resultado primário*.
+M: E um alerta vindo de Brasília. O governo federal anunciou bloqueio adicional de 22,1 bilhões de reais no Orçamento da União de 2026 em gastos não obrigatórios. O decreto com os limites de *empenho* por ministério e órgão foi publicado com os detalhes de corte. Para Goiás, isso significa risco de atraso ou redução nas liberações de recursos de emendas parlamentares federais e transferências voluntárias para obras cofinanciadas, que representam parcela relevante dos investimentos municipais e estaduais.
 
-[PAUSA CURTA]
-
-F: Encerramos com um alerta de prazo para os contribuintes goianos. O prazo final da Declaração do *Imposto de Renda* de Pessoa Física dois mil e vinte e seis termina nesta sexta-feira, vinte e nove de maio. Em Goiás, a expectativa é de quase um vírgula cinco milhão de declarações — e até o início deste mês, apenas cinquenta e dois por cento havia sido entregue.
-
-M: Do ponto de vista fiscal, o prazo importa para o Estado por dois motivos. Primeiro: as restituições do *IRPF* compõem parte dos repasses federais que transitam pela economia dos contribuintes goianos — o primeiro lote é liberado exatamente no dia vinte e nove de maio. Segundo: a plena regularização da base contribuinte facilita o cruzamento de dados da Receita Federal com obrigações acessórias estaduais.
-
-F: A multa mínima para entrega em atraso é de cento e sessenta e cinco reais e setenta e quatro centavos, podendo chegar a vinte por cento do imposto devido. Em Goiás, mais de sessenta e cinco por cento das entregas já realizadas usaram a declaração pré-preenchida — modalidade que também confere prioridade na fila de restituição.
+F: A medida federal se soma ao cenário já pressionado da *LDO 2027*, que projetou déficit primário estadual de 334 milhões de reais. Qualquer redução nas transferências da União exige recalibração nas programações de *empenho* e *liquidação* das secretarias goianas que dependem desse cofinanciamento.
 
 [PAUSA]
 

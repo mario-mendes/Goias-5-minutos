@@ -3,80 +3,92 @@
 
 ---
 
-## 🔵 Bloco 1 — Fiscal | Alego Devolve R$ 550 Milhões ao Tesouro: Maior Repasse da História do Legislativo Goiano
+## 🔵 Bloco 1 — ICMS | Nota Fiscal Vinculada ao Pagamento Eletrônico: Médio Porte Entra no Sistema a partir de Maio
 
-Em 5 de maio de 2026, a Assembleia Legislativa de Goiás (Alego) formalizou a devolução de R$ 550 milhões ao Tesouro Estadual — a maior de sua história —, fruto das sobras orçamentárias dos **duodécimos** de 2025. O mecanismo, previsto na LRF, permite que recursos não utilizados na execução orçamentária do Legislativo retornem ao Executivo para aplicação estratégica.
+A partir de **1º de maio de 2026**, empresas de médio porte passaram a ser obrigadas, em Goiás, a integrar os pagamentos eletrônicos à emissão automática de NF-e ou NFC-e. A regra é estabelecida pela **Instrução Normativa nº 1.608/2025-GSE** da Secretaria da Economia.
 
-| Indicador | Valor |
-|---|---|
-| Total devolvido ao Tesouro (fase 1) | R$ 403 milhões |
-| Devolução prevista ainda em 2026 (fase 2) | R$ 150 milhões |
-| **Total do ciclo** | **~ R$ 550–700 milhões** |
-| Devolução em 2023 | R$ 13 milhões |
-| Devolução em 2024 | R$ 18 milhões |
-| Posição nacional (devolução 2025) | 2ª lugar (atrás do PR: R$ 620 mi) |
-
-**Rodovias prioritárias para aplicação dos recursos:**
-- Duplicação Goiânia–Nova Veneza
-- Duplicação Goiânia–Orizona (GO-010, trecho Vianópolis)
-- Duplicação Bela Vista de Goiás–Catalão
-- Duplicação Goiânia–Santo Antônio de Goiás (última saída da capital sem duplicação)
-
-> **Análise fiscal:** Do ponto de vista do *resultado primário*, os R$ 550 milhões retornam ao Tesouro mas são aplicados em **despesa de capital** (obras). Não reduzem diretamente o déficit corrente projetado de R$ 2,53 bilhões para 2026, mas ampliam a capacidade de **empenho** em investimentos sem pressionar o caixa operacional. O Presidente Bruno Peixoto também confirmou que a Alego ainda mantém mais de R$ 150 milhões em caixa para uma segunda devolução prevista para 2026.
-
----
-
-## 🟠 Bloco 2 — Agronegócio | JBS Mozarlândia Reabilitada pela China: Impacto na Arrecadação do ICMS Goiano
-
-No dia 20 de maio de 2026, a China reabilitou três frigoríficos brasileiros suspensos desde março de 2025, entre eles a **planta da JBS em Mozarlândia (GO)**, a maior processadora de carnes do mundo naquela unidade. A liberação foi registrada na plataforma chinesa CIFER com data de retomada em 19 de maio.
-
-| Dado | Valor |
-|---|---|
-| Suspensão da unidade JBS/Mozarlândia | Desde março de 2025 |
-| Retomada dos embarques (CIFER) | 19 de maio de 2026 |
-| Participação da China nas exportações goianas (mar/2026) | 51,3% do total |
-| Complexo carnes nas exportações de Goiás (mar/2026) | 19,1% |
-| Cota chinesa de carne brasileira sem sobretarifa em 2026 | 1,106 milhão de toneladas |
-| Volume já exportado ao 1º quadrimestre | 474.220 toneladas (+20,9% a/a) |
-| Sobretarifa acima da cota | 55% |
-
-**Risco paralelo:** Na mesma semana, a China suspendeu temporariamente outras três plantas brasileiras (JBS/Pontes e Lacerda-MT, PrimaFoods/Araguari-MG e Frialto/Matupá-MT) por irregularidades sanitárias. O Brasil se aproxima do limite da cota isenta, com possível travamento de embarques a partir de junho.
-
-> **Relevância orçamentária:** A reabilitação de Mozarlândia pressiona positivamente a base do **ICMS** goiano via operações de saída de carne e derivados. O complexo de carnes é o segundo maior item da pauta exportadora de Goiás (19,1% em março/2026). O risco do esgotamento da cota chinesa pode impactar as projeções de receita tributária no segundo semestre, devendo ser monitorado nas revisões da **RCL** e nas metas do **resultado primário** de 2026.
-
----
-
-## 🟡 Bloco 3 — ICMS e Conformidade Tributária | NF-e Integrada Obrigatória para Médias Empresas desde 1º de Maio
-
-A partir de **1º de maio de 2026**, entrou em vigor a obrigatoriedade da **emissão integrada de documentos fiscais** para empresas goianas de médio porte — faturamento entre R$ 360 mil e R$ 4,8 milhões por ano. A regra integra os sistemas de pagamento eletrônico (cartão, Pix, débito) ao emissor de NF-e/NFC-e, tornando a nota fiscal automática no momento do pagamento.
-
-| Fase | Segmento | Vigência |
+| Fase | Período de vigência | Empresas contempladas |
 |---|---|---|
-| 1ª | Supermercados, postos, farmácias (fat. > R$ 4,8 mi) | 1º nov/2025 |
-| 2ª | Demais atividades (fat. > R$ 4,8 mi) | 1º fev/2026 |
-| **3ª** | **Médio porte (R$ 360 mil–R$ 4,8 mi)** | **1º mai/2026** ✅ |
-| 4ª | Pequenas empresas (fat. até R$ 360 mil) | 1º ago/2026 |
-| Dispensados | MEIs | — |
+| 1ª fase | 1º/nov/2025 | Supermercados, hipermercados, postos e farmácias com faturamento > R$ 4,8 mi |
+| 2ª fase | 1º/fev/2026 | Demais atividades com faturamento > R$ 4,8 mi |
+| **3ª fase** | **1º/mai/2026** | **Empresas com receita entre R$ 360 mil e R$ 4,8 mi** |
+| 4ª fase | 1º/ago/2026 | Empresas com receita até R$ 360 mil |
+| Dispensados | — | MEIs e empresas abertas a partir de 2025 (prazo: ago/2026) |
 
-> **Impacto na arrecadação:** A integração reduz a janela entre o pagamento e a emissão fiscal, diminuindo a margem para sonegação do **ICMS**. O impacto na arrecadação tende a ser gradual e positivo, especialmente nas atividades de varejo e serviços. Para fins de **LOA** e **LDO**, o efeito deve ser considerado nas projeções de receita própria a partir do segundo semestre de 2026.
+**Como funciona:** Toda transação via cartão de crédito, débito, Pix ou instrumento do SPB deve estar automaticamente vinculada ao documento fiscal (NF-e modelo 55 ou NFC-e modelo 65). Quando o pagamento for posterior à emissão da nota, utiliza-se o **Evento de Conciliação Financeira (ECONF)**, previsto na Nota Técnica 2024.002. Maquininhas não integradas ao emissor fiscal ficam **expressamente proibidas**.
+
+> **Relevância fiscal:** A medida fecha brecha estrutural de evasão do *ICMS* no varejo sem aumento de alíquota, ampliando a base tributária a partir do cruzamento de dados entre fisco e operadoras de meios de pagamento.
 
 ---
 
-## 🟢 Bloco 4 — Transferências Federais | IRPF 2026: Prazo Final em 29/05 e Primeiro Lote de Restituição
+## 🟠 Bloco 2 — LOA 2026 | Folha de Pessoal em 56,4% do Orçamento e Déficit Previdenciário de R$ 5,6 bi
 
-O prazo da Declaração do **Imposto de Renda de Pessoa Física (IRPF) 2026** encerra nesta **sexta-feira, 29 de maio**. Em Goiás, a expectativa é de **1.467.949 declarações** — e até o início de maio, apenas 52% (cerca de 774 mil) havia sido entregue.
+O orçamento estadual de 2026 foi fixado em **R$ 53,4 bilhões**. A **folha de pessoal** permanece o maior componente, com impacto direto nos limites da LRF.
 
-| Indicador | Dado |
+| Componente | Valor (R$ bi) | % sobre LOA |
+|---|---|---|
+| Folha total (ativos + inativos + RPPS) | **29,4** | **56,4%** |
+| Servidores ativos — Poder Executivo | 14,8 | 27,7% |
+| Servidores inativos | 8,7 | 16,3% |
+| Déficit previdenciário (GoiásPrev) | 5,6 | 10,5% |
+| Custeio + investimentos (excl. folha) | ~18,5 | 34,6% |
+| Receita Corrente Líquida (RCL) estimada | **46,97** | — |
+| Emendas impositivas (2026) | 0,568 | 1,2% |
+
+**Atenção LRF:** Com as datas-base de 4,62% (Executivo) e 4,26% (demais poderes) entrando em vigência a partir de maio/2026, o percentual de *despesa com pessoal/RCL* tende a se aproximar do limite de alerta de **54%** (art. 19 e 20 da LRF). O contexto de déficit primário acumulado — R$ 2,53 bi revisados para 2026 e R$ 4,45 bi apurados em 2025 — torna o monitoramento mensal desta rubrica crítico.
+
+**Emendas impositivas:** Cada deputado estadual dispõe de R$ 13,85 milhões, com 70% obrigatoriamente destinados a saúde e educação. Esse é o espaço real de investimento discricionário sem pressionar o *resultado primário*.
+
+---
+
+## 🟡 Bloco 3 — Agronegócio | Bovinocultura Projeta R$ 23,7 bi em 2026 — e o Fator China Assombra
+
+A **bovinocultura** deve movimentar **R$ 23,7 bilhões** em Goiás em 2026 (+7,5% sobre 2025), conforme projeção do Ministério da Agricultura e Pecuária (Mapa). O setor representa **20,3% do VBP estadual** e **10% do VBP bovino nacional**.
+
+### Exportações de carne bovina goiana — 1º trimestre de 2026
+
+| Indicador | Valor | Variação |
+|---|---|---|
+| Receita exportada | US$ 511,6 milhões | +32% vs. 1T2025 |
+| Volume embarcado | 92,2 mil toneladas | +14,2% |
+| Preço médio/tonelada | US$ 5.545,96 | +15,6% (acima da média nacional) |
+| Carnes congeladas (% do valor) | 81,1% | — |
+| Arroba do boi gordo (mar/2026) | R$ 350,18 | +2,3% vs. fev |
+| Principais destinos | EUA (33,7%) e China (20,6%) | — |
+
+### Risco: Cota Chinesa 2026
+
+| Cenário | Dado |
 |---|---|
-| Expectativa total de declarações em Goiás | 1.467.949 |
-| Entregues até 11/05 | ~774 mil (52%) |
-| Prazo final | **29 de maio de 2026** |
-| 1º lote de restituição | 29 de maio de 2026 |
-| Declarações pré-preenchidas em Goiás | > 65% das entregas |
-| Multa mínima por atraso | R$ 165,74 |
-| Multa máxima | 20% do imposto devido |
+| Cota de salvaguarda da China (2026) | 1,1 mi de toneladas de carne brasileira |
+| Redução vs. 2025 | – 500 mil toneladas |
+| Impacto estimado (Abiec) | Queda de até 10% nas exportações nacionais |
+| Contraponto (IFAG/Faeg) | Problemas sanitários da China (febre aftosa) podem levar à revisão da cota |
 
-> **Relevância fiscal para Goiás:** As restituições do IRPF injetam recursos diretamente na economia dos contribuintes goianos, com efeito positivo sobre consumo e arrecadação de **ICMS** no mês seguinte. Do ponto de vista da administração tributária estadual, a entrega tempestiva das declarações federais também facilita o cruzamento de dados com obrigações acessórias estaduais (ECF, SPED, PGDAS).
+> **Reflexo fiscal:** A carne bovina responde por **79,1% do valor exportado** pelo segmento de carnes em Goiás. Oscilações nos embarques mensais são indicador antecedente da arrecadação do *ICMS* nas etapas de abate, processamento e expedição. Monitorar os dados mensais do AgroStat/ComexStat é tarefa essencial para a área de previsão de receita da Secretaria da Economia.
+
+---
+
+## 🟢 Bloco 4 — Infraestrutura Estadual e Contingenciamento Federal
+
+### Goinfra avança no sudoeste goiano
+
+A **Goinfra** intensifica dois programas de suporte municipal:
+
+| Programa | Foco | Benefício |
+|---|---|---|
+| GMM (Goiás Mais Municípios) | Conservação asfáltica e sinalização horizontal em vias urbanas | Sem custo para os cofres municipais |
+| GME (Goiás Mais Estradas) | Implantação de bueiros (OAC) em concreto armado na zona rural | Substituição de pontes de madeira; melhoria do escoamento do agro |
+
+Municípios do sudoeste já contemplados: Caçu, Chapadão do Céu, Itarumã, Lagoa Santa e São Simão. A atuação fortalece a logística de transporte de grãos, carnes e derivados, com efeito positivo sobre a base do *ICMS* regional.
+
+### Bloqueio no Orçamento Federal: Alerta para Transferências a Goiás
+
+O governo federal anunciou **bloqueio adicional de R$ 22,1 bilhões** em gastos não obrigatórios do Orçamento da União de 2026, com decreto publicado detalhando os limites de *empenho* por órgão. Para Goiás, os riscos são:
+
+- **Emendas parlamentares federais:** risco de atraso na liberação do caixa das emendas impositivas federais destinadas ao estado.
+- **Transferências voluntárias:** projetos com cofinanciamento federal (obras de saúde, educação, habitação e infraestrutura viária) podem ter cronogramas revistos.
+- **Impacto na programação de empenho estadual:** as secretarias que dependem de repasse federal para liquidar obras precisam recalibrar o fluxo de caixa previsto no *SIOFINet*.
 
 ---
 
@@ -84,10 +96,10 @@ O prazo da Declaração do **Imposto de Renda de Pessoa Física (IRPF) 2026** en
 
 | # | Tema | Impacto fiscal/orçamentário |
 |---|---|---|
-| 1 | Alego devolve R$ 550 mi ao Tesouro — maior da história | ✅ Positivo — reforço de caixa para investimentos em obras rodoviárias |
-| 2 | JBS Mozarlândia reabilitada pela China após 14 meses | ✅ Positivo — base ICMS/carnes; ⚠️ risco de cota esgotada em jun/26 |
-| 3 | NF-e integrada obrigatória para médias empresas (mai/2026) | ✅ Positivo — conformidade ICMS e redução de sonegação |
-| 4 | IR 2026: prazo 29/05 e 1º lote de restituição | ⚠️ Atenção — prazo fiscal federal com reflexo indireto na arrecadação estadual |
+| 1 | NF-e vinculada a pagamentos eletrônicos: médio porte entra em maio | ✅ Positivo — amplia base do *ICMS* sem aumento de alíquota |
+| 2 | Folha de pessoal = R$ 29,4 bi (56,4% da LOA); déficit previdenciário = R$ 5,6 bi | ⚠️ Alto — risco de aproximação ao limite LRF de 54%/RCL |
+| 3 | Bovinocultura: R$ 23,7 bi projetados; exportações +32% no 1T2026; risco da cota China | ⚠️ Monitorar — oscilação de embarques afeta arrecadação do *ICMS* |
+| 4 | Bloqueio federal de R$ 22,1 bi + Goinfra GMM/GME no sudoeste goiano | ⚠️ Médio — risco de atraso em transferências e emendas federais |
 
 ---
 
@@ -95,15 +107,16 @@ O prazo da Declaração do **Imposto de Renda de Pessoa Física (IRPF) 2026** en
 
 | Fonte | Link |
 |---|---|
-| Portal Alego — devolução R$ 550 mi ao Tesouro | https://portal.al.go.leg.br/noticias/164394/assembleia-faz-devolucao-historica-de-r-550-milhoes-ao-tesouro |
-| Portal 6 — rodovias a serem duplicadas com os R$ 550 mi | https://portal6.com.br/2026/05/05/confira-quais-rodovias-serao-duplicadas-em-goias-apos-devolucao-historica-de-r-550-milhoes-da-alego/ |
-| Tribuna do Planalto — Alego e R$ 550 mi | https://tribunadoplanalto.com.br/maior-devolucao-da-historia-alego-destina-r-550-milhoes-para-duplicacao-de-rodovias-em-goias/ |
-| Jornal Goiás em Foco — China reabilita JBS Mozarlândia | https://www.jornalgoiasemfoco.com.br/noticia/china-suspende-tres-frigorificos-brasileiros-apos-irregularidades |
-| Click Petróleo e Gás — JBS Mozarlândia reabilitada | https://en.clickpetroleoegas.com.br/china-releases-three-brazilian-meatpacking-plants-that-had-been-suspended-since-march-2025-to-resume-beef-shipments-including-the-jbs-unit-i-mhbb01/ |
-| AmdJus — reabilitação JBS/China | https://amdjus.com.br/china-autoriza-retomada-de-exportacoes-de-carne-bovina-de-tres-frigorificos-brasileiros/ |
-| Secretaria da Economia-GO — NF-e integrada | https://goias.gov.br/economia/economia-orienta-contribuintes-sobre-nova-forma-de-emissao-integrada-de-documentos-fiscais/ |
-| Tribuna do Planalto — IR 2026 prazo Goiás | https://tribunadoplanalto.com.br/imposto-de-renda-2026-prazo-termina-em-29-de-maio-e-quase-metade-dos-goianos-ainda-nao-enviou-a-declaracao/ |
-| O Popular — IR 2026 Goiás | https://opopular.com.br/economia/imposto-de-renda-2026-mais-da-metade-dos-goianos-ainda-n-o-declarou-1.3405526 |
+| Secretaria da Economia — NF-e vinculada a pagamentos | https://goias.gov.br/economia/economia-orienta-contribuintes-sobre-nova-forma-de-emissao-integrada-de-documentos-fiscais/ |
+| Agência Cora Coralina — NF-e pagamentos eletrônicos | https://agenciacoradenoticias.go.gov.br/172109-economia-orienta-sobre-nova-forma-de-emissao-integrada-de-documentos-fiscais |
+| Portal Alego — LOA 2026: R$ 53,4 bi | https://portal.al.go.leg.br/noticias/161727 |
+| Portal Alego — Audiência pública LOA 2026 / folha de pessoal | https://portal.al.go.leg.br/noticias/160050/orcamento-e-desempenho-fiscal |
+| Agência Cora Coralina — Bovinocultura R$ 23,7 bi | https://agenciacoradenoticias.go.gov.br/goias-deve-movimentar-r-237-bilhoes-com-bovinocultura-em-2026/ |
+| Jornal Opção — Bovinocultura Goiás projeção 2026 | https://www.jornalopcao.com.br/agronegocio/goias-projeta-alta-na-bovinocultura-com-faturamento-de-r-237-bilhoes-em-2026-820125/ |
+| Agrolink / FAEG-IFAG — Fator China e cota salvaguarda | https://www.agrolink.com.br/noticias/pecuaria-de-goias--fator-china-e-cenario-global-podem-impulsionar-exportacoes-recordes_513238.html |
+| CPG Click Petróleo e Gás — Carne bovina China 2026 e cota 1,1 mi t | https://clickpetroleoegas.com.br/carne-bovina-brasileira-bate-recorde-historico-na-china-em-2026-mas-nova-cota-com-tarifa-de-55-coloca-exportadores-em-corrida-contra-o-relogio-caes/ |
+| Portal POP News / Isso é Goiás — Goinfra GMM/GME sudoeste | https://www.poppnews.com.br/2026/05/o-governo-intensifica-as-iniciativas-de.html |
+| Goiás em Foco — Bloqueio federal R$ 22,1 bi LOA 2026 | https://www.jornalgoiasemfoco.com.br/noticia/governo-bloqueia-r-22-1-bi-do-orcamento-de-2026 |
 
 ---
 
