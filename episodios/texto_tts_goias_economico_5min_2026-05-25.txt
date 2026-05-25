@@ -1,0 +1,59 @@
+[VINHETA_IN]
+
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+
+[PAUSA]
+
+M: Segunda-feira, vinte e cinco de maio de dois mil e vinte e seis. Eu sou o âncora do programa, e estamos ao vivo com quatro temas que afetam diretamente o orçamento e a economia goiana. Começamos com um fato inédito na história do Poder Legislativo estadual.
+
+[PAUSA CURTA]
+
+F: *Duodécimo*, *resultado primário* e *infraestrutura* numa mesma notícia. No dia cinco de maio, a Assembleia Legislativa de Goiás realizou a maior devolução de recursos da sua história ao *Tesouro Estadual*: quinhentos e cinquenta milhões de reais. O valor, acumulado a partir das sobras orçamentárias dos *duodécimos* de dois mil e vinte e cinco, será destinado integralmente a obras de duplicação de rodovias estratégicas.
+
+M: Para quem trabalha com *resultado primário*, esse repasse tem peso. O *duodécimo* é o recurso que o Executivo transfere mensalmente ao Legislativo — equivalente a um doze avos do orçamento aprovado. Quando há economia na execução, o saldo pode voltar ao Tesouro. E foi exatamente isso que aconteceu aqui.
+
+F: As rodovias prioritárias anunciadas pelo governador Daniel Vilela são três: o eixo Goiânia–Nova Veneza, Goiânia–Orizona e Bela Vista de Goiás–Catalão. Além disso, o presidente Bruno Peixoto informou que a Alego ainda acumula mais cento e cinquenta milhões de reais em duodécimos economizados — o que pode elevar o volume total devolvido neste ciclo a cerca de setecentos milhões de reais.
+
+M: Em termos comparativos, vale registrar: em dois mil e vinte e três, a Casa devolveu treze milhões de reais. Em dois mil e vinte e quatro, dezoito milhões. O salto para quinhentos e cinquenta milhões é expressivo e coloca a Alego como segunda maior devolução legislativa nacional em dois mil e vinte e cinco, atrás apenas do Paraná.
+
+F: Do ponto de vista da *Lei de Responsabilidade Fiscal*, o mecanismo é virtuoso: os recursos retornam ao caixa do Estado, são incorporados ao *Tesouro* e entram no fluxo de *empenho* e *liquidação* dentro do planejamento orçamentário existente. Ainda assim, o impacto real sobre o *déficit primário* projetado para dois mil e vinte e seis — estimado em dois vírgula cinco bilhões de reais — é parcial, pois os recursos destinados a obras representam *despesa de capital*, não redução de déficit corrente.
+
+[PAUSA CURTA]
+
+M: Bloco dois — agronegócio e comércio exterior. Uma boa notícia para a cadeia de carnes goiana: a China reabilitou, no dia vinte de maio, o frigorífico da JBS em Mozarlândia, no noroeste de Goiás. A unidade, a maior processadora de carnes do mundo naquele município, estava suspensa dos embarques ao mercado chinês desde março de dois mil e vinte e cinco.
+
+F: A reabilitação foi confirmada pela Associação Brasileira das Indústrias Exportadoras de Carnes, a Abiec, após reunião entre autoridades dos dois países em Pequim. O registro na plataforma chinesa de importadores — o sistema CIFER — aponta a data de retomada como dezenove de maio.
+
+M: Para o orçamento público goiano, a relevância é direta. A China responde por mais de cinquenta e um por cento do destino das exportações goianas, segundo dados de março de dois mil e vinte e seis. O *complexo carnes* representa dezenove vírgula um por cento das exportações do estado — e Mozarlândia é o quinto maior município exportador de Goiás. A retomada dos embarques pressiona positivamente a base do *ICMS* sobre operações fiscais ligadas ao processamento e circulação de carnes.
+
+F: Atenção, porém, para um risco concomitante. Na mesma semana em que a JBS de Mozarlândia foi reabilitada, a China suspendeu outras três plantas brasileiras — nenhuma goiana, mas o episódio revela a volatilidade sanitária desse corredor comercial. Além disso, o país asiático impôs para dois mil e vinte e seis uma cota de um vírgula um milhão de toneladas de carne bovina brasileira isentas da sobretarifa de cinquenta e cinco por cento. O Brasil já está próximo desse limite, o que pode travar novos embarques a partir de junho.
+
+M: É um termômetro de risco para a *arrecadação* estadual no segundo semestre. Gestores do orçamento devem monitorar as projeções de exportação de carnes nas revisões da *Receita Corrente Líquida*.
+
+[PAUSA CURTA]
+
+F: Bloco três — conformidade tributária e *ICMS*. Desde primeiro de maio de dois mil e vinte e seis, uma nova obrigação fiscal passou a valer para empresas goianas de médio porte: a integração obrigatória entre sistemas de pagamento eletrônico e emissão de documentos fiscais — a chamada Nota Fiscal eletrônica integrada. A fase atual abrange contribuintes com faturamento entre trezentos e sessenta mil e quatro vírgula oito milhões de reais anuais.
+
+M: A lógica é simples: quando o cliente paga por cartão, Pix ou débito, a nota fiscal passa a ser emitida automaticamente no momento do registro do pagamento. O objetivo declarado pela Secretaria de Estado da Economia é aumentar a conformidade tributária, reduzir fraudes e ampliar a segurança das transações.
+
+F: O cronograma é gradual. Supermercados e postos de grande porte já se adaptaram desde novembro de dois mil e vinte e cinco. A partir de primeiro de agosto de dois mil e vinte e seis, entram as pequenas empresas com faturamento de até trezentos e sessenta mil reais. Microempreendedores Individuais, os MEIs, estão dispensados da regra.
+
+M: O impacto esperado na *arrecadação do ICMS* é positivo no médio prazo: quanto menor a janela de tempo entre o pagamento e a emissão do documento fiscal, menor a margem para sonegação. Para os gestores de orçamento, é um dado a ser monitorado nas projeções de *receita própria* da *LOA* e nas metas do *resultado primário*.
+
+[PAUSA CURTA]
+
+F: Encerramos com um alerta de prazo para os contribuintes goianos. O prazo final da Declaração do *Imposto de Renda* de Pessoa Física dois mil e vinte e seis termina nesta sexta-feira, vinte e nove de maio. Em Goiás, a expectativa é de quase um vírgula cinco milhão de declarações — e até o início deste mês, apenas cinquenta e dois por cento havia sido entregue.
+
+M: Do ponto de vista fiscal, o prazo importa para o Estado por dois motivos. Primeiro: as restituições do *IRPF* compõem parte dos repasses federais que transitam pela economia dos contribuintes goianos — o primeiro lote é liberado exatamente no dia vinte e nove de maio. Segundo: a plena regularização da base contribuinte facilita o cruzamento de dados da Receita Federal com obrigações acessórias estaduais.
+
+F: A multa mínima para entrega em atraso é de cento e sessenta e cinco reais e setenta e quatro centavos, podendo chegar a vinte por cento do imposto devido. Em Goiás, mais de sessenta e cinco por cento das entregas já realizadas usaram a declaração pré-preenchida — modalidade que também confere prioridade na fila de restituição.
+
+[PAUSA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+
+[PAUSA CURTA]
+
+[VINHETA_OUT]
