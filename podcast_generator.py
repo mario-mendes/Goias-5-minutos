@@ -290,11 +290,14 @@ pontos de milhar (ex: PROIBIDO "1.234.567.890"). Percentuais podem ficar \
 como "3,5%" ou "três vírgula cinco por cento".
 • Alternar M: e F: naturalmente — nunca duas falas da mesma voz sem necessidade
 • Termos fiscais com *asteriscos* (ex: *resultado primário*, *ICMS*, *empenho*)
-• Duração OBRIGATÓRIA: entre 650 e 780 palavras faladas (M+F juntos). \
-  Nem mais, nem menos — o programa tem exatamente cinco minutos. \
-  Se faltar pauta local, complemente com impactos federais em Goiás (FPE, FUNDEB, \
-  emendas parlamentares, câmbio e commodities do agro, decisões do STF ou TCU \
-  com reflexo no estado). NUNCA entregue abaixo de 620 ou acima de 800 palavras.
+• ⚠️ LIMITE DE PALAVRAS — REGRA MAIS IMPORTANTE:
+  Conte as palavras de CADA fala M: e F: enquanto escreve.
+  PARE quando o total acumulado atingir 720 palavras.
+  O programa dura EXATAMENTE 5 minutos — 720 palavras ≈ 5min no TTS.
+  Acima de 780 palavras o episódio ultrapassa 5 minutos e será REJEITADO.
+  Abaixo de 620 palavras também é inaceitável.
+  NUNCA use "blocos" numerados nem sub-seções — cada pauta tem no máximo \
+  2 falas (uma M e uma F) antes de ir para o próximo tema.
 
 Marcadores TTS disponíveis:
   [VINHETA_IN]   → acorde de abertura
@@ -306,8 +309,9 @@ Marcadores TTS disponíveis:
   *palavra*      → ênfase
 
 ─── ARQUIVO MARKDOWN (.md) ──────────────
-Versão legível com: título, data, subtítulos por bloco, tabelas onde couber, \
-e seção "Fontes" com links reais.
+Versão legível com: título (# nível 1), data, e UMA seção ## por pauta \
+(ex: "## ICMS bate recorde em abril"). Use no máximo nível ##, \
+sem ### ou ####. Tabelas onde couber. Seção "## Fontes" com links reais ao final.
 
 ══════════════════════════════════════════
 FORMATO DE SAÍDA — OBRIGATÓRIO
@@ -688,19 +692,28 @@ def _md_para_whatsapp(md_content: str, hoje_str: str, duracao_s: float) -> str:
     dur_min = int(duracao_s // 60)
     dur_seg = int(duracao_s % 60)
 
-    # Extrai títulos dos blocos de pauta (## ou ###) — máx 4
+    # Extrai apenas headers ## de nível 2 (pautas principais, não sub-seções)
+    # Ignora cabeçalhos de metadados (edição, data, fontes, dias da semana)
+    _ignorar = re.compile(
+        r"(Edição|Fontes|Sábado|Domingo|Segunda|Terça|Quarta|Quinta|Sexta"
+        r"|nº\s*\d|^\d{1,2}\s*/)", re.IGNORECASE
+    )
     pautas = []
     for linha in md_content.splitlines():
-        if re.match(r"^#{2,3} ", linha) and not re.match(
-            r"^## (Fontes|Sábado|Domingo|Segunda|Terça|Quarta|Quinta|Sexta)", linha
-        ):
-            titulo = re.sub(r"^#{2,3} ", "", linha).strip()
-            if titulo and len(titulo) > 4:
-                pautas.append(titulo)
+        if not re.match(r"^## ", linha):   # só ## exato, ignora ### e ####
+            continue
+        titulo = re.sub(r"^## ", "", linha).strip()
+        if _ignorar.search(titulo):
+            continue
+        # Remove prefixos de bloco: "🔵 Bloco 1 — ", "1. ", emojis iniciais
+        titulo = re.sub(r"^[🔵🟢🔴⚫⚪🟡🟠🟣🎙️\s]*Bloco\s*\d+\s*[–—-]\s*", "", titulo)
+        titulo = re.sub(r"^\d+\.\s*", "", titulo).strip()
+        if titulo and len(titulo) > 6:
+            pautas.append(titulo)
         if len(pautas) == 4:
             break
 
-    itens = "\n".join(f"▪️ {p}" for p in pautas)
+    itens = "\n".join(f"▪️ {p}" for p in pautas) if pautas else "▪️ Confira no áudio"
 
     return (
         f"🎙️ *Goiás Econômico em 5 Minutos*\n"
@@ -774,9 +787,24 @@ def main() -> None:
     # ── 2. Buscar manchetes d'O Popular ───────────────────────────────────────
     manchetes_opopular = buscar_opopular()
 
-    # ── 3. Gerar roteiro via Claude ────────────────────────────────────────────
-    txt_content, md_content = gerar_roteiro(episodio_anterior, hoje_str,
-                                            manchetes_opopular)
+    # ── 3. Gerar roteiro via Claude (com re-tentativa se muito longo) ──────────
+    for tentativa_roteiro in range(1, 3):
+        txt_content, md_content = gerar_roteiro(episodio_anterior, hoje_str,
+                                                manchetes_opopular)
+        _palavras_check = len(" ".join(
+            l[2:] for l in txt_content.splitlines() if l.startswith(("M:", "F:"))
+        ).split())
+        if _palavras_check <= 800:
+            break
+        print(f"[AVISO] Roteiro longo ({_palavras_check} palavras) na tentativa "
+              f"{tentativa_roteiro}/2 — regenerando com instrução reforçada...")
+        # Injeta aviso no contexto para a próxima tentativa
+        manchetes_opopular = (
+            f"⚠️ ATENÇÃO: sua tentativa anterior teve {_palavras_check} palavras "
+            f"(máximo 780). Gere um roteiro MAIS CURTO desta vez. "
+            f"Corte detalhes, mantenha só os fatos essenciais.\n\n"
+            + manchetes_opopular
+        )
 
     falas = sum(1 for l in txt_content.splitlines() if l.startswith(("M:", "F:")))
     palavras = len(" ".join(
