@@ -1,0 +1,59 @@
+[VINHETA_IN]
+
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+
+[PAUSA CURTA]
+
+M: É terça-feira, 26 de maio de 2026, e hoje temos quatro pautas diretas para quem trabalha com orçamento, tributos e agronegócio em Goiás. Vamos lá.
+
+[PAUSA CURTA]
+
+F: Bloco 1 — *Alego* em ação. A Assembleia Legislativa do Estado de Goiás realizou hoje sessão extraordinária híbrida, a primeira de caráter deliberativo de 2026, conduzida pelo presidente Bruno Peixoto. A pauta foi intensa e trouxe um destaque fiscal de peso: os deputados deram o *aval final* ao projeto de lei número 2294 barra 26, que amplia o prazo de refinanciamento de dívidas relativas a *ICMS*, *IPVA* e *ITCD*.
+
+M: Certo. A iniciativa é do governador Ronaldo Caiado e altera a Lei Estadual número 23.983 de 2025. Pela regra anterior, só entravam no programa os débitos cujo fato gerador tivesse ocorrido até 31 de março de 2025. Com a aprovação de hoje, esse prazo salta para 30 de setembro de 2025 — seis meses a mais de alcance. Na prática, um número maior de contribuintes poderá aderir às condições facilitadas do *Negocie Já II*.
+
+F: A justificativa enviada pelo Executivo é clara: juros elevados, inflação persistente, impacto negativo sobre cadeias exportadoras e aumento de recuperações judiciais ao longo de 2025 criaram um descompasso com a data de início do programa, em 1º de fevereiro de 2026. A mudança também elimina a exclusão automática de créditos com acordo rescindido no *Quita Goiás*, dando ao contribuinte a liberdade de escolher o regime que melhor se encaixa na sua situação.
+
+M: Para quem está na área de *recuperação de crédito* da Secretaria da Economia, anotem: a carteira de parcelamentos ativos já reúne 918 mil parcelas, com *3 bilhões e 250 milhões de reais* em débitos parcelados. Só em maio de 2026 vencem 38,3 mil parcelas, totalizando *64 milhões e 500 mil reais*. O pagamento deveria ter ocorrido ontem, 25. Contribuintes inadimplentes em três parcelas consecutivas ou não perdem os benefícios da lei de anistia. Monitorar a inadimplência desse lote é tarefa urgente.
+
+[PAUSA CURTA]
+
+F: Bloco 2 — *IRPF 2026*: reta final e impacto sobre o fisco estadual. O prazo de entrega da Declaração do Imposto de Renda da Pessoa Física 2026 encerra na próxima sexta-feira, dia 29 de maio. Em Goiás, a expectativa é de 1 milhão e 500 mil declarações, mas até a última semana apenas cerca de 936 mil tinham sido transmitidas — o que significa que mais de 560 mil contribuintes goianos ainda não declararam.
+
+M: O risco para quem perder o prazo é concreto: multa mínima de *165 reais e 74 centavos*, podendo chegar a até 20% do imposto devido, mais juros de 1% ao mês. Além disso, o CPF fica irregular, o que trava financiamentos, emissão de passaporte, participação em concursos públicos e operações bancárias.
+
+F: Do ponto de vista do *resultado primário* estadual, a relevância aqui é indireta mas real: a Receita Federal concentra o primeiro lote de *restituição* também no dia 29 de maio. Em Goiás, 67,8% das declarações já enviadas têm imposto a restituir — o que significa saída de caixa federal justamente quando o estado depende do fluxo do *FPE* e das transferências correntes. Acompanhar o volume de declarações entregues nos últimos dias é um indicador antecedente do comportamento da base tributária local.
+
+M: Uma nota positiva: mais de 65% dos contribuintes goianos já usaram a declaração pré-preenchida, o que tende a reduzir inconsistências e agilizar os lotes de restituição. A orientação do Conselho Regional de Contabilidade de Goiás é não deixar para a última hora — o sistema da Receita Federal costuma ficar congestionado nessa janela final.
+
+[PAUSA CURTA]
+
+F: Bloco 3 — *Agronegócio*: safra histórica e exportações em alta. Goiás deve alcançar a segunda maior colheita de grãos da história na safra 2025/26, segundo o quinto boletim de acompanhamento da Conab. O estado se mantém entre os principais produtores do país em soja, milho, girassol e sorgo.
+
+M: Os números são expressivos. No primeiro trimestre de 2026, as exportações brasileiras de soja cresceram 5,92% em relação ao mesmo período de 2025. Milho, então, saltou 15,25% no mesmo comparativo. Em abril, o Brasil bateu recorde de embarque mensal de soja: *16 milhões e 100 mil toneladas* — o maior da história. Goiás contribui diretamente com esse resultado, pois o *complexo soja* responde sozinho por 46,55% de toda a pauta exportadora estadual.
+
+F: No milho, Goiás respondeu por 11,7% do volume exportado pelo Brasil em 2025. E o desempenho acumulado de 2026 já mostra um superávit comercial de *2 bilhões e 300 milhões de dólares* para o estado. Rio Verde lidera as exportações municipais, seguida por Jataí, Montividiu, Mozarlândia e Palmeiras de Goiás.
+
+M: A tradução fiscal desse cenário é direta: maiores volumes exportados significam mais *ICMS* nas etapas de processamento, armazenagem, beneficiamento e transporte. A equipe de previsão de receita da Secretaria da Economia deve incorporar esses dados na projeção mensal de *arrecadação*. Atenção especial ao câmbio: a valorização recente do real reduz marginalmente a receita em reais gerada pelos contratos de exportação, o que pode moderar o efeito positivo sobre o *ICMS* do agro.
+
+F: Um sinal de alerta também vem da geopolítica: as tensões no Estreito de Ormuz aumentam a incerteza no transporte marítimo global, o que pressiona fretes e pode reduzir margens dos exportadores brasileiros nas próximas semanas. Esse é um fator externo a monitorar na série mensal do ComexStat.
+
+[PAUSA CURTA]
+
+F: Bloco 4 — *Renúncia fiscal* e crédito outorgado de *ICMS* para biometano. Ainda no campo da política tributária, vale retomar uma medida já em vigor: a concessão de crédito outorgado de *ICMS* equivalente a 60% do investimento para instalação de infraestrutura de abastecimento de biometano e gás natural veicular em postos goianos, regulamentada pela Instrução Normativa nº 001 de 2026.
+
+M: A medida é relevante porque abre uma nova frente de *renúncia de receita* vinculada à agenda de transição energética. Cada posto que recebe o benefício tem prazo de 18 meses para concluir as obras. A Secretaria da Economia é responsável por emitir o Termo de Acordo de Regime Especial — o *TARE* — e o controle do volume de biometano comercializado é obrigatório a cada semestre. Do ponto de vista da *LOA*, é um gasto tributário emergente que precisa ser quantificado na próxima estimativa de *renúncia de receita* do estado.
+
+F: A combinação entre crescimento da produção de etanol de milho — que saltou 18 vezes nos últimos sete anos e hoje consome mais de 17 milhões de toneladas do grão — e o crédito outorgado para biometano sinaliza que Goiás está montando uma posição estratégica na bioenergia. Isso tem efeito sobre a base do *ICMS* energético nos próximos anos.
+
+[PAUSA CURTA]
+
+M: Resumindo o dia: a Alego aprovou a ampliação do prazo do *Negocie Já II*, com impacto positivo na recuperação de crédito. Vencem hoje 64 milhões e 500 mil reais em parcelas do programa. O prazo do *IRPF* encerra em três dias, com mais de 560 mil goianos ainda não declarados. A safra 2025/26 projeta recorde histórico, com superávit comercial de 2,3 bilhões de dólares e reflexo direto sobre a arrecadação do *ICMS*. E a política de crédito outorgado para biometano inaugura nova frente de *renúncia fiscal* a ser monitorada.
+
+M: Este foi o Goiás Econômico em cinco minutos.
+
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+
+[PAUSA CURTA]
+
+[VINHETA_OUT]
