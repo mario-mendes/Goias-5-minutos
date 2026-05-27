@@ -1,0 +1,23 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Quarta-feira, vinte e sete de maio de dois mil e vinte e seis. Abrimos o episódio de hoje com uma pauta de peso para o planejamento orçamentário: a *LDO* de dois mil e vinte e sete, enviada pelo governador Daniel Vilela à *Alego*, projeta um déficit de trezentos e quarenta e sete vírgula um milhões de reais no próximo ano — o que consolidaria o terceiro ano consecutivo de desequilíbrio fiscal no estado. Mas o dado que mais acende o sinal amarelo está na revisão para dois mil e vinte e seis: o que deveria ser um ano de equilíbrio fiscal agora projeta um rombo de dois vírgula cinco bilhões de reais.
+[PAUSA CURTA]
+F: Exato. Em dois mil e vinte e cinco, o estado encerrou com um *déficit primário* de quatro vírgula quarenta e cinco bilhões de reais, justificado pelo governo como investimento intencional — as despesas de capital atingiram cinco vírgula seis bilhões naquele exercício. Para dois mil e vinte e sete, a projeção mostra despesa primária de quarenta e sete vírgula seis bilhões frente a uma receita de quarenta e sete vírgula três bilhões — margem estreitíssima. O texto da *LDO* ainda aguarda início formal de tramitação na Alego, que tem prazo regimental até trinta de junho para votar a matéria.
+[PAUSA CURTA]
+M: Atenção para um ponto técnico fundamental: o próprio governo reconhece no projeto que o *Manual de Demonstrativos Fiscais* não computa o superávit financeiro de anos anteriores, o que, segundo a Secretaria da Economia, pressiona artificialmente o *resultado primário*. A defesa oficial é que o uso responsável da poupança acumulada gera efeito negativo no indicador sem traduzir perda real de equilíbrio. Para a equipe de orçamento, isso significa monitorar, em paralelo ao *resultado primário*, a evolução do caixa líquido e o estoque de disponibilidade financeira do estado.
+[PAUSA CURTA]
+F: Passando ao segundo tema: hoje é o último dia para entregar a declaração do *IRPF* dois mil e vinte e seis. O prazo encerra às vinte e três horas e cinquenta e nove minutos. Até o início de maio, Goiás havia recebido cerca de setecentas e setenta e quatro mil declarações das um vírgula quarenta e sete milhão esperadas — ou seja, pouco mais da metade. Há espaço para congestionamento no sistema da Receita Federal ao longo do dia de hoje.
+[PAUSA CURTA]
+M: Dois alertas práticos. Primeiro: quem perde o prazo recebe multa mínima de cento e sessenta e cinco reais e setenta e quatro centavos, podendo chegar a vinte por cento do imposto devido. Segundo: o *CPF* fica com situação de omisso, criando restrições para financiamentos, emissão de passaporte e participação em concursos públicos. Em Goiás, setenta e um vírgula quatro por cento das declarações já entregues têm imposto a restituir — o primeiro lote sai hoje mesmo, para quem enviou dentro do prazo com prioridade legal.
+[PAUSA CURTA]
+F: Terceiro tema, direto da política tributária do estado: desde o primeiro de maio, as empresas de médio porte goianas com faturamento entre trezentos e sessenta mil e quatro vírgula oito milhões de reais são obrigadas a integrar seus sistemas de pagamento eletrônico — cartão, *PIX*, débito — ao emissor de nota fiscal eletrônica, seja *NF-e* ou *NFC-e*. A regra foi estabelecida pela Instrução Normativa 1608 de dois mil e vinte e cinco, da Secretaria da Economia. A próxima fase entra em vigor em primeiro de agosto e abrange as pequenas empresas com receita até trezentos e sessenta mil. *MEIs* estão dispensados.
+[PAUSA CURTA]
+M: Do ponto de vista do controle tributário, a medida elimina a possibilidade de venda sem emissão de documento fiscal, pois o pagamento eletrônico aciona automaticamente a nota. Essa integração tende a aumentar a base de *ICMS* declarado e reduzir a sonegação no varejo. Para o modelo de previsão de receita, a equipe deve acompanhar o impacto na arrecadação de junho — primeiro mês cheio com as médias empresas dentro do sistema — e comparar com o mesmo período de dois mil e vinte e cinco.
+[PAUSA CURTA]
+F: Encerrando, na *Alego*: a agenda desta quarta inclui sessão ordinária com votação da Ordem do Dia, audiência pública sobre o *Plano Estadual de Educação* — que tem reflexo direto nos mínimos constitucionais de vinte e cinco por cento em educação — e sessão solene de entrega do Certificado do Mérito Legislativo. Não há votação fiscal extraordinária prevista para hoje, mas o ambiente parlamentar segue aquecido com a *LDO* dois mil e vinte e sete aguardando leitura formal em plenário nos próximos dias.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
