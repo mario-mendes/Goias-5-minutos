@@ -2,7 +2,7 @@ name: Goias Economico em 5 Minutos
 
 on:
   schedule:
-    - cron: "30 9 * * *"
+    - cron: "30 6 * * *"
   workflow_dispatch:
 
 permissions:
