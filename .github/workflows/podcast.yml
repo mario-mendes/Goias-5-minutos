@@ -1,8 +1,8 @@
 name: Goias Economico em 5 Minutos
 
 on:
-  schedule:
-    - cron: "30 6 * * *"
+  # schedule (pausado):
+  #   - cron: "30 9 * * *"
   workflow_dispatch:
 
 permissions:
