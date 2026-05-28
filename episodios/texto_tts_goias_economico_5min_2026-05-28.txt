@@ -1,0 +1,22 @@
+[VINHETA_IN]
+[PAUSA]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Quinta-feira, 28 de maio de 2026. Hoje temos três temas que se conectam: o impacto da *folha de pessoal* no equilíbrio fiscal, a recuperação de receita via parcelamento de tributos, e um novo marco logístico para o *agronegócio* goiano. Vamos lá.
+[PAUSA CURTA]
+M: Primeiro tema: *folha de pessoal* e *LRF*. O reajuste de 4,26% para os servidores do Executivo estadual — equivalente ao *IPCA* de 2025 — foi sancionado pelo governador Daniel Vilela e entra em vigor na folha de maio de 2026. O impacto financeiro estimado pela Secretaria de Administração é de 356,8 milhões de reais a partir deste mês, com custo mensal de 44,6 milhões. Para 2027 e 2028, a previsão anual sobe para 535,2 milhões de reais.
+F: E como isso se encaixa no cenário fiscal? O governo argumenta que o reajuste foi incluído na projeção de despesas com pessoal para os próximos exercícios e que a Secretaria da Economia atestou conformidade com a *Lei de Responsabilidade Fiscal* e com a *LDO* 2026. Mas atenção: como noticiamos ontem, o *resultado primário* projetado para 2026 já está em menos 2,53 bilhões. O crescimento da folha é exatamente a variável que a equipe de orçamento precisa monitorar mês a mês no *SIAFEM*, cruzando com a *Receita Corrente Líquida* para verificar a aderência ao teto de pessoal da *LRF*.
+[PAUSA CURTA]
+M: Segundo tema: recuperação de receita. A Superintendência de Recuperação de Crédito da Secretaria da Economia alertou nesta semana para o vencimento das parcelas de maio do programa *Negocie Já II*. São 38,3 mil parcelas, somando 64,5 milhões de reais, com 26,4 mil contribuintes cadastrados. A carteira total de créditos parcelados do Estado reúne cerca de 918 mil parcelas ativas, correspondentes a 3,25 bilhões de reais em débitos de *ICMS*, *IPVA* e *ITCD*.
+F: O dado é relevante para a arrecadação de curto prazo. Desde o lançamento do Negocie Já II, 24,9 mil contribuintes foram atendidos, com 33 mil parcelamentos formalizados e volume total negociado de 1,49 bilhão de reais. A regra é clara: três parcelas inadimplentes, consecutivas ou não, cancelam o acordo e o contribuinte perde todos os descontos de multa obtidos. Para quem trabalha com *empenho* e fluxo de caixa do Tesouro, este é um dos indicadores de arrecadação não tributária a observar até o fechamento de maio.
+[PAUSA CURTA]
+M: Terceiro tema: o *agronegócio* goiano ganha um novo corredor de exportação. A Rumo e a Olfar iniciaram o comissionamento operacional do terminal rodoferroviário de Porangatu, no norte de Goiás. A estrutura está conectada à BR-153 e à Malha Central ferroviária, com destino ao Porto de Santos. A capacidade é de 1,5 milhão de toneladas de grãos por ano e carga e descarga de até 1.000 toneladas por hora. O terminal já tem volume contratado de 3 mil toneladas diárias de farelo de soja.
+F: O impacto fiscal indireto é relevante. Em 2025, a Rumo movimentou 5,7 milhões de toneladas de grãos em Goiás e respondeu por 28% das exportações estaduais. Com o novo terminal integrando o norte goiano e o sul do Tocantins ao corredor Santos, a expectativa é de ampliação da base exportadora, o que sustenta a arrecadação de *ICMS* nas etapas internas da cadeia — esmagamento, transporte, insumos — e fortalece o superávit da balança comercial goiana, que em 2025 foi superior a 8 bilhões de dólares.
+[PAUSA CURTA]
+M: Quarto tema: *Alego* hoje. A sessão ordinária desta quinta-feira ocorre no Palácio Maguito Vilela a partir das 15 horas. Em desdobramento ao que noticiamos ontem, a *LDO* 2027 ainda aguarda leitura formal em plenário — o prazo regimental para aprovação segue sendo 30 de junho. Não há votação fiscal extraordinária confirmada para hoje na pauta prévia. A sessão também conta com uma solenidade em homenagem a mulheres empreendedoras, iniciativa da deputada Dra. Zeli.
+F: Vale lembrar que o prazo do *IRPF* 2026, que encerramos ontem às 23h59, já passou. Quem não declarou está sujeito à multa mínima de 165,74 reais. A Receita Federal paga hoje o primeiro lote de restituições — contribuintes goianos que entregaram a declaração sem pendências e com prioridade legal podem verificar o crédito diretamente no aplicativo Meu Imposto de Renda.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
