@@ -743,8 +743,12 @@ def enviar_whatsapp(texto: str, audio_url: str) -> None:
         req  = urllib.request.Request(
             f"{base_url}/{endpoint}", data=data, headers=headers, method="POST"
         )
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read())
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            corpo = e.read().decode("utf-8", errors="replace")
+            raise RuntimeError(f"HTTP {e.code} {e.reason} — {corpo}") from e
 
     print("[WPP] Enviando resumo em texto...")
     r = _post("messages/text", {
