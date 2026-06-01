@@ -66,9 +66,7 @@ jobs:
 
       - name: Enviar resumo e audio ao WhatsApp
         env:
-          EVOLUTION_API_URL:  ${{ secrets.EVOLUTION_API_URL }}
-          EVOLUTION_API_KEY:  ${{ secrets.EVOLUTION_API_KEY }}
-          EVOLUTION_INSTANCE: ${{ secrets.EVOLUTION_INSTANCE }}
+          WHAPI_TOKEN:        ${{ secrets.WHAPI_TOKEN }}
           WHATSAPP_GROUP_ID: ${{ secrets.WHATSAPP_GROUP_ID }}
         run: python podcast_generator.py --whatsapp
 
