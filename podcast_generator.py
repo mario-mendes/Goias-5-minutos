@@ -787,13 +787,15 @@ def main() -> None:
     prev_md = EPISODIOS_DIR / f"goias_economico_5min_{ontem_str}.md"
     if prev_md.exists():
         print(f"[DED] ✅ Episódio anterior encontrado: {prev_md.name}")
-        episodio_anterior = prev_md.read_text(encoding="utf-8")
+        texto_anterior = prev_md.read_text(encoding="utf-8")
+        # Limita a 3000 chars para não estourar o rate limit de tokens
+        episodio_anterior = texto_anterior[:3000] + ("..." if len(texto_anterior) > 3000 else "")
     else:
         print(f"[DED] ℹ️  Episódio anterior não encontrado ({prev_md.name}) — sem deduplicação")
         episodio_anterior = ""
 
     # ── 2. Buscar manchetes d'O Popular ───────────────────────────────────────
-    manchetes_opopular = buscar_opopular()
+    manchetes_opopular = buscar_opopular(max_artigos=5)
 
     # ── 3. Gerar roteiro via Claude (com re-tentativa se muito longo) ──────────
     for tentativa_roteiro in range(1, 3):
@@ -805,8 +807,8 @@ def main() -> None:
         if _palavras_check <= 800:
             break
         print(f"[AVISO] Roteiro longo ({_palavras_check} palavras) na tentativa "
-              f"{tentativa_roteiro}/2 — aguardando 65s para evitar rate limit...")
-        time.sleep(65)
+              f"{tentativa_roteiro}/2 — aguardando 120s para evitar rate limit...")
+        time.sleep(120)
         print("[CLA] Regenerando com instrução reforçada...")
         # Injeta aviso no contexto para a próxima tentativa
         manchetes_opopular = (
