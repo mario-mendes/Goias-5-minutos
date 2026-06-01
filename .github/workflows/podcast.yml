@@ -2,7 +2,7 @@ name: Goias Economico em 5 Minutos
 
 on:
   schedule:
-    - cron: "30 9 * * *"
+    - cron: "45 9 * * *"
   workflow_dispatch:
     inputs:
       apenas_whatsapp:

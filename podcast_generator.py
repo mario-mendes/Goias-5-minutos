@@ -239,34 +239,32 @@ ser DESCARTADA. Se ainda relevante, trate como desdobramento explícito \
 ("Em desdobramento ao que noticiamos ontem...").
 
 ══════════════════════════════════════════
-MANCHETES D'O POPULAR (maior jornal de Goiás)
+MANCHETES D'O POPULAR — FONTE PRIORITÁRIA
 ══════════════════════════════════════════
-As manchetes abaixo foram coletadas automaticamente via RSS. Use-as como ponto \
-de partida prioritário: se um título for relevante para economia/política de Goiás, \
-aprofunde com web_search buscando exatamente aquele título no Google \
-(ex: "site:opopular.com.br <título>") para obter mais detalhes.
+O Popular é o maior jornal de Goiás. As manchetes abaixo foram coletadas via RSS \
+e devem ser tratadas como fonte primária. Regras:
+
+1. Para cada manchete relevante (economia, fiscal, política, agro), USE DIRETAMENTE \
+   o conteúdo já fornecido — NÃO faça web_search adicional para essas pautas.
+2. Só use web_search para temas importantes NÃO cobertos pelo RSS do O Popular.
+3. Máximo {max_buscas} buscas web no total — use-as com critério.
 
 {manchetes_opopular}
 
 ══════════════════════════════════════════
-PASSO 1 — PESQUISAR NOTÍCIAS DAS ÚLTIMAS 24H
+PASSO 1 — COMPLEMENTAR COM WEB_SEARCH (somente se necessário)
 ══════════════════════════════════════════
-Use a ferramenta web_search para realizar AO MENOS 6 buscas. Inclua obrigatoriamente:
-- Uma busca "site:opopular.com.br Goiás economia {hoje_br}" para complementar o RSS
-- "Goiás ICMS arrecadação {hoje_br} 2026"
-- "Assembleia Legislativa Goiás sessão votação {hoje_br} 2026"
-- "Goiás investimento obra decreto {hoje_br} 2026"
-- "Goiás agronegócio exportação {hoje_br} 2026"
-- "Secretaria Economia Goiás nota decreto {hoje_br} 2026"
+Se após analisar o RSS do O Popular ainda faltarem pautas para completar o episódio, \
+use web_search com foco em:
+- "Assembleia Legislativa Goiás sessão {hoje_br} 2026"
+- "Secretaria Economia Goiás decreto {hoje_br} 2026"
+- Impactos federais em Goiás (FPE, FUNDEB, câmbio, commodities, emendas)
 
-Fontes prioritárias (em ordem): O Popular (opopular.com.br), Jornal Opção, \
-Portal da Alego (portal.al.go.leg.br), Portal 6, Mais Goiás, Goinfra, STG News, \
-Secretaria da Economia (goias.gov.br/economia), Agência Cora Coralina, \
-G1 Goiás, Diário de Aparecida.
+Fontes aceitas: Jornal Opção, Portal da Alego, Portal 6, Mais Goiás, \
+Goinfra, STG News, goias.gov.br/economia, Agência Cora Coralina, G1 Goiás.
 
 FILTRO DE FRESCOR: só use notícias das últimas 24h que NÃO estejam nos temas \
-cobertos ontem. Se sobrar menos de 3 pautas frescas, busque impactos federais em \
-Goiás (transferências, FUNDEB, câmbio, commodities, emendas).
+cobertos ontem.
 
 ══════════════════════════════════════════
 PASSO 2 — GERAR OS DOIS ARQUIVOS
@@ -346,6 +344,7 @@ def gerar_roteiro(episodio_anterior: str, hoje: str,
         hoje_br=hoje_br,
         episodio_anterior=episodio_anterior or "(sem episódio anterior)",
         manchetes_opopular=manchetes_opopular or "(não disponível — use web_search)",
+        max_buscas=4,
     )
 
     messages = [{"role": "user", "content": prompt}]
@@ -360,7 +359,7 @@ def gerar_roteiro(episodio_anterior: str, hoje: str,
             tools=[{
                 "type": "web_search_20250305",
                 "name": "web_search",
-                "max_uses": 6,
+                "max_uses": 4,
             }],
             messages=messages,
         )
