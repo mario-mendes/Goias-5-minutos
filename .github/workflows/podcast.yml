@@ -75,8 +75,7 @@ jobs:
 
       - name: Enviar resumo e audio ao WhatsApp
         env:
-          WHAPI_TOKEN:        ${{ secrets.WHAPI_TOKEN }}
-          WHATSAPP_GROUP_ID: ${{ secrets.WHATSAPP_GROUP_ID }}
+          MAKE_WEBHOOK_URL:   ${{ secrets.MAKE_WEBHOOK_URL }}
         run: python podcast_generator.py --whatsapp
 
       - name: Registrar resultado no sumario
@@ -92,5 +91,4 @@ jobs:
               cat "$META" | sed 's/^/- /' >> $GITHUB_STEP_SUMMARY
             fi
           else
-            echo "Falha na geracao do episodio. Verifique os logs acima." >> $GITHUB_STEP_SUMMARY
-          fi
+            echo 

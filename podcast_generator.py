@@ -728,43 +728,26 @@ def _md_para_whatsapp(md_content: str, hoje_str: str, duracao_s: float) -> str:
 
 
 def enviar_whatsapp(texto: str, audio_url: str) -> None:
-    """Envia texto + áudio para o grupo via Whapi.cloud."""
-    token    = os.environ["WHAPI_TOKEN"]
-    group_id = os.environ["WHATSAPP_GROUP_ID"]
+    """
+    Dispara o webhook do Make.com, que por sua vez chama o Whapi.cloud.
+    O Make.com usa IPs não bloqueados pelo Cloudflare.
+    """
+    webhook_url = os.environ["MAKE_WEBHOOK_URL"]
 
-    base_url = "https://gate.whapi.cloud"
-    headers  = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {token}",
-    }
-
-    def _post(endpoint: str, payload: dict) -> dict:
-        data = json.dumps(payload).encode("utf-8")
-        req  = urllib.request.Request(
-            f"{base_url}/{endpoint}", data=data, headers=headers, method="POST"
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                return json.loads(resp.read())
-        except urllib.error.HTTPError as e:
-            corpo = e.read().decode("utf-8", errors="replace")
-            raise RuntimeError(f"HTTP {e.code} {e.reason} — {corpo}") from e
-
-    print("[WPP] Enviando resumo em texto...")
-    r = _post("messages/text", {
-        "to": group_id,
-        "body": texto,
-    })
-    print(f"[WPP] Texto enviado (id: {r.get('sent', {}).get('id', r.get('id', '?'))})")
-
-    time.sleep(3)
-
-    print("[WPP] Enviando áudio...")
-    r = _post("messages/voice", {
-        "to": group_id,
-        "media": audio_url,
-    })
-    print(f"[WPP] Áudio enviado (id: {r.get('sent', {}).get('id', r.get('id', '?'))})")
+    payload = json.dumps({"texto": texto, "audio_url": audio_url}).encode("utf-8")
+    req = urllib.request.Request(
+        webhook_url,
+        data=payload,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            corpo = resp.read().decode("utf-8", errors="replace")
+            print(f"[MAKE] Webhook disparado com sucesso: {resp.status} — {corpo[:200]}")
+    except urllib.error.HTTPError as e:
+        corpo = e.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"HTTP {e.code} {e.reason} — {corpo}") from e
 
 
 # ══════════════════════════════════════════════════════════════════════════════
