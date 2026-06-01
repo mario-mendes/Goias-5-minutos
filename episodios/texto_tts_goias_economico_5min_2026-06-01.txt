@@ -1,0 +1,30 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É primeiro de junho de dois mil e vinte e seis, e o dia começa com quatro pautas que impactam diretamente o orçamento e a gestão fiscal do estado. Vamos ao que interessa.
+[PAUSA]
+
+F: A primeira pauta é do *ICMS Ecológico*. Hoje, primeiro de junho, a Secretaria do Meio Ambiente, a Semad, divulga o resultado preliminar da avaliação feita para os duzentos e quarenta e seis municípios goianos que solicitaram pontuação no sistema do *ICMS Ecológico*. O prazo para apresentação de recursos vai até doze de junho, e o resultado final sai no dia vinte e nove do mesmo mês.
+
+M: Para quem trabalha com orçamento municipal, vale lembrar: a pontuação no *ICMS Ecológico* define a cota-parte do *ICMS* que cada município recebe do Estado. Municípios com mais unidades de conservação, saneamento e gestão ambiental adequados recebem fatias maiores da *receita tributária* estadual. Ficar de olho no resultado preliminar de hoje é, portanto, uma questão de *arrecadação municipal*.
+[PAUSA]
+
+F: Segunda pauta: tecnologia fiscal. Também a partir de hoje, primeiro de junho, entra em vigor a obrigatoriedade de integração entre meios de pagamento eletrônico e a emissão de *documentos fiscais* para empresas com faturamento anual acima de quatro vírgula oito milhões de reais. São cerca de onze mil estabelecimentos goianos que precisam conectar seus terminais de cartão, PIX e débito diretamente ao software emissor de nota fiscal eletrônica.
+
+M: A Secretaria da Economia prorrogou o prazo duas vezes — primeiro de novembro de dois mil e vinte e cinco para março, depois para junho de dois mil e vinte e seis. Agora não tem mais adiamento. O cronograma prevê ainda a inclusão das Empresas de Pequeno Porte em setembro, e das microempresas em dezembro. O objetivo declarado é reduzir *sonegação* e alinhar o estado às adaptações da *reforma tributária*. Para o gestor fiscal, isso representa maior *conformidade* nas bases de cálculo do *ICMS* e mais dados para a *receita estadual*.
+[PAUSA]
+
+F: Terceira pauta: *folha de pessoal*. O reajuste geral anual de quatro vírgula vinte e seis por cento concedido aos servidores do Poder Executivo — civis, militares, ativos, inativos e pensionistas — está em vigor desde primeiro de maio. O impacto financeiro estimado é de trezentos e cinquenta e seis vírgula oito milhões de reais já em dois mil e vinte e seis, com custo mensal de cerca de quarenta e quatro vírgula seis milhões.
+
+M: A Secretaria da Economia confirmou que a medida está em conformidade com a *Lei de Responsabilidade Fiscal* e com a *Lei de Diretrizes Orçamentárias* de dois mil e vinte e seis. O percentual corresponde à variação do *IPCA* de dois mil e vinte e cinco e se aplica a cargos efetivos e comissionados. Professores da educação básica seguem legislação específica com base no piso do magistério. Para dois mil e vinte e sete e dois mil e vinte e oito, a projeção de impacto anual chega a quinhentos e trinta e cinco vírgula dois milhões de reais. O ponto de atenção aqui é o limite prudencial de *despesa com pessoal* estabelecido pela *LRF*: todo reajuste acima do IPCA exige compensação orçamentária.
+[PAUSA]
+
+F: Quarta e última pauta: o *bloqueio orçamentário* federal. No final da última sexta-feira, o governo federal publicou o decreto detalhando os cortes por ministério. O Relatório Bimestral de Receitas e Despesas havia ampliado o bloqueio de um vírgula seis bilhões para vinte e três vírgula seis bilhões de reais. Dos recursos bloqueados, oito vírgula sete bilhões atingem o *PAC* e quatro vírgula nove bilhões recaem sobre *emendas parlamentares*.
+
+M: Para Goiás, o alerta é direto. Os ministérios têm até oito de junho para informar quais programas e ações sofrerão os cortes. Obras de infraestrutura cofinanciadas pela União, como as rodovias previstas no plano de três vírgula cinco bilhões da *Goinfra* para dois mil e vinte e seis, podem ter o cronograma afetado caso os recursos federais do *PAC* não sejam desbloqueados. Além disso, as *emendas de bancada*, que Goiás usa para complementar investimentos em saúde e educação, também entram no cálculo do *contingenciamento*. O *faseamento de empenho* chega a vinte e sete vírgula um bilhões até novembro, e as restrições combinadas superam oitenta e três bilhões até o fim de julho.
+[PAUSA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
