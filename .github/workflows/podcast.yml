@@ -1,9 +1,14 @@
 name: Goias Economico em 5 Minutos
 
 on:
-  # schedule (pausado):
-  #   - cron: "30 9 * * *"
+  schedule:
+    - cron: "30 9 * * *"
   workflow_dispatch:
+    inputs:
+      apenas_whatsapp:
+        description: "Pular geracao e enviar so o WhatsApp (usa episodio ja gerado hoje)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -27,6 +32,7 @@ jobs:
           cache: pip
 
       - name: Instalar ffmpeg
+        if: ${{ inputs.apenas_whatsapp != true }}
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg
@@ -36,6 +42,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Gerar roteiro e MP3
+        if: ${{ inputs.apenas_whatsapp != true }}
         env:
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
@@ -43,6 +50,7 @@ jobs:
         run: python podcast_generator.py
 
       - name: Commitar roteiro e markdown em episodios/
+        if: ${{ inputs.apenas_whatsapp != true }}
         run: |
           TODAY=$(date -u +%Y-%m-%d)
           git config user.name  "github-actions[bot]"
@@ -53,6 +61,7 @@ jobs:
           git push
 
       - name: Publicar MP3 no GitHub Release
+        if: ${{ inputs.apenas_whatsapp != true }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
