@@ -1,28 +1,33 @@
 [VINHETA_IN]
+[PAUSA]
+
 M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+
 [PAUSA CURTA]
-M: É primeiro de junho de dois mil e vinte e seis, e o dia começa com quatro pautas que impactam diretamente o orçamento e a gestão fiscal do estado. Vamos ao que interessa.
-[PAUSA]
 
-F: A primeira pauta é do *ICMS Ecológico*. Hoje, primeiro de junho, a Secretaria do Meio Ambiente, a Semad, divulga o resultado preliminar da avaliação feita para os duzentos e quarenta e seis municípios goianos que solicitaram pontuação no sistema do *ICMS Ecológico*. O prazo para apresentação de recursos vai até doze de junho, e o resultado final sai no dia vinte e nove do mesmo mês.
+M: Hoje é primeiro de junho de dois mil e vinte e seis, e o dia já começa com uma obrigação fiscal estreando. A partir desta segunda-feira, cerca de onze mil empresas goianas com *faturamento anual* superior a quatro vírgula oito milhões de reais devem integrar os meios de pagamento eletrônico — cartão, débito e Pix — diretamente ao sistema de emissão de *nota fiscal eletrônica*, a NF-e, e de nota fiscal do consumidor eletrônica, a NFC-e.
 
-M: Para quem trabalha com orçamento municipal, vale lembrar: a pontuação no *ICMS Ecológico* define a cota-parte do *ICMS* que cada município recebe do Estado. Municípios com mais unidades de conservação, saneamento e gestão ambiental adequados recebem fatias maiores da *receita tributária* estadual. Ficar de olho no resultado preliminar de hoje é, portanto, uma questão de *arrecadação municipal*.
-[PAUSA]
+F: A medida é da *Secretaria da Economia* de Goiás e entrou em vigor hoje, após duas prorrogações. O prazo havia sido antecipado para março, mas foi postergado justamente para dar mais tempo de adequação. A lógica é simples: cada transação eletrônica passa a ser automaticamente vinculada ao documento fiscal correspondente, reduzindo risco de fraudes e preparando as empresas para as adaptações da *reforma tributária*. O cronograma ainda prevê uma segunda rodada em setembro para as Empresas de Pequeno Porte, e em dezembro para as microempresas.
 
-F: Segunda pauta: tecnologia fiscal. Também a partir de hoje, primeiro de junho, entra em vigor a obrigatoriedade de integração entre meios de pagamento eletrônico e a emissão de *documentos fiscais* para empresas com faturamento anual acima de quatro vírgula oito milhões de reais. São cerca de onze mil estabelecimentos goianos que precisam conectar seus terminais de cartão, PIX e débito diretamente ao software emissor de nota fiscal eletrônica.
+[PAUSA CURTA]
 
-M: A Secretaria da Economia prorrogou o prazo duas vezes — primeiro de novembro de dois mil e vinte e cinco para março, depois para junho de dois mil e vinte e seis. Agora não tem mais adiamento. O cronograma prevê ainda a inclusão das Empresas de Pequeno Porte em setembro, e das microempresas em dezembro. O objetivo declarado é reduzir *sonegação* e alinhar o estado às adaptações da *reforma tributária*. Para o gestor fiscal, isso representa maior *conformidade* nas bases de cálculo do *ICMS* e mais dados para a *receita estadual*.
-[PAUSA]
+M: A segunda pauta é do bolso de quase um milhão e meio de goianos. Hoje a Receita Federal voltou a receber declarações do *Imposto de Renda* dois mil e vinte e seis, agora em regime de atraso. O prazo oficial encerrou na última sexta-feira, dia vinte e nove de maio, às vinte e três horas e cinquenta e nove. Quem não enviou a tempo já está sujeito a multa automática, sem carência e sem aviso prévio.
 
-F: Terceira pauta: *folha de pessoal*. O reajuste geral anual de quatro vírgula vinte e seis por cento concedido aos servidores do Poder Executivo — civis, militares, ativos, inativos e pensionistas — está em vigor desde primeiro de maio. O impacto financeiro estimado é de trezentos e cinquenta e seis vírgula oito milhões de reais já em dois mil e vinte e seis, com custo mensal de cerca de quarenta e quatro vírgula seis milhões.
+F: O *Conselho Regional de Contabilidade de Goiás*, o CRC-GO, alerta que a multa mínima é de cento e sessenta e cinco reais e setenta e quatro centavos, podendo chegar a vinte por cento do *imposto devido* — isso é um por cento ao mês sobre o valor do tributo. Em Goiás, a expectativa era de um milhão quatrocentas e sessenta e sete mil declarações neste ano. Mais de sessenta e cinco por cento dos contribuintes goianos já usaram a declaração pré-preenchida, o que acelera o processamento e a restituição. Quem tem imposto a restituir e está em atraso vai ter o valor descontado automaticamente da restituição pela Receita.
 
-M: A Secretaria da Economia confirmou que a medida está em conformidade com a *Lei de Responsabilidade Fiscal* e com a *Lei de Diretrizes Orçamentárias* de dois mil e vinte e seis. O percentual corresponde à variação do *IPCA* de dois mil e vinte e cinco e se aplica a cargos efetivos e comissionados. Professores da educação básica seguem legislação específica com base no piso do magistério. Para dois mil e vinte e sete e dois mil e vinte e oito, a projeção de impacto anual chega a quinhentos e trinta e cinco vírgula dois milhões de reais. O ponto de atenção aqui é o limite prudencial de *despesa com pessoal* estabelecido pela *LRF*: todo reajuste acima do IPCA exige compensação orçamentária.
-[PAUSA]
+[PAUSA CURTA]
 
-F: Quarta e última pauta: o *bloqueio orçamentário* federal. No final da última sexta-feira, o governo federal publicou o decreto detalhando os cortes por ministério. O Relatório Bimestral de Receitas e Despesas havia ampliado o bloqueio de um vírgula seis bilhões para vinte e três vírgula seis bilhões de reais. Dos recursos bloqueados, oito vírgula sete bilhões atingem o *PAC* e quatro vírgula nove bilhões recaem sobre *emendas parlamentares*.
+M: Passando para o cenário macro do Estado: a *Lei Orçamentária Anual*, a *LOA* dois mil e vinte e seis, aprovada pela Alego em dezembro com vinte e oito votos a zero, estima receita total de cinquenta e três vírgula quatro bilhões de reais. A principal fonte continua sendo o *ICMS*, projetado em dezenove bilhões de reais, seguido pelas transferências da União, com onze bilhões, e pelo *Imposto de Renda Retido na Fonte*, o IRRF, com três vírgula quatro bilhões.
 
-M: Para Goiás, o alerta é direto. Os ministérios têm até oito de junho para informar quais programas e ações sofrerão os cortes. Obras de infraestrutura cofinanciadas pela União, como as rodovias previstas no plano de três vírgula cinco bilhões da *Goinfra* para dois mil e vinte e seis, podem ter o cronograma afetado caso os recursos federais do *PAC* não sejam desbloqueados. Além disso, as *emendas de bancada*, que Goiás usa para complementar investimentos em saúde e educação, também entram no cálculo do *contingenciamento*. O *faseamento de empenho* chega a vinte e sete vírgula um bilhões até novembro, e as restrições combinadas superam oitenta e três bilhões até o fim de julho.
-[PAUSA]
+F: Do lado das despesas, a *folha de pessoal* é o maior componente: vinte e nove vírgula quatro bilhões de reais, considerando servidores ativos, inativos e o *déficit previdenciário* da GoiásPrev, que sozinho chega a cinco vírgula seis bilhões. O secretário da Economia, Francisco Sérvulo Nogueira, já alertou que quase sessenta por cento das despesas têm caráter obrigatório. A margem de manobra efetiva do Executivo gira em torno de quinze bilhões — é de lá que saem obras, custeio e políticas públicas. A *LDO* projetava *superávit primário* de seiscentos e cinquenta e oito vírgula oito milhões de reais para este exercício.
+
+[PAUSA CURTA]
+
+M: Para fechar, boas notícias do agronegócio. A bovinocultura goiana deve movimentar vinte e três vírgula sete bilhões de reais em dois mil e vinte e seis, crescimento de sete vírgula cinco por cento em relação ao ano anterior, segundo projeção do Ministério da Agricultura. Isso representa vinte por cento do *Valor Bruto da Produção* total do Estado.
+
+F: No primeiro trimestre deste ano, as *exportações de carne bovina* goiana somaram quinhentos e onze vírgula seis milhões de dólares — alta de trinta e dois por cento em relação ao mesmo período de dois mil e vinte e cinco, com noventa e duas vírgula dois mil toneladas embarcadas. Estados Unidos e China lideram os destinos. E a safra dois mil e vinte e cinco barra vinte e seis projeta ser a segunda maior da história em Goiás, mantendo o estado entre os principais produtores de soja e milho do Brasil. Complexo soja respondeu por quarenta e seis vírgula cinco por cento de todas as exportações goianas em dois mil e vinte e cinco.
+
+[PAUSA CURTA]
 
 M: Este foi o Goiás Econômico em cinco minutos.
 F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
