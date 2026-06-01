@@ -869,21 +869,26 @@ def main() -> None:
 def whatsapp_main() -> None:
     """Lê metadados do episódio de hoje e envia ao WhatsApp (usado pelo workflow após o Release)."""
     hoje_str  = date.today().isoformat()
+    nome_mp3  = f"goias_economico_5min_{hoje_str}.mp3"
+    repo      = os.environ.get("GITHUB_REPOSITORY", "mario-mendes/Goias-5-minutos")
 
+    # Tenta ler o arquivo de metadados; se não existir, reconstrói os valores
     meta_path = EPISODIOS_DIR / f".meta_{hoje_str}.env"
-    if not meta_path.exists():
-        raise FileNotFoundError(f"Metadados não encontrados: {meta_path}")
-
-    meta: dict[str, str] = {}
-    for linha in meta_path.read_text(encoding="utf-8").splitlines():
-        if "=" in linha:
-            k, v = linha.split("=", 1)
-            meta[k.strip()] = v.strip()
-
-    audio_url = meta["RELEASE_MP3_URL"]
-
-    dur_match = re.match(r"(\d+)m(\d+)s", meta.get("DURACAO", "0m0s"))
-    duracao_s = (int(dur_match.group(1)) * 60 + int(dur_match.group(2))) if dur_match else 0.0
+    if meta_path.exists():
+        meta: dict[str, str] = {}
+        for linha in meta_path.read_text(encoding="utf-8").splitlines():
+            if "=" in linha:
+                k, v = linha.split("=", 1)
+                meta[k.strip()] = v.strip()
+        audio_url = meta.get("RELEASE_MP3_URL",
+                             f"https://github.com/{repo}/releases/download/ep-{hoje_str}/{nome_mp3}")
+        dur_match = re.match(r"(\d+)m(\d+)s", meta.get("DURACAO", "0m0s"))
+        duracao_s = (int(dur_match.group(1)) * 60 + int(dur_match.group(2))) if dur_match else 0.0
+    else:
+        # Modo apenas_whatsapp: reconstrói URL do Release a partir do padrão conhecido
+        print(f"[WPP] .meta não encontrado — reconstruindo URL do Release")
+        audio_url = f"https://github.com/{repo}/releases/download/ep-{hoje_str}/{nome_mp3}"
+        duracao_s = 0.0
 
     md_path = EPISODIOS_DIR / f"goias_economico_5min_{hoje_str}.md"
     if not md_path.exists():
