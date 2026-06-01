@@ -805,7 +805,9 @@ def main() -> None:
         if _palavras_check <= 800:
             break
         print(f"[AVISO] Roteiro longo ({_palavras_check} palavras) na tentativa "
-              f"{tentativa_roteiro}/2 — regenerando com instrução reforçada...")
+              f"{tentativa_roteiro}/2 — aguardando 65s para evitar rate limit...")
+        time.sleep(65)
+        print("[CLA] Regenerando com instrução reforçada...")
         # Injeta aviso no contexto para a próxima tentativa
         manchetes_opopular = (
             f"⚠️ ATENÇÃO: sua tentativa anterior teve {_palavras_check} palavras "
