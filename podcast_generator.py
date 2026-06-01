@@ -92,7 +92,7 @@ RSS_OPOPULAR = [
 ]
 
 # Quantos caracteres do artigo tentar extrair antes do paywall
-PAYWALL_TRECHO_CHARS = 900
+PAYWALL_TRECHO_CHARS = 300
 
 
 class _TextExtractor(html.parser.HTMLParser):
@@ -356,11 +356,11 @@ def gerar_roteiro(episodio_anterior: str, hoje: str,
     for turno in range(25):
         response = client.messages.create(
             model=ANTHROPIC_MODEL,
-            max_tokens=8000,
+            max_tokens=5000,
             tools=[{
                 "type": "web_search_20250305",
                 "name": "web_search",
-                "max_uses": 12,
+                "max_uses": 6,
             }],
             messages=messages,
         )
@@ -788,14 +788,14 @@ def main() -> None:
     if prev_md.exists():
         print(f"[DED] ✅ Episódio anterior encontrado: {prev_md.name}")
         texto_anterior = prev_md.read_text(encoding="utf-8")
-        # Limita a 3000 chars para não estourar o rate limit de tokens
-        episodio_anterior = texto_anterior[:3000] + ("..." if len(texto_anterior) > 3000 else "")
+        # Limita a 1500 chars para não estourar o rate limit de tokens
+        episodio_anterior = texto_anterior[:1500] + ("..." if len(texto_anterior) > 1500 else "")
     else:
         print(f"[DED] ℹ️  Episódio anterior não encontrado ({prev_md.name}) — sem deduplicação")
         episodio_anterior = ""
 
     # ── 2. Buscar manchetes d'O Popular ───────────────────────────────────────
-    manchetes_opopular = buscar_opopular(max_artigos=5)
+    manchetes_opopular = buscar_opopular(max_artigos=3)
 
     # ── 3. Gerar roteiro via Claude (com re-tentativa se muito longo) ──────────
     for tentativa_roteiro in range(1, 3):
