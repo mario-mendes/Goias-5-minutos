@@ -728,31 +728,39 @@ def _md_para_whatsapp(md_content: str, hoje_str: str, duracao_s: float) -> str:
 
 
 def enviar_whatsapp(texto: str, audio_url: str) -> None:
-    instance_id  = os.environ["ZAPI_INSTANCE_ID"]
-    token        = os.environ["ZAPI_TOKEN"]
-    client_token = os.environ["ZAPI_CLIENT_TOKEN"]
-    group_id     = os.environ["WHATSAPP_GROUP_ID"]
+    """Envia texto + áudio PTT para o grupo via Evolution API."""
+    base_url  = os.environ["EVOLUTION_API_URL"].rstrip("/")
+    api_key   = os.environ["EVOLUTION_API_KEY"]
+    instance  = os.environ["EVOLUTION_INSTANCE"]
+    group_id  = os.environ["WHATSAPP_GROUP_ID"]
 
-    base_url = f"https://api.z-api.io/instances/{instance_id}/token/{token}"
-    headers  = {"Content-Type": "application/json", "Client-Token": client_token}
+    headers = {
+        "Content-Type": "application/json",
+        "apikey": api_key,
+    }
 
     def _post(endpoint: str, payload: dict) -> dict:
+        url  = f"{base_url}/{endpoint}"
         data = json.dumps(payload).encode("utf-8")
-        req  = urllib.request.Request(
-            f"{base_url}/{endpoint}", data=data, headers=headers, method="POST"
-        )
+        req  = urllib.request.Request(url, data=data, headers=headers, method="POST")
         with urllib.request.urlopen(req, timeout=30) as resp:
             return json.loads(resp.read())
 
     print("[WPP] Enviando resumo em texto...")
-    r = _post("send-text", {"phone": group_id, "message": texto})
-    print(f"[WPP] ✅ Texto (zaapId: {r.get('zaapId', '?')})")
+    r = _post(f"message/sendText/{instance}", {
+        "number": group_id,
+        "text": texto,
+    })
+    print(f"[WPP] Texto enviado (key: {r.get('key', {}).get('id', '?')})")
 
     time.sleep(3)
 
-    print("[WPP] Enviando áudio...")
-    r = _post("send-audio", {"phone": group_id, "audio": audio_url, "ptt": True})
-    print(f"[WPP] ✅ Áudio (zaapId: {r.get('zaapId', '?')})")
+    print("[WPP] Enviando áudio PTT...")
+    r = _post(f"message/sendWhatsAppAudio/{instance}", {
+        "number": group_id,
+        "audio": audio_url,
+    })
+    print(f"[WPP] Áudio enviado (key: {r.get('key', {}).get('id', '?')})")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
