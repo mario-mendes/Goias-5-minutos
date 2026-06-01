@@ -1,32 +1,31 @@
 [VINHETA_IN]
-[PAUSA]
-
 M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Hoje é primeiro de junho de dois mil e vinte e seis. Começamos com uma obrigação fiscal que entra em vigor exatamente hoje: a integração entre meios de pagamento eletrônico e emissão de nota fiscal em Goiás.
 
+F: Isso mesmo. A partir desta segunda-feira, cerca de onze mil empresas goianas com faturamento anual acima de quatro vírgula oito milhões de reais precisam vincular automaticamente cada transação por cartão, débito ou *PIX* à emissão do documento fiscal correspondente — seja *NF-e* ou *NFC-e*. A *Secretaria da Economia* prorrogou o prazo duas vezes; agora não há mais margem. Quem não se adequar fica sujeito a autuação.
+
+M: Atenção para o cronograma restante: empresas de pequeno porte, com receita entre trezentos e sessenta mil e quatro vírgula oito milhões, entram em setembro. Microempresas, em dezembro. *MEIs* estão dispensados. O objetivo declarado é ampliar a *conformidade tributária*, reduzir fraudes e preparar o contribuinte para a *reforma tributária*.
 [PAUSA CURTA]
 
-M: Hoje é primeiro de junho de dois mil e vinte e seis, e o dia já começa com uma obrigação fiscal estreando. A partir desta segunda-feira, cerca de onze mil empresas goianas com *faturamento anual* superior a quatro vírgula oito milhões de reais devem integrar os meios de pagamento eletrônico — cartão, débito e Pix — diretamente ao sistema de emissão de *nota fiscal eletrônica*, a NF-e, e de nota fiscal do consumidor eletrônica, a NFC-e.
+F: Segundo tema: a *LDO* de dois mil e vinte e sete enviada pelo governo à Alego projeta um novo *déficit primário* de trezentos e quarenta e sete milhões de reais — o que seria o terceiro resultado negativo consecutivo. A *Secretaria da Economia* também revisou para baixo a meta de equilíbrio do fechamento deste ano de dois mil e vinte e seis.
 
-F: A medida é da *Secretaria da Economia* de Goiás e entrou em vigor hoje, após duas prorrogações. O prazo havia sido antecipado para março, mas foi postergado justamente para dar mais tempo de adequação. A lógica é simples: cada transação eletrônica passa a ser automaticamente vinculada ao documento fiscal correspondente, reduzindo risco de fraudes e preparando as empresas para as adaptações da *reforma tributária*. O cronograma ainda prevê uma segunda rodada em setembro para as Empresas de Pequeno Porte, e em dezembro para as microempresas.
-
+M: Isso tem impacto direto sobre a *Lei de Responsabilidade Fiscal*. Um terceiro déficit seguido acende o alerta para os limites de endividamento e para a margem de *empenho* de despesas discricionárias no segundo semestre. Quem trabalha com execução orçamentária deve monitorar a publicação do Relatório de Avaliação Bimestral previsto para julho.
 [PAUSA CURTA]
 
-M: A segunda pauta é do bolso de quase um milhão e meio de goianos. Hoje a Receita Federal voltou a receber declarações do *Imposto de Renda* dois mil e vinte e seis, agora em regime de atraso. O prazo oficial encerrou na última sexta-feira, dia vinte e nove de maio, às vinte e três horas e cinquenta e nove. Quem não enviou a tempo já está sujeito a multa automática, sem carência e sem aviso prévio.
+F: Terceiro ponto: a *folha de pessoal*. A Alego aprovou o reajuste de quatro vírgula vinte e seis por cento para servidores do Executivo estadual, civis e militares, ativos, inativos e pensionistas. O percentual corresponde ao *IPCA* de dois mil e vinte e cinco e está previsto na *LDO* vigente. A *Secretaria da Economia* confirmou que a medida é compatível com a *LRF*.
 
-F: O *Conselho Regional de Contabilidade de Goiás*, o CRC-GO, alerta que a multa mínima é de cento e sessenta e cinco reais e setenta e quatro centavos, podendo chegar a vinte por cento do *imposto devido* — isso é um por cento ao mês sobre o valor do tributo. Em Goiás, a expectativa era de um milhão quatrocentas e sessenta e sete mil declarações neste ano. Mais de sessenta e cinco por cento dos contribuintes goianos já usaram a declaração pré-preenchida, o que acelera o processamento e a restituição. Quem tem imposto a restituir e está em atraso vai ter o valor descontado automaticamente da restituição pela Receita.
-
+M: Vale lembrar que professores da educação básica com paridade seguem legislação própria baseada no piso nacional do magistério, e não estão nesse mesmo reajuste. O impacto na *folha* total do Executivo ainda aguarda publicação de decreto de regulamentação.
 [PAUSA CURTA]
 
-M: Passando para o cenário macro do Estado: a *Lei Orçamentária Anual*, a *LOA* dois mil e vinte e seis, aprovada pela Alego em dezembro com vinte e oito votos a zero, estima receita total de cinquenta e três vírgula quatro bilhões de reais. A principal fonte continua sendo o *ICMS*, projetado em dezenove bilhões de reais, seguido pelas transferências da União, com onze bilhões, e pelo *Imposto de Renda Retido na Fonte*, o IRRF, com três vírgula quatro bilhões.
+F: No agronegócio, a bovinocultura goiana projeta movimentar vinte e três vírgula sete bilhões de reais em dois mil e vinte e seis — crescimento de sete vírgula cinco por cento frente ao ano anterior, segundo projeção do Ministério da Agricultura. Goiás detém quase dez por cento do rebanho nacional e ocupa a terceira posição no ranking de abates.
 
-F: Do lado das despesas, a *folha de pessoal* é o maior componente: vinte e nove vírgula quatro bilhões de reais, considerando servidores ativos, inativos e o *déficit previdenciário* da GoiásPrev, que sozinho chega a cinco vírgula seis bilhões. O secretário da Economia, Francisco Sérvulo Nogueira, já alertou que quase sessenta por cento das despesas têm caráter obrigatório. A margem de manobra efetiva do Executivo gira em torno de quinze bilhões — é de lá que saem obras, custeio e políticas públicas. A *LDO* projetava *superávit primário* de seiscentos e cinquenta e oito vírgula oito milhões de reais para este exercício.
-
+M: Nas exportações de carne bovina, o salto foi expressivo: só no primeiro trimestre de dois mil e vinte e seis, Goiás embarcou quinhentos e onze vírgula seis milhões de dólares, alta de trinta e dois por cento sobre o mesmo período de dois mil e vinte e cinco. Estados Unidos e China lideram os destinos, respondendo juntos por mais de cinquenta por cento do valor exportado.
 [PAUSA CURTA]
 
-M: Para fechar, boas notícias do agronegócio. A bovinocultura goiana deve movimentar vinte e três vírgula sete bilhões de reais em dois mil e vinte e seis, crescimento de sete vírgula cinco por cento em relação ao ano anterior, segundo projeção do Ministério da Agricultura. Isso representa vinte por cento do *Valor Bruto da Produção* total do Estado.
+F: Por fim, o cenário fiscal federal que afeta diretamente os municípios e o Estado. O Relatório Bimestral do governo federal ampliou o bloqueio de despesas para vinte e três vírgula seis bilhões de reais — incluindo quase cinco bilhões em *emendas parlamentares* de bancada. Os ministérios têm até o dia oito de junho para informar quais programas serão cortados dentro desses limites.
 
-F: No primeiro trimestre deste ano, as *exportações de carne bovina* goiana somaram quinhentos e onze vírgula seis milhões de dólares — alta de trinta e dois por cento em relação ao mesmo período de dois mil e vinte e cinco, com noventa e duas vírgula dois mil toneladas embarcadas. Estados Unidos e China lideram os destinos. E a safra dois mil e vinte e cinco barra vinte e seis projeta ser a segunda maior da história em Goiás, mantendo o estado entre os principais produtores de soja e milho do Brasil. Complexo soja respondeu por quarenta e seis vírgula cinco por cento de todas as exportações goianas em dois mil e vinte e cinco.
-
+M: Para Goiás, o bloqueio pode atrasar repasses de *emendas* parlamentares destinadas a obras e programas de saúde. Quem cuida da execução do *orçamento* estadual deve mapear as contrapartidas federais comprometidas e avaliar abertura de *créditos adicionais* com fontes próprias.
 [PAUSA CURTA]
 
 M: Este foi o Goiás Econômico em cinco minutos.
