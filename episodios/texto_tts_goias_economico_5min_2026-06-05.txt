@@ -1,0 +1,25 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Hoje é sexta-feira, cinco de junho de dois mil e vinte e seis. Quatro temas em pauta: a virada do *fisco digital* em Goiás, um novo indicador de *resultado fiscal estrutural*, o megabloqueio federal que ameaça obras nos estados, e uma indicação aprovada na Alego para a agência reguladora.
+[PAUSA]
+F: Vamos começar com a *fiscalização tributária*. A partir do primeiro de junho, cerca de onze mil empresas goianas com faturamento anual acima de quatro vírgula oito milhões de reais passaram a ser obrigadas a integrar os meios de pagamento eletrônico à emissão de *NF-e* e *NFC-e*. Na prática, cada transação por cartão, débito, PIX ou qualquer outro canal digital precisa estar automaticamente vinculada ao documento fiscal correspondente.
+[PAUSA CURTA]
+M: A medida é da Secretaria da Economia e teve o prazo prorrogado duas vezes — a última, de março para junho deste ano. O objetivo é aprimorar o controle fiscal, reduzir fraudes e preparar os contribuintes para a *reforma tributária*. O cronograma prevê novas etapas até dezembro de dois mil e vinte e seis, ampliando progressivamente o universo de empresas obrigadas.
+[PAUSA]
+F: Passando para o segundo tema. O Instituto Mauro Borges publicou um estudo técnico que vai mudar a forma como Goiás monitora suas finanças públicas. O trabalho apresenta o indicador de *Resultado Fiscal Estrutural*, ou *RFE*, que separa os fatores permanentes da política fiscal das oscilações temporárias da economia. A ideia é que o Estado consiga distinguir o que é efeito conjuntural do que representa a posição fiscal de fato estrutural.
+[PAUSA CURTA]
+M: E esse indicador não fica só no papel. O *RFE* foi incorporado à legislação estadual pela Emenda Constitucional número oitenta e seis de dois mil e vinte e cinco, pela Lei Complementar duzentos e oito e pelo Decreto dez mil setecentos e vinte e dois. O IMB também calculará o *RFE* anualmente e integrará o Comitê Gestor do Fundo de Estabilização Econômica de Goiás, o *FEG*. O estudo usa dados bimestrais de dois mil e quatorze a dois mil e vinte e cinco e aponta que a política fiscal do estado alternando entre momentos pró-cíclicos e anticíclicos ao longo desse período.
+[PAUSA]
+F: Terceiro tema, e este afeta diretamente o *orçamento* de todos os estados. O governo federal publicou decreto detalhando o bloqueio adicional de vinte e dois vírgula um bilhões de reais em gastos não obrigatórios da *LOA* de dois mil e vinte e seis. Com isso, o bloqueio total subiu de um vírgula seis bilhão para vinte e três vírgula sete bilhões. Os ministérios da Defesa e das Cidades foram os mais afetados. Três áreas ficaram de fora: Justiça e Segurança Pública, Previdência Social e Trabalho e Emprego.
+[PAUSA CURTA]
+M: Para Goiás, o ponto mais crítico está nas *emendas parlamentares de bancada*. O bloqueio atinge quatro vírgula noventa e sete bilhões em emendas de bancada em todo o país, aplicados na mesma proporção das demais despesas discricionárias, conforme a Lei Complementar duzentos e dez de dois mil e vinte e quatro. Além disso, o governo mantém o chamado *faseamento de empenho*, que não corta recursos, mas limita temporariamente a velocidade com que os órgãos podem assumir novos compromissos financeiros. Os ministérios tinham até oito de junho para informar quais programas serão bloqueados.
+[PAUSA]
+F: Quarto tema. Na esfera legislativa estadual, a Alego confirmou o nome de Marcelo de Souza Gomes e Silva para o Conselho Regulador da *AGR*, a Agência Goiana de Regulação, Controle e Fiscalização de Serviços Públicos. A indicação passou pela Comissão de Constituição, Justiça e Redação na primeira semana de junho. A *AGR* regula concessões, serviços públicos e tarifas em Goiás, sendo peça-chave no controle de contratos que envolvem transferências e renúncia de receita estadual.
+[PAUSA CURTA]
+M: Em resumo: o *fisco digital* ganhou força em Goiás com onze mil empresas integradas; o *IMB* entregou um novo termômetro estrutural das finanças estaduais; o bloqueio federal de quase vinte e quatro bilhões reais pressiona obras e emendas de bancada que chegam ao estado; e a *AGR* renova seu conselho regulador.
+[PAUSA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
