@@ -1,0 +1,28 @@
+[VINHETA_IN]
+[PAUSA]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Abrimos com o agro e a fiscal. O governador Daniel Vilela anunciou na quarta-feira a redução do *ICMS* interestadual do feijão, que passará de 6,06% para 2,4%, uma queda de mais de 60%. O projeto de lei será enviado à Assembleia Legislativa.
+
+F: A *renúncia de receita* estimada é de cerca de 12 milhões de reais por ano, a partir de 2027, segundo a própria Secretaria da Economia. A justificativa é desvantagem competitiva: Minas Gerais concede isenção total, o Paraná cobra 1%, e o Distrito Federal já opera com os mesmos 2,4% que Goiás quer adotar.
+
+M: Os números do setor justificam a medida. O *Valor Bruto da Produção* do feijão goiano está estimado em 1,63 bilhão de reais em 2026, alta de 20,5% sobre o ano anterior. Goiás responde por 12,1% da produção nacional e cultiva o grão em 91 municípios.
+
+F: Segunda pauta: a Assembleia Legislativa referendou, ainda na semana de Corpus Christi, o decreto de *calamidade financeira* do município de Iporá. A Prefeitura invocou o artigo 65 da *Lei de Responsabilidade Fiscal*, que permite limitação de *empenhos*, revisão de contratos e racionalização de despesas em situações de desequilíbrio grave.
+[PAUSA CURTA]
+M: Isso significa que Iporá poderá, temporariamente, suspender metas fiscais previstas na *LRF* enquanto adota medidas de ajuste. Para o analista de orçamento, vale acompanhar se o município vai publicar o relatório de gestão fiscal com os dados que fundamentam a decretação.
+
+F: Terceira pauta, agora no campo da infraestrutura e do *agro*: a Comissão Mista da Alego aprovou o fim da contribuição ao Fundeinfra, o fundo que financiou rodovias estaduais, e a transferência da sua gestão para a Goinfra. Desde a criação do fundo, foram arrecadados mais de 3,1 bilhões de reais.
+
+M: Desse total, cerca de 2,48 bilhões já foram formalizados em contratos de duplicação, pavimentação e restauração de rodovias. A extinção da taxa foi motivada pelo aumento de custos no campo: fertilizantes, arrendamentos e queda de produtividade, incluindo recuo de 4,8% na produtividade média da soja goiana.
+
+F: O projeto altera a Lei nº 21.671 de 2022. Com a mudança, a Goinfra assume a titularidade dos contratos em andamento, garantindo continuidade das obras sem risco de paralisação por vácuo institucional.
+[PAUSA CURTA]
+M: Por fim, um contexto macroeconômico. O Boletim do *Instituto Mauro Borges* projeta crescimento do *PIB* goiano de 2,3% em 2026, sustentado pela indústria e pelos serviços. Nos dois primeiros meses do ano, foram geradas 25,5 mil vagas formais. O estado acumula 14 anos seguidos de superávit na balança comercial.
+
+F: No radar fiscal desta semana, atenção ao pregão eletrônico publicado pela Secretaria da Economia para contratar instituição financeira operadora de novos serviços: a licitação está marcada para o dia 16 de junho. Vale monitorar o Diário Oficial.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
