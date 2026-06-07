@@ -1,0 +1,25 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Domingo, sete de junho de 2026. Três pautas no radar hoje: perdão de *ICMS* para pecuaristas, o Porto Seco de Anápolis finalmente caminhando para operar, e o boletim trimestral do IMB com as projeções para o *PIB* goiano. Vamos às notícias.
+[PAUSA]
+F: A Secretaria da Economia regulamentou o perdão de dívidas de *ICMS* para mais de dez mil produtores rurais autuados por movimentar gado bovino entre propriedades sem emissão de nota fiscal. Em muitos casos, os animais circulavam com a Guia de Trânsito Animal — a GTA — como único documento. O débito total chegou a aproximadamente um bilhão de reais, mas hoje o estoque passível de perdão está estimado em cerca de quatrocentos milhões.
+[PAUSA CURTA]
+M: A remissão foi autorizada pelo *Confaz* e está prevista na Lei estadual número 24.145, sancionada em março. As regras operacionais foram publicadas pela Instrução Normativa 1.634, no Diário Oficial do Estado, em 27 de maio. Em muitos casos, o benefício será concedido automaticamente pela Receita Estadual, sem necessidade de solicitação do produtor. Quem ainda discute o débito na esfera judicial precisará desistir do recurso para aderir ao perdão.
+[PAUSA CURTA]
+F: Do ponto de vista da *renúncia de receita*, analistas de orçamento devem monitorar o impacto no fluxo do *ICMS* agropecuário. O valor perdoado não entra no cálculo do *resultado primário* corrente, mas reduz o estoque de créditos a receber da dívida ativa — o que impacta as projeções de arrecadação futura.
+[PAUSA]
+M: Mudando de pauta: o Porto Seco de Anápolis se aproxima da operação plena. A Aurora EADI obteve o alvará de funcionamento da Prefeitura de Anápolis em maio e submeteu à Receita Federal o pedido de alfandegamento definitivo do recinto. A empresa já investiu aproximadamente cento e cinquenta milhões de reais na estrutura, e projeta aportes totais de até trezentos milhões em cinco anos.
+[PAUSA CURTA]
+F: São cerca de mil empregos diretos e indiretos previstos. O Porto Seco de Anápolis é estratégico para o comércio exterior goiano: o estado acumula quatorze anos consecutivos de superávit na balança comercial, com soja, carnes e ferroligas liderando as exportações. A chegada de um novo terminal alfandegado pode ampliar a concorrência no setor, potencialmente reduzindo tarifas de armazenagem para importadores e exportadores. O alfandegamento está pendente de despacho da Receita Federal — acompanharemos.
+[PAUSA]
+M: Por fim, o Instituto Mauro Borges publicou o boletim de projeções macroeconômicas do primeiro trimestre de 2026. A estimativa de crescimento do *PIB* goiano é de dois vírgula três por cento para o ano, podendo variar entre um vírgula oito e dois vírgula oito por cento. O desempenho é sustentado pela indústria e pelos serviços, mesmo com acomodação do ciclo excepcional do agro.
+[PAUSA CURTA]
+F: No mercado de trabalho, Goiás gerou vinte e cinco vírgula cinco mil vagas formais apenas em janeiro e fevereiro — um dos melhores desempenhos proporcionais do país. O *IPCA* estadual estimado para 2026 é de três vírgula sete por cento, dentro da meta. O IMB destaca como risco positivo o início do ciclo de queda da *Selic*, que reduz o custo do crédito e estimula *investimentos* em setores intensivos em capital.
+[PAUSA CURTA]
+M: Para a equipe de orçamento, o recado técnico é claro: crescimento moderado implica *arrecadação* de *ICMS* em linha com o previsto na *LDO*, sem espaço para reclassificação otimista da receita corrente líquida antes do fechamento do segundo quadrimestre.
+[PAUSA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
