@@ -1,0 +1,35 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É segunda-feira, nove de junho de 2026. Hoje abrimos com um decreto histórico para o setor de mineração: o governo do estado publicou, no suplemento do *Diário Oficial* desta segunda-feira, o decreto que regulamenta a *Política Estadual de Minerais Críticos* em Goiás.
+
+F: A nova norma, assinada pelo governador Daniel Vilela, disciplina governança, regras de credenciamento de empresas, criação de zonas especiais e o funcionamento de um *fundo financeiro* exclusivo para a cadeia produtiva de minerais críticos. O decreto também regulamenta a *Autoridade Estadual de Minerais Críticos*, a AMIC barra GO, criada em meados de 2025, que vai coordenar as pastas estaduais e gerenciar os mecanismos de fomento.
+
+M: Entre os minerais cobertos estão as chamadas *terras raras* — neodímio, praseodímio, cério, lantânio e outros — considerados estratégicos para a transição energética, alta tecnologia e segurança de suprimento. Goiás já abriga a única mina de terras raras em operação no Brasil: a Serra Verde, em Minaçu, comprada pela norte-americana USA Rare Earth por cerca de dois vírgula oito bilhões de dólares. As reservas de óxidos de terras raras do estado respondem por cerca de vinte e cinco por cento dos estoques globais desses insumos.
+
+F: Um ponto sensível do decreto é que ele ressalva expressamente a competência privativa da União para legislar sobre jazidas e recursos minerais — o que já gerou críticas do governo federal em episódios anteriores. Na prática, Goiás tenta ocupar o espaço regulatório que a União ainda não consolidou, posicionando o estado como referência geoeconômica na cadeia de valor de minerais críticos.
+[PAUSA]
+
+M: Segunda pauta: a *Secretaria da Economia* deu a largada hoje para o ciclo de elaboração do *PLOA 2027* — a proposta de *lei orçamentária anual* do próximo exercício. Foi realizada videoconferência com mais de trezentos servidores de diferentes órgãos, Poderes e Secretarias Estaduais, para alinhamento das diretrizes que vão orientar a construção e operacionalização do orçamento.
+
+F: A novidade deste ciclo é a integração total ao novo *SIAFIC* — o Sistema Integrado de Planejamento, Orçamento e Finanças de Goiás —, que unifica as plataformas SEONET e AFT em um único ambiente. Agora, o *IPOF*, o instrumento de planejamento e orçamento, opera dentro do SIAFIC, reunindo planejamento, orçamento e execução financeira numa só tela. O lançamento dos *IPOFs* vai até dezoito de julho, e a proposta orçamentária seguirá para a *Assembleia Legislativa* em setembro.
+
+M: Em breve, o sistema contará com automação inteligente para *empenho*, liquidação e pagamento com menos cliques e mais segurança. Para quem trabalha com *LOA* e *LDO*, é uma mudança de paradigma: menos retrabalho, menos duplicidade de dados e mais rastreabilidade entre as fases do ciclo orçamentário.
+[PAUSA]
+
+F: Terceira pauta: Goiás vai receber um dos maiores projetos de infraestrutura energética do país. O município de Silvânia será o terminal de chegada de uma linha de transmissão de aproximadamente mil e seiscentos quilômetros, em tecnologia de corrente contínua em ultra alta tensão — oitocentos quilovolts —, com investimento total de dezoito bilhões de reais.
+
+M: A obra, que conectará a Subestação Graça Aranha, no Maranhão, à *Subestação Silvânia*, em Goiás, passa ainda por Tocantins e Minas Gerais. A licença de instalação foi emitida pelo Ibama, e o empreendimento é considerado estratégico pelo Comitê de Monitoramento do Setor Elétrico. O objetivo central é escoar energia dos parques eólicos e solares do Norte e Nordeste, reduzindo gargalos na transmissão e ampliando a segurança energética nacional. A empresa responsável é a State Grid.
+
+F: Para Goiás, o impacto é direto: a chegada de uma subestação de grande porte em Silvânia reforça a malha energética do estado, cria demanda por logística viária — a Goinfra já foi citada como parceira estratégica na verificação de acessos — e pode induzir novos *investimentos* industriais na região do entorno.
+[PAUSA]
+
+M: Por fim, um alerta habitacional: lideranças de movimentos de moradia de Goiás foram a Brasília pressionar o governo federal a ampliar a meta de contratação do programa *Minha Casa Minha Vida*. As entidades alertam que mais de dois vírgula cinco mil famílias goianas podem ser prejudicadas caso a seleção federal se mantenha restrita a trinta e cinco mil unidades habitacionais — número considerado insuficiente diante de cerca de noventa e oito mil propostas já enquadradas no programa.
+
+F: Do ponto de vista fiscal e orçamentário, o *Minha Casa Minha Vida* é uma fonte relevante de recurso federal com impacto direto nos municípios goianos, via *FGTS* e Fundo de Arrendamento Residencial. Uma limitação na seleção de unidades representa, na prática, menor *transferência de investimentos* para o estado — pressionando a demanda por contrapartidas estaduais e municipais em habitação popular.
+[PAUSA CURTA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
