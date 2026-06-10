@@ -1,0 +1,30 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É quarta-feira, dez de junho de 2026. Hoje o episódio traz quatro pautas: abertura do ciclo *orçamentário* para 2027, *remissão de ICMS* para pecuaristas, o Porto Seco de Anápolis e novidades fiscais da Alego.
+[PAUSA]
+
+F: Começamos pela *LOA 2027*. A Secretaria da Economia abriu ontem, dia nove, o ciclo de elaboração da proposta orçamentária do estado para o próximo ano. A novidade é a integração total ao novo *Sistema Integrado de Planejamento, Orçamento e Finanças de Goiás*, o *SIAFIC*. Os *IPOFs* — Instrumentos de Planejamento, Orçamento e Finanças — ficam abertos até dezoito de julho. A proposta será enviada à Alego em setembro.
+
+M: O que muda na prática? O *SIAFIC* unifica os antigos sistemas SEONET e AFT em uma única plataforma. Com isso, o estado elimina duplicidade de dados entre planejamento, orçamento e execução financeira. Em breve, o sistema ganhará automação para *empenho*, liquidação e pagamento com menos cliques. Mais de trezentos servidores participaram da videoconferência de alinhamento das diretrizes do *PLOA*.
+[PAUSA]
+
+F: Segunda pauta: *renúncia de receita* no agro. O Governo de Goiás regulamentou o perdão de dívidas de *ICMS* relacionadas à movimentação de gado bovino entre propriedades rurais sem nota fiscal. A medida pode beneficiar cerca de dez mil produtores rurais autuados pela Receita Estadual. O estoque atual de débitos elegíveis é estimado em quatrocentos milhões de reais — valor que já foi reduzido desde autuações originais que chegavam a um bilhão.
+
+M: A base legal é a Lei Estadual número vinte e quatro mil cento e quarenta e cinco, de março de 2026, autorizada pelo *Confaz*. As regras estão na Instrução Normativa número mil seiscentos e trinta e quatro. Em muitos casos, o perdão será automático — desde que não haja recurso administrativo nem ação judicial pendente. Quem ainda contesta o débito precisará desistir do processo para aderir ao benefício.
+[PAUSA]
+
+F: Terceira pauta: infraestrutura e logística. O Jornal Opção informa que o Porto Seco de Anápolis está prestes a iniciar operações, com previsão de investimento de até trezentos milhões de reais, segundo o CEO da Aurora EADI. A estrutura posiciona o centro-oeste como corredor de exportação para o agronegócio goiano, reduzindo custo logístico de cargas destinadas a portos do Sudeste.
+
+M: Também relacionado à infraestrutura: o *Fundeinfra* arrecadou mais de três vírgula um bilhões de reais entre 2023 e janeiro de 2026. Desse total, cerca de dois vírgula quatro bilhões já foram formalizados em contratos de obras rodoviárias. A Alego aprovou recentemente que a Goinfra assuma a titularidade desses contratos após a extinção da contribuição ao fundo, garantindo continuidade das obras.
+[PAUSA]
+
+F: Quarta pauta: fiscal municipal. A Alego homologou o *decreto de calamidade financeira* do município de Iporá, nos termos do artigo sessenta e cinco da *Lei de Responsabilidade Fiscal*. A medida autoriza o município a adotar mecanismos extraordinários: limitação de *empenhos*, revisão de contratos e racionalização de despesas. Também foi confirmado o pagamento de cinco *emendas impositivas* pelo deputado Paulo Cezar Martins, reforçando o fluxo de repasses a municípios goianos.
+
+M: Resumindo: ciclo *LOA 2027* aberto com *SIAFIC* integrado, *renúncia fiscal* de quatrocentos milhões de reais para o agro bovino, Porto Seco de Anápolis na reta final e *LRF* acionada em Iporá. Semana movimentada para quem trabalha com orçamento público em Goiás.
+[PAUSA CURTA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
