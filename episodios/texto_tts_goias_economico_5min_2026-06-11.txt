@@ -1,0 +1,34 @@
+[VINHETA_IN]
+
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+
+[PAUSA CURTA]
+
+M: Abrimos a edição de hoje, onze de junho, com uma virada importante para o controle tributário do Estado. Desde o primeiro de junho, cerca de onze mil empresas goianas com faturamento anual acima de quatro vírgula oito milhões de reais estão obrigadas a integrar os meios de pagamento eletrônico à emissão de documentos fiscais. Na prática, cada transação por cartão, débito ou *PIX* passa a comunicar automaticamente o software emissor de *NF-e* e *NFC-e*, fechando a janela entre o pagamento e o registro tributário.
+
+F: É o segundo passo de um calendário gradual que a *Secretaria da Economia* vem implantando desde novembro de 2025, quando a obrigação estreou em supermercados, postos de combustíveis e farmácias. Agora ela se estende a todos os segmentos da mesma faixa de faturamento. O próximo degrau está marcado para primeiro de setembro, quando a exigência chegará às Empresas de Pequeno Porte, com receita entre trezentos e sessenta mil e quatro vírgula oito milhões de reais. Em dezembro, será a vez das microempresas. *MEIs* continuam dispensados.
+
+[PAUSA]
+
+M: Segunda pauta: o Governo de Goiás acaba de abrir as inscrições para o programa *GovTech*, uma iniciativa que aproxima o poder público de startups e empresas inovadoras. As inscrições seguem até quinze de junho, e os contratos por projeto podem chegar a um vírgula seis milhão de reais. O objetivo é criar soluções tecnológicas para desafios concretos da gestão pública, com desenvolvimento de oportunidades de negócios tanto para as empresas quanto para o Estado.
+
+F: Vale destacar o ângulo fiscal dessa novidade. Ao investir em inovação via *GovTech*, o Estado busca reduzir custos operacionais de médio e longo prazo. Do ponto de vista *orçamentário*, esses contratos entrarão como despesas de custeio ou de *investimento* dependendo da natureza do produto entregue — o que exige atenção na classificação do *empenho* e no impacto sobre o *resultado primário*. Um tema que os gestores de orçamento devem acompanhar de perto.
+
+[PAUSA]
+
+M: Terceira pauta, vinda diretamente da Assembleia Legislativa de Goiás. Os deputados aprovaram, na primeira semana de junho, o decreto de calamidade financeira do município de Iporá. A prefeitura argumentou que a medida é necessária para acionar os mecanismos extraordinários de gestão fiscal previstos no artigo sessenta e cinco da *Lei de Responsabilidade Fiscal*, a *LRF*.
+
+F: Com a calamidade reconhecida, Iporá poderá adotar, entre outras medidas, limitação de *empenhos*, revisão de contratos administrativos e racionalização de despesas, buscando reequilibrar as contas municipais. A aprovação na *CCJ* e na sessão plenária seguiu caminho técnico dentro do rito da *LRF*, e o caso serve de alerta sobre a saúde fiscal de municípios goianos de menor porte, que frequentemente têm alta dependência de transferências como *FPE* e *FUNDEB* e baixa capacidade de geração de *receita própria*.
+
+[PAUSA]
+
+M: Fechamos com a *Alego* itinerante. A quinquagésima segunda edição do Programa Deputados Aqui foi lançada na quarta-feira, dez de junho, com início em Cristianópolis e Santa Cruz de Goiás. Ao longo da semana, o programa passa também por Terezópolis, Santa Rosa e encerra no sábado, treze, no Jardim Balneário Meia Ponte, em Goiânia. A proposta leva atendimentos gratuitos à população e sessões solenes de homenagem nas cidades visitadas.
+
+F: Do ponto de vista institucional, o programa fortalece a interlocução entre o Poder Legislativo e os municípios — especialmente relevante num ano pré-eleitoral como este. Para os gestores fiscais municipais, a presença dos deputados é também oportunidade de levar ao Parlamento demandas por emendas, repasses e ajustes no *orçamento estadual*, numa temporada em que a *LOA 2027* está em elaboração e os *IPOFs* serão lançados até dezoito de julho.
+
+[PAUSA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
