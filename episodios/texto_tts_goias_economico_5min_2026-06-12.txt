@@ -1,0 +1,30 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Hoje é sexta-feira, doze de junho de dois mil e vinte e seis. Na edição de hoje: Goiás abre o ciclo orçamentário do *PLOA* vinte e vinte e sete com um novo sistema integrado; o governo reduz o *ICMS* do feijão para o mercado nacional; um decreto estadual cria marco regulatório para terras raras; e o Senado aprova um pacote bilionário de renegociação de dívidas do agro. Vamos lá.
+[PAUSA]
+
+F: Começamos pelo orçamento. A Secretaria da Economia abriu oficialmente, na semana passada, o ciclo de elaboração da proposta orçamentária para dois mil e vinte e sete. A novidade é que todo o processo passa a rodar dentro do novo *SIAFIC* — o Sistema Integrado de Planejamento, Orçamento e Finanças de Goiás —, que une em uma única plataforma as etapas de planejamento, orçamento e execução financeira. O lançamento dos *IPOFs*, os Instrumentos de Planejamento, Orçamento e Finanças, segue até dezoito de julho.
+
+M: Na prática, os sistemas anteriores SEONET e AFT foram fundidos. A proposta orçamentária completa deverá ser enviada à Assembleia Legislativa em setembro. Em breve, o *SIAFIC* contará com automação inteligente para *empenho*, liquidação e pagamento. Mais de trezentos servidores de diferentes órgãos e poderes participaram da videoconferência de alinhamento. Quem trabalha com *LOA* e *LDO* vai sentir essa mudança no dia a dia.
+[PAUSA]
+
+F: Segundo tema: *renúncia de receita* no agronegócio. O governador Daniel Vilela encaminhou projeto de lei à Alego para reduzir a *alíquota interestadual de ICMS* do feijão in natura de seis vírgula zero seis por cento para dois vírgula quatro por cento — uma queda de sessenta vírgula quatro por cento. A *renúncia fiscal* estimada é de doze milhões de reais por ano, a partir de dois mil e vinte e sete.
+
+M: O pano de fundo é a concorrência. Enquanto Goiás cobrava seis vírgula zero seis por cento, Minas Gerais concede isenção, o Paraná cobra apenas um por cento e o Distrito Federal já praticava os mesmos dois vírgula quatro por cento. Como cerca de setenta por cento da safra goiana precisa sair do estado, a desvantagem tributária pesava diretamente no preço. O *Valor Bruto da Produção* do feijão goiano está estimado em um vírgula sessenta e três bilhão de reais em dois mil e vinte e seis, crescimento de vinte vírgula cinco por cento ante o ano anterior, com o cultivo presente em noventa e um municípios.
+[PAUSA]
+
+F: Terceiro tema: minerais estratégicos. O governo de Goiás publicou decreto criando marco regulatório para a produção de terras raras no estado. A principal exigência é o chamado Plano de Verticalização Progressiva — que obriga as empresas credenciadas a demonstrar que o minério extraído passará por etapas de refino e transformação industrial dentro do próprio estado, evitando a exportação de matéria-prima bruta.
+
+M: As empresas já atuantes em Goiás têm trinta dias para enviar à *AMIC-GO* um cadastro informativo de suas operações. O decreto chega num momento em que a mineradora norte-americana USA Rare Earth chegou ao estado após adquirir a Serra Verde, em Minaçu. Em paralelo, a Câmara dos Deputados aprovou o Marco dos Minerais Críticos e Estratégicos, que prevê segurança jurídica e *previsibilidade tributária* para os estados produtores — o que beneficia diretamente Goiás.
+[PAUSA]
+
+F: E por último, um alerta para quem acompanha o *resultado primário* federal. O Senado aprovou ontem o chamado Refis do Agro — um pacote bilionário que autoriza o uso de recursos do Fundo Social do Pré-Sal para refinanciar dívidas de produtores rurais afetados por perdas climáticas e crises internacionais.
+
+M: Os números são expressivos: o prazo de pagamento pode chegar a treze anos, com carência mínima de dois anos, e juros de três vírgula cinco por cento ao ano para agricultores familiares e pequenos produtores. O Ministério da Fazenda se posicionou contra, estimando impacto fiscal de até cento e quarenta bilhões de reais. Como o texto foi alterado no Senado, o projeto retorna à Câmara dos Deputados antes de seguir para eventual sanção presidencial. Para Goiás, estado com *superávit na balança comercial* há quatorze anos consecutivos, qualquer mudança nas condições de crédito e renegociação do agro tem impacto direto na atividade econômica estadual.
+[PAUSA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
