@@ -1,0 +1,41 @@
+[VINHETA_IN]
+[PAUSA]
+
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+
+[PAUSA CURTA]
+
+F: Abrimos o episódio de hoje com uma pauta de *conformidade tributária*. A Secretaria da Economia segue implementando a vinculação obrigatória entre meios de pagamento eletrônico e a emissão de documentos fiscais. A partir de *primeiro de agosto de 2026*, encerra-se o calendário gradual iniciado em novembro do ano passado. A medida atinge, nesta fase final, empresas de médio e pequeno porte. A nota fiscal passa a ser gerada automaticamente no momento do registro do pagamento, sem intervenção manual.
+
+M: Na prática, isso elimina o chamado "gap fiscal" — aquela janela em que a venda ocorre pelo *Pix* ou cartão, mas a *NF-e* demora para ser emitida. Para o fisco goiano, o impacto é direto: mais *ICMS* capturado em tempo real, menos sonegação por omissão de receita. Microempreendedores individuais, os MEIs, estão dispensados da obrigação. Os demais pequenos negócios entram na última fase em *primeiro de dezembro de 2026*.
+
+[PAUSA CURTA]
+
+F: Passando para o município de Goiânia: o prefeito Sandro Mabel encaminhou à Câmara Municipal, na quinta-feira passada, dia onze, um projeto de lei que autoriza a contratação de *empréstimo externo de sessenta milhões de dólares* — o equivalente a aproximadamente trezentos e dez milhões de reais — junto ao *Banco Interamericano de Desenvolvimento*, o BID, com garantia da União.
+
+M: O recurso financia a segunda etapa do *Programa Urbano Ambiental Macambira Anicuns*, o PUAMA II. A nova fase abrange três dos onze setores do parque linear ainda não concluídos, com foco em drenagem, recuperação ambiental, mobilidade e reassentamento de famílias em áreas de risco. A operação já consta da *Lei Orçamentária Anual* de Goiânia para dois mil e vinte e seis. A conversão para reais será feita pela cotação do dólar na data de assinatura do contrato — o que torna o valor final sensível ao câmbio.
+
+[PAUSA CURTA]
+
+F: Na Assembleia Legislativa do Estado, destaque para a aprovação do *decreto de calamidade financeira* do município de Iporá. A medida, chancelada pelos deputados estaduais na primeira semana de junho, reconhece formalmente o desequilíbrio fiscal da Secretaria Municipal de Finanças do município e abre caminho para medidas de ajuste e renegociação de dívidas.
+
+M: Iporá não é um caso isolado. O reconhecimento de *calamidade financeira municipal* pela Alego é um instrumento previsto na legislação estadual que permite ao município acionar mecanismos de socorro fiscal — como refinanciamento de dívidas com o estado — sem perder o acesso a repasses. Para o gestor de orçamento, o ponto de atenção é o impacto nos *fundos municipais* e na capacidade de *empenho* da prefeitura ao longo do segundo semestre.
+
+[PAUSA CURTA]
+
+F: Outra frente fiscal importante: a Secretaria da Economia definiu as regras para o *perdão de dívidas de ICMS* ligadas à circulação de gado entre propriedades rurais sem emissão de nota fiscal. O impasse era histórico no setor pecuário goiano, e o montante de *débitos passíveis de remissão chega a quatrocentos milhões de reais*.
+
+M: A medida resolve um passivo tributário de longa data do agronegócio goiano — especificamente o chamado "gado em trânsito" entre fazendas do mesmo produtor, situação que gerava autuações em massa. A *renúncia de receita* implícita precisa, pela *Lei de Responsabilidade Fiscal*, de estimativa de impacto orçamentário e medidas compensatórias. A Secretaria da Economia deverá detalhar esses números no próximo relatório do *resultado primário* do estado.
+
+[PAUSA CURTA]
+
+F: E encerramos com um dado positivo para o bolso do cidadão goiano: a *Nota Fiscal Goiana* sorteou, no dia vinte e oito de maio, *duzentos mil reais* em prêmios para cento e cinquenta e oito consumidores cadastrados no programa. Os ganhadores têm até trinta dias para solicitar o resgate pelo site oficial. O programa segue como instrumento de *estímulo à emissão de NF-e* e combate à sonegação no varejo.
+
+M: Vale lembrar que a Nota Fiscal Goiana tem dupla função fiscal: induz o comportamento do consumidor a exigir o documento fiscal, e retroalimenta a base de dados de *conformidade tributária* da Secretaria da Economia — um círculo virtuoso para a arrecadação do *ICMS* estadual.
+
+[PAUSA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
