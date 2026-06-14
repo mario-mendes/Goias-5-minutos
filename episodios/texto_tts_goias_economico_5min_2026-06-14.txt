@@ -1,0 +1,25 @@
+[VINHETA_IN]
+[PAUSA]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É domingo, quatorze de junho de dois mil e vinte e seis. Hoje temos quatro pautas quentes: o *ciclo orçamentário* da *LOA* dois mil e vinte e sete já em marcha com o novo *SIAFIC*; a redução do *ICMS* do feijão para competir com outros estados; o perdão de até quatrocentos milhões em débitos fiscais de pecuaristas; e a calamidade financeira em Iporá com acionamento da *LRF*. Vamos nessa.
+[PAUSA CURTA]
+F: Começando pelo orçamento. A Secretaria da Economia abriu, na segunda-feira dez de junho, o ciclo de elaboração da *LOA* dois mil e vinte e sete. A novidade é que todo o processo já roda dentro do novo *SIAFIC* — Sistema Integrado de Planejamento, Orçamento e Finanças de Goiás — que unificou as plataformas *SEONET* e *AFT* em uma única interface.
+M: Certo. O prazo para as unidades orçamentárias lançarem os seus *IPOFs* — os Instrumentos de Planejamento, Orçamento e Finanças — vai até dezoito de julho. Depois disso, a proposta consolidada segue para a *Alego* em setembro. O sistema também prevê automação inteligente de *empenhos*, liquidações e pagamentos. Na prática, o ciclo inteiro — do planejamento à execução — passa a rodar em ambiente único, reduzindo retrabalho e inconsistências.
+[PAUSA CURTA]
+F: Segunda pauta: *renúncia de receita* estratégica no agro. Goiás anunciou a redução da *alíquota* interestadual do *ICMS* do feijão. A carga cai de seis vírgula zero seis por cento para dois vírgula quatro por cento — um corte de mais de sessenta por cento —, equiparando o estado ao Distrito Federal e a outros estados concorrentes na produção do grão.
+M: O raciocínio fiscal é claro: Goiás é o quinto maior produtor de feijão do Brasil, com nove vírgula sete por cento da produção nacional. Mas setenta por cento dessa produção precisa sair do estado, porque o mercado interno não absorve o volume todo. Com *alíquota* alta demais, os compradores de fora preferiam feijão de estados vizinhos. A medida sacrifica *receita* no curto prazo, mas busca recuperar volume e competitividade. A safra dois mil e vinte e cinco barra dois mil e vinte e seis projeta duzentos e oitenta e um mil toneladas colhidas em Goiás.
+[PAUSA CURTA]
+F: Terceira pauta, e também relacionada ao agro: a Secretaria da Economia definiu as regras do perdão de dívidas de *ICMS* de pecuaristas. O impasse era antigo — envolvia a circulação de gado entre propriedades rurais sem *nota fiscal*, mas acompanhado de *Guia de Trânsito Animal* ou *Termo de Transferência Animal*. O *passivo* estimado que pode ser perdoado chega a quatrocentos milhões de reais.
+M: Do ponto de vista da *LRF*, perdões dessa magnitude exigem compensação. Vale acompanhar se o governo vai publicar a estimativa de *impacto orçamentário* e a *medida de compensação*, como manda o artigo catorze da Lei de Responsabilidade Fiscal. Para os produtores rurais, a regularização encerra um risco fiscal que pesava sobre o balanço das propriedades. Aguardemos a publicação completa no *Diário Oficial*.
+[PAUSA CURTA]
+F: Quarta pauta: gestão fiscal municipal. A *Alego* aprovou, ainda na primeira semana de junho, o decreto de calamidade financeira da Secretaria Municipal de Finanças de Iporá. O município alegou situação de colapso fiscal e pediu amparo no artigo sessenta e cinco da *Lei Complementar* cento e um, a *LRF*.
+M: Esse dispositivo permite, em situação de calamidade, a adoção de mecanismos extraordinários: *limitação de empenhos*, revisão de contratos, racionalização de despesas e outras medidas emergenciais. É um instrumento sério, previsto exatamente para municípios que não conseguem equilibrar receita e despesa dentro dos ritos normais. Iporá entra no radar como caso emblemático a ser acompanhado pela *Secretaria da Economia* e pelo *Tribunal de Contas dos Municípios*.
+[PAUSA CURTA]
+F: E antes de encerrar, um dado macro que contextualiza tudo isso. O Instituto Mauro Borges divulgou o Boletim de Projeções do primeiro trimestre de dois mil e vinte e seis, com *PIB* goiano projetado em dois vírgula três por cento para o ano, podendo variar entre um vírgula oito e dois vírgula oito por cento. Nos dois primeiros meses do ano, foram geradas vinte e cinco mil e quinhentas novas vagas formais. Goiás acumula quatorze anos consecutivos de superávit na *balança comercial*.
+M: Cenário que dá fôlego às metas fiscais. Indústria e serviços sustentam o crescimento mesmo com a acomodação do agro após o ciclo excepcional do ano passado. Bom horizonte para o gestor público que precisa fechar o *resultado primário* dentro das metas da *LDO*.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
