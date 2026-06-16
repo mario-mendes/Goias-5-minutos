@@ -1,0 +1,27 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É terça-feira, dezesseis de junho de dois mil e vinte e seis. Hoje nossa pauta traz o relógio da *LDO 2027* correndo na Alego, o desdobramento do pregão do banco parceiro do Tesouro, Goiás na lista de estados cobertos pelo Tesouro Nacional, e as projeções do *PIB* goiano para este ano. Vamos lá.
+[PAUSA CURTA]
+F: Começamos pela *Lei de Diretrizes Orçamentárias*. A Comissão de Tributação, Finanças e Orçamento da Alego, a CTFO, deu início formal à tramitação do projeto da *LDO 2027*, enviado pelo Executivo estadual. O relator designado é o deputado Anderson Teodoro, do PRD, e o calendário já está definido: os parlamentares têm até amanhã, dezessete de junho, para apresentar emendas à proposta.
+[PAUSA CURTA]
+M: E os números do projeto são expressivos. A estimativa de disponibilidade de caixa para o período é de onze vírgula setenta e três bilhões de reais. A reserva de contingência ficou fixada em dois vírgula dois por cento da *receita corrente líquida* estimada para dois mil e vinte e sete, sendo que um vírgula dois por cento dessa fatia será destinado a *emendas parlamentares*, em observância à Constituição estadual.
+[PAUSA CURTA]
+F: Uma novidade desta edição da *LDO* é a chamada "LDO dos Goianos" — uma versão simplificada da proposta, elaborada para facilitar a compreensão da população sobre as prioridades do orçamento estadual. Após o prazo de emendas, o relator Anderson Teodoro terá entre os dias dezoito e vinte e três para elaborar seu parecer, com votação na comissão prevista para o dia vinte e quatro de junho.
+[PAUSA CURTA]
+M: E essa mesma data, vinte e quatro de junho, também está marcada para uma audiência pública da CTFO com a *Secretaria de Estado da Economia*, que vai apresentar a prestação de contas do *primeiro quadrimestre de 2026*. Dois eventos cruciais para quem trabalha com *ciclo orçamentário* no mesmo dia.
+[PAUSA CURTA]
+F: Em desdobramento ao que noticiamos ontem: o pregão eletrônico para contratação da instituição financeira parceira do Tesouro Estadual foi realizado hoje, dezesseis de junho. O contrato define o banco operacionalizador responsável pela gestão de caixa, *remuneração de disponibilidades* e custo de transação das receitas estaduais. O Diário Oficial trará o resultado nos próximos dias.
+[PAUSA CURTA]
+M: No radar federal com impacto direto em Goiás: o Tesouro Nacional divulgou relatório mostrando que a União pagou oitocentos e trinta e quatro vírgula oito milhões de reais em dívidas atrasadas de estados e municípios só em maio. Goiás está entre os entes que tiveram garantias honradas pelo Tesouro no período, ao lado do Rio de Janeiro, Minas Gerais e Rio Grande do Sul.
+[PAUSA CURTA]
+F: Vale lembrar o mecanismo: quando um estado deixa de pagar parcelas de empréstimos garantidos pela União, o Tesouro Nacional assume temporariamente a dívida junto aos credores e depois busca recuperar os valores por *retenção de repasses federais*. Só nos primeiros cinco meses de dois mil e vinte e seis, o total desembolsado pelo governo federal nesse mecanismo já chega a três vírgula seis bilhões de reais em todo o país.
+[PAUSA CURTA]
+M: Fechamos com o cenário macroeconômico goiano. O Instituto Mauro Borges, o IMB, projeta crescimento do *PIB* de Goiás em dois vírgula três por cento para dois mil e vinte e seis, com variação entre um vírgula oito e dois vírgula oito por cento. O resultado é sustentado pelo dinamismo da indústria e pela resiliência do setor de serviços, após a acomodação do ciclo excepcional do *agro* no ano anterior.
+[PAUSA CURTA]
+F: No mercado de trabalho, o estado registrou vinte e cinco vírgula cinco mil novas vagas formais apenas nos dois primeiros meses do ano — um dos melhores desempenhos proporcionais do país. Goiás também acumula quatorze anos consecutivos de superávit na *balança comercial* e deve manter saldo positivo em dois mil e vinte e seis, mesmo com maior volatilidade no cenário internacional.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
