@@ -1,0 +1,26 @@
+[VINHETA_IN]
+[PAUSA]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Sexta-feira, dezenove de junho de 2026. Eu sou Marco, ao lado de Fernanda, e hoje temos quatro pautas que movem o radar fiscal e orçamentário do estado.
+[PAUSA CURTA]
+F: Abrimos com uma medida de alívio para o agronegócio. O Governo de Goiás definiu as regras para conceder o *perdão de dívidas de ICMS* relacionadas à movimentação de gado bovino entre propriedades rurais sem emissão de nota fiscal — uma pendência histórica do setor. A medida pode beneficiar mais de dez mil produtores rurais e perdoar até quatrocentos milhões de reais em débitos.
+[PAUSA CURTA]
+M: Para entender a magnitude: esse passivo nasceu de uma contradição operacional. Produtores que acompanhavam o gado com *Guia de Trânsito Animal* — a chamada GTA — ou com *Termo de Transferência Animal* não emitiam nota fiscal, o que gerou autuações em série. A Lei número vinte e quatro mil cento e quarenta e cinco, sancionada em março deste ano, criou a base legal para o perdão. O montante original passava de um bilhão de reais, mas descontos e moratórias reduziram a exposição a quatrocentos milhões. Para a *Secretaria da Economia*, o ganho é duplo: regularização cadastral dos produtores e redução do estoque de litígios na dívida ativa.
+[PAUSA CURTA]
+F: Passamos agora ao quadro fiscal do estado. A *Lei Orçamentária Anual* de dois mil e vinte e seis projeta receita total de cinquenta e três vírgula quatro bilhões de reais, sustentada por três pilares: o *ICMS*, estimado em dezenove bilhões; o *IRRF*, com três vírgula quatro bilhões; e as *transferências da União*, que somam onze bilhões. O *IPVA* contribui com mais um vírgula quatro bilhão, e ainda entram o Protege, com um vírgula zero nove bilhão, e o Fundeinfra, com um vírgula zero cinco bilhão.
+[PAUSA CURTA]
+M: Do lado das despesas, o número que domina é a *folha de pessoal*: vinte e nove vírgula quatro bilhões de reais, sendo catorze vírgula oito bilhões para servidores ativos do Executivo e oito vírgula sete bilhões para inativos. O *déficit previdenciário*, segundo a GoiásPrev, está projetado em cinco vírgula seis bilhões. Já o *serviço da dívida pública* consome quatrocentos e cinco milhões em juros e encargos, mais novecentos e setenta e um milhões em amortizações. O total de despesas fiscais e da seguridade chega a cinquenta e dois vírgula dois bilhões — isso deixa uma margem de pouco mais de um bilhão entre receita e despesa prevista, exigindo controle rigoroso do *resultado primário* ao longo do ano.
+[PAUSA CURTA]
+F: Terceira pauta: o *Propag*, Programa de Pleno Pagamento de Dívidas dos Estados. Goiás foi o primeiro estado a aderir ao programa em dois mil e vinte e cinco, saindo do *Regime de Recuperação Fiscal*. A estimativa do governo é que o novo enquadramento gere economia líquida de vinte e oito bilhões de reais ao longo de três décadas, graças a juros menores e maior flexibilidade para *empenhar investimentos*. A LOA vinte e vinte e seis já reserva quatro vírgula quatro bilhões para infraestrutura rodoviária e obras estruturantes, número que só é viável porque a folga gerada pelo Propag libera espaço fiscal antes travado pelas regras do antigo regime.
+[PAUSA CURTA]
+M: E nossa última pauta é de conformidade tributária digital. A *Secretaria da Economia* prorrogou para primeiro de junho deste ano o prazo de integração entre *meios de pagamento eletrônico* e emissão de *documentos fiscais* para empresas com faturamento anual acima de quatro vírgula oito milhões de reais. A próxima fronteira é primeiro de dezembro: aí chegará a vez das *microempresas* de todos os segmentos, com receita até trezentos e sessenta mil reais por ano. *MEIs* estão dispensados. O objetivo é fechar a brecha entre o que é vendido — registrado na maquininha — e o que é faturado — declarado ao Fisco —, cruzando bases de dados em tempo real para reduzir a *sonegação de ICMS*.
+[PAUSA CURTA]
+F: Para quem trabalha com *auditoria fiscal* ou *planejamento orçamentário*, o ponto de atenção é o cronograma: empresas de médio porte que ainda não implementaram a integração técnica já estão em risco de autuação desde junho. O impacto esperado na arrecadação ainda não foi quantificado oficialmente, mas analistas estimam recuperação relevante de base tributável, especialmente no comércio varejista.
+[PAUSA CURTA]
+M: Recapitulando o dia: *perdão de ICMS* de gado bovino — quatrocentos milhões de reais regularizados no agro. *LOA dois mil e vinte e seis* — cinquenta e três vírgula quatro bilhões de receita, com folha de pessoal consumindo cinquenta e cinco por cento do orçamento. *Propag* — economia de vinte e oito bilhões em trinta anos abre espaço para investir. E integração fiscal digital — prazo já chegou para empresas de médio e grande porte.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
