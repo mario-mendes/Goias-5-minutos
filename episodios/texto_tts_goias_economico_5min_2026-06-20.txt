@@ -1,0 +1,39 @@
+[VINHETA_IN]
+[PAUSA]
+
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+
+[PAUSA CURTA]
+
+F: Sábado, vinte de junho de dois mil e vinte e seis. Abrimos o episódio de hoje com uma decisão legislativa que beneficia diretamente o agronegócio goiano: a *Assembleia Legislativa* aprovou, em turno final, o projeto de lei que institui *crédito outorgado de ICMS* nas operações interestaduais com feijão *in natura* produzido em Goiás.
+
+M: Exato. O texto, identificado como processo legislativo número doze mil e oitenta e oito barra vinte e seis, foi aprovado na sessão extraordinária da quarta-feira, dezessete de junho, e agora aguarda apenas a sanção do governador Daniel Vilela para entrar em vigor. Com a medida, a carga tributária efetiva nas saídas interestaduais do grão cai de seis vírgula zero seis por cento para *dois vírgula quatro por cento* — uma redução de sessenta vírgula quatro por cento.
+
+F: Para entender o mecanismo técnico: o *crédito outorgado* equivale à aplicação de até *oitenta por cento* sobre o valor do *ICMS* devido. Como a alíquota interestadual de referência em Goiás é doze por cento, o resultado efetivo no bolso do produtor é justamente essa alíquota de dois vírgula quatro por cento, equiparando Goiás ao Distrito Federal, ao Paraná, a Minas Gerais e ao Mato Grosso.
+
+M: Em termos de *renúncia fiscal*, a Secretaria da Economia estimou impacto de cerca de *doze milhões de reais por ano* a partir de dois mil e vinte e sete — valor considerado sustentável diante do que está em jogo no setor. O *Valor Bruto da Produção Agropecuária* do feijão em Goiás está estimado em *um vírgula sessenta e três bilhão de reais* em dois mil e vinte e seis, crescimento de vinte vírgula cinco por cento em relação ao ano anterior.
+
+F: Vale lembrar que Goiás é o terceiro maior produtor nacional de feijão, com participação superior a onze por cento da produção brasileira. E cerca de setenta por cento da safra estadual precisa ser vendida para outros mercados, pois o consumo interno não absorve todo o volume colhido. Portanto, a *competitividade tributária interestadual* é determinante para a cadeia.
+
+[PAUSA CURTA]
+
+M: Mudando de pauta, mas dentro do radar fiscal: ontem, dezenove de junho, a Secretaria da Economia publicou o *Decreto número dez mil novecentos e vinte e quatro barra dois mil e vinte e seis*, que limita a *duas* o número de *diligências* por instância no processo administrativo tributário estadual.
+
+F: Na prática, isso racionaliza o *contencioso administrativo*. Diligências excessivas são um mecanismo clássico de protelar a conclusão de *autos de infração* e ampliar o tempo de discussão dos débitos. Com o teto de duas por instância, o Estado acelera a resolução dos litígios e reduz o estoque de *dívida ativa* pendente de julgamento — o que tem efeito direto sobre a previsibilidade da *receita tributária*.
+
+[PAUSA CURTA]
+
+M: Para fechar com um dado macroeconômico de contexto: o *Instituto Mauro Borges* projeta crescimento do *PIB* goiano de *dois vírgula três por cento* em dois mil e vinte e seis, com intervalo entre um vírgula oito e dois vírgula oito por cento. O ritmo é mais moderado que o registrado em dois mil e vinte e cinco, mas o cenário segue positivo.
+
+F: A sustentação vem principalmente do setor industrial e da resiliência dos serviços. No campo inflacionário, as projeções apontam *IPCA* de três vírgula sete por cento — dentro da meta — o que preserva o poder de compra das famílias e favorece o consumo interno, com reflexos positivos sobre a arrecadação de *ICMS* no varejo.
+
+[PAUSA CURTA]
+
+M: Recapitulando os destaques de hoje: *Alego* aprova *crédito outorgado de ICMS* para feijão *in natura*, com carga efetiva caindo para dois vírgula quatro por cento e *renúncia fiscal* de doze milhões anuais a partir de dois mil e vinte e sete. *Decreto dez mil novecentos e vinte e quatro* racionaliza o contencioso tributário com teto de duas diligências por instância. E o *IMB* confirma crescimento do *PIB* goiano em dois vírgula três por cento para dois mil e vinte e seis.
+
+[PAUSA CURTA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
