@@ -1,0 +1,23 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Hoje é domingo, 21 de junho de 2026. Três pautas no radar: *folha de pessoal* em Goiânia, um projeto inovador de *ativos imobiliários* do Estado e a chegada do maior hub de mineração da América Latina à Alego. Vamos a elas.
+[PAUSA]
+F: Começamos pela *folha de pessoal* municipal. O prefeito Sandro Mabel sancionou a lei que equipara os vencimentos dos professores da rede pública de Goiânia ao *Piso Salarial Profissional Nacional do Magistério* — o PSPN. O novo valor é de cinco mil, cento e trinta reais e sessenta e três centavos para jornada de quarenta horas semanais, um reajuste de cinco vírgula quatro por cento sobre o piso anterior.
+[PAUSA CURTA]
+M: O impacto é relevante sob a ótica do *resultado primário* do município. A Prefeitura estima acréscimo de aproximadamente sessenta e quatro vírgula nove *milhões de reais* só em 2026 na folha do magistério, custeados com recursos do *Fundeb* e do Tesouro Municipal. A lei também permite reativação de *contratos temporários* por até cinco anos — cláusula que gerou embate na Câmara, pois parlamentares alertaram que servidores temporários contribuem ao INSS, não ao GoiâniaPrev, pressionando o *regime próprio de previdência* da capital.
+[PAUSA]
+F: Passemos à pauta dos *ativos imobiliários* estaduais. O governador Daniel Vilela enviou à Alego projeto que autoriza a criação de *fundos de investimento imobiliário* — os FIIs — para administrar imóveis públicos hoje ociosos ou subutilizados. O patrimônio envolvido está avaliado em seiscentos e quatro *milhões de reais* e a expectativa é gerar receitas que podem superar um vírgula dois *bilhão de reais* para o Estado.
+[PAUSA CURTA]
+M: Do ponto de vista fiscal, a proposta é engenhosa: em vez de venda direta — que geraria receita não recorrente — o modelo de FII permite ao Estado manter a maioria das cotas e participar dos ganhos ao longo do tempo, sem abrir mão do controle estratégico. A gestão seguirá normas da *CVM*. A Procuradoria-Geral do Estado deu parecer favorável, e a Secretaria da Economia aprovou um *crédito adicional* de três vírgula noventa e três *milhões* para estruturar o arcabouço regulatório sem comprometer o *equilíbrio fiscal*. A matéria segue em tramitação na Comissão Mista da Alego.
+[PAUSA]
+F: E a terceira pauta é olhar para o futuro da mineração em Goiás. A Assembleia Legislativa sediará amanhã, 22 de junho, o lançamento oficial do BRAMINVEST 2026 — Brazil and Latin America Mining Investment Hub —, apontado como a maior conexão de negócios de mineração da América Latina. O evento reúne autoridades, investidores e empresários do setor mineral de vários estados.
+[PAUSA CURTA]
+M: A escolha de Goiânia não é por acaso. Goiás já é o terceiro maior arrecadador da *CFEM* — a Compensação Financeira pela Exploração de Recursos Minerais — do país, com destaques em cobre, nióbio, níquel e, crescendo em ritmo acelerado, terras raras. A empresa Aclara concluiu estudo de viabilidade do projeto Carina, em Goiás, com capacidade média anual de mais de quatro mil trezentas e setenta e oito toneladas de óxidos de terras raras. O BRAMINVEST propõe conectar esses ativos a investidores globais por meio de rodadas de negócios curadas — só participam projetos que passam por rigoroso processo técnico. Para o orçamento estadual, mais mineração significa mais *CFEM* repassada a municípios e mais base de *ICMS* industrial a ser preservada.
+[PAUSA]
+F: Resumindo o episódio de hoje: Goiânia amarra reajuste de cinco vírgula quatro por cento na *folha do magistério*, com impacto de sessenta e quatro vírgula nove *milhões* custeados pelo *Fundeb*; o Estado avança em projeto de *FII imobiliário* com potencial de um vírgula dois *bilhão*; e a Alego abre amanhã o maior hub de negócios de mineração da América Latina, com Goiás na vitrine dos minerais críticos globais.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
