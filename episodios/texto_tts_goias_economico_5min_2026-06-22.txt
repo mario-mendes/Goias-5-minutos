@@ -1,0 +1,24 @@
+[VINHETA_IN]
+[PAUSA]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É segunda-feira, 22 de junho de 2026. Abrimos a semana com quatro pautas que tocam diretamente no bolso do contribuinte goiano: *benefícios fiscais* no agro, a agenda do legislativo, os números da *folha de pessoal* e a modernização tributária do estado.
+[PAUSA CURTA]
+F: Começamos com o agro e uma mudança relevante na tributação da soja. A Secretaria da Economia de Goiás reduziu a carga tributária interestadual do grão de 6,06% para 2,4%, equiparando Goiás ao Distrito Federal e aos principais estados concorrentes. O impacto é significativo: cerca de 70% de toda a produção goiana de soja precisa sair do estado, pois o mercado interno não absorve o volume colhido. Menos *ICMS* na saída significa mais competitividade logística para o produtor.
+[PAUSA CURTA]
+M: Ainda no agro, outro ponto de atenção tributária: o governo resolveu um impasse histórico envolvendo a circulação de gado entre propriedades rurais sem emissão de nota fiscal. As novas regras da Secretaria da Economia preveem *perdão de dívidas de ICMS* relacionadas a essas movimentações, com potencial de *renúncia de receita* estimada em até 400 milhões de reais. Do ponto de vista da *Lei de Responsabilidade Fiscal*, qualquer remissão desse porte exige impacto orçamentário declarado e medida compensatória — ponto a acompanhar no Diário Oficial.
+[PAUSA CURTA]
+F: Na Assembleia Legislativa, a semana começa movimentada. A Alego tem agenda extensa de reuniões e homenagens nesta segunda, 22, e o destaque institucional é o *BRAMINVEST 2026*, maior evento de conexão de investimentos em mineração do país, que será sediado pelo parlamento goiano. A mineração é um setor crescente em Goiás e tende a pautar debates sobre *royalties*, receita própria municipal e impactos ambientais no segundo semestre legislativo.
+[PAUSA CURTA]
+M: Ainda da Alego, um resultado da semana passada merece registro: na quarta-feira, 17, a *Comissão Mista aprovou benefícios fiscais* e a sessão plenária *reduziu a alíquota de ICMS do feijão in natura*. A medida beneficia produtores e comerciantes do grão, um dos itens de segurança alimentar mais sensíveis para as famílias goianas de baixa renda. A *renúncia de receita* associada ainda não foi detalhada publicamente — nossa recomendação aos colegas da Secretaria da Economia: acompanhem a nota técnica de impacto fiscal quando sair no DOE.
+[PAUSA CURTA]
+F: Passando para o fiscal estrutural: a *LOA 2026* do Estado projeta receita total de 53,4 bilhões de reais, com a *Receita Corrente Líquida* — base dos limites da *LRF* — estimada em 47,3 bilhões. O *ICMS* responde sozinho por 19 bilhões dessa estimativa. A *folha de pessoal*, maior componente do gasto estadual, está fixada em 29,4 bilhões, sendo 14,8 bilhões para servidores ativos do Executivo e 8,7 bilhões para inativos. O *déficit previdenciário* projetado pela GoiásPrev é de 5,6 bilhões — um peso fiscal permanente que corrói o espaço de investimento.
+[PAUSA CURTA]
+M: Falando em espaço fiscal: o secretário da Economia, Francisco Sérvulo Freire Nogueira, já alertou que o núcleo central de capacidade do estado para realizar políticas públicas soma apenas 17 bilhões de reais do total. Desse bolo, pouco mais de 15 bilhões ficam com o Executivo e 1,89 bilhão vai aos demais poderes. As *emendas impositivas* dos deputados estão estimadas em 567 milhões, equivalentes a 1,2% do orçamento. Com despesas crescendo a 25% e receita a 8%, a *rigidez orçamentária* é o principal desafio fiscal de 2026.
+[PAUSA CURTA]
+F: Encerramos com uma novidade de gestão: a Secretaria da Economia integrou o ciclo orçamentário ao novo *SIAFIC*, o Sistema Integrado de Planejamento, Orçamento e Finanças de Goiás. A plataforma unifica o que antes eram dois sistemas separados — SEONET e AFT — e em breve permitirá automação de *empenhos*, liquidações e pagamentos. Para os servidores que atuam na execução orçamentária, a promessa é de mais agilidade, menos retrabalho e maior rastreabilidade entre planejamento e execução.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
