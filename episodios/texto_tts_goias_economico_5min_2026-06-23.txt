@@ -1,0 +1,23 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É terça-feira, 23 de junho de 2026. Três pautas fiscais importantes chegaram ao nosso radar esta manhã — *empenho*, *subvenção rural* e um *benefício de ICMS* aprovado pela Alego. Vamos direto ao ponto.
+[PAUSA]
+F: Começamos pelo ritmo da *execução orçamentária* do Estado. Segundo dados publicados n'O Popular, os *recursos empenhados* no primeiro quadrimestre de 2026 totalizaram *2,6 bilhões de reais* — um número inferior ao registrado no mesmo período do ano passado. A *Secretaria da Economia* projeta *empenhar 6,8 bilhões* ao longo de todo o exercício. Isso significa que, encerrado abril, o Estado havia comprometido pouco mais de 38% da meta anual de *empenho*.
+[PAUSA CURTA]
+M: Para quem acompanha a *LOA 2026*, a meta total de receita é de *53,4 bilhões de reais*. A *folha de pessoal* — servidores ativos, inativos e o *déficit previdenciário* da GoiásPrev — consome *29,4 bilhões*, o equivalente a *56,4%* de todo o orçamento. O *déficit previdenciário* isolado chega a *5,6 bilhões*. É o maior item de pressão sobre o *resultado primário* do Estado, ano após ano.
+[PAUSA]
+F: Segunda pauta: *subvenção econômica rural*. O teto de gastos federais com subvenção agrícola está *travado em 461,7 milhões de reais* neste ano, e produtores rurais já manifestam preocupação com nova queda em 2027. O dado é grave: em 2025, o número de *beneficiados caiu 67%* em relação ao ano anterior. Para Goiás — um dos maiores estados agropecuários do país — a restrição federal à *subvenção* pressiona direto a *receita líquida* do produtor e, indiretamente, a arrecadação de *ICMS* sobre insumos e movimentação de mercadorias.
+[PAUSA CURTA]
+M: Essa pauta tem relação direta com a *LRF*: toda *renúncia de receita* ou benefício fiscal de apoio ao agro precisa, pelo artigo 14, de comprovação de impacto orçamentário e medida compensatória. A restrição federal à subvenção, por outro lado, não exige compensação — ela simplesmente limita o repasse. O resultado prático é o mesmo: menos dinheiro no campo.
+[PAUSA]
+F: Terceira pauta, do Legislativo goiano. Na semana passada, a *Assembleia Legislativa de Goiás* — a Alego — carimbou *benefício fiscal* nas operações com *feijão in natura*. A medida passou por *Comissão Mista*, que aprovou *alterações tributárias*, e foi referendada em plenário. A alíquota de *ICMS* sobre o feijão foi reduzida, equiparando o produto a outras commodities do agro goiano que já tinham tratamento diferenciado. A *renúncia de receita* ainda será dimensionada pela Secretaria da Economia, conforme exige a *LRF*.
+[PAUSA CURTA]
+M: Ainda na Alego: os deputados aprovaram o *decreto de calamidade financeira* do município de Iporá. O pedido do Poder Executivo municipal ampara-se no artigo *65 da Lei Complementar 101*, a *LRF*, que autoriza, em situação de calamidade reconhecida, a *limitação de empenhos*, revisão de contratos e racionalização de despesas. É um instrumento excepcional de ajuste fiscal para municípios em colapso de caixa.
+[PAUSA]
+F: Encerramos com uma nota sobre o cenário macroeconômico de Goiás. O *Instituto Mauro Borges* projeta crescimento do *PIB goiano* em *2,3%* para 2026, sustentado pela indústria e pelos serviços. Só nos dois primeiros meses do ano, foram geradas *25,5 mil vagas formais* de emprego, colocando Goiás entre os estados com maior criação proporcional de postos de trabalho no país. E o Estado acumula *14 anos consecutivos de superávit* na balança comercial.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
