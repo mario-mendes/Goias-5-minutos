@@ -1,0 +1,25 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É quinta-feira, 25 de junho de 2026. Hoje temos quatro pautas direto das trincheiras fiscal e orçamentária de Goiás. Vamos ao que importa.
+[PAUSA CURTA]
+F: Primeiro, a *Alego*. Na sessão de ontem, os deputados aprovaram em votação final o projeto do Executivo que autoriza a alienação de imóveis dominicais do Estado por meio de *fundos de investimento imobiliário*. A medida permite que o patrimônio ocioso do governo seja convertido em cotas de fundo, gerando liquidez sem venda direta em leilão. Do ponto de vista da *LOA*, isso pode reforçar receitas de capital e aliviar a necessidade de novos *empenhos* em custeio de imóveis parados.
+[PAUSA CURTA]
+M: A mesma sessão também ratificou, em votação final, a exigência de *ensino superior* para cargos da Polícia Técnico-Científica. Há impacto orçamentário indireto: a mudança de requisito tende a pressionar o plano de cargos e a *folha de pessoal* da segurança pública nos próximos ciclos da *LDO*.
+[PAUSA CURTA]
+F: Segunda pauta, e ela é quente para quem trabalha com *LRF*. O *Relatório de Gestão Fiscal* do 1º quadrimestre apontou que o *TJ-GO* e o *MP-GO* ultrapassaram o *limite de alerta* de despesa com pessoal. O *TJ-GO* gastou 2 bilhões e meio de reais com pessoal nos últimos 12 meses, chegando a 5,57% da *receita corrente líquida* — o limite de alerta para o Judiciário estadual é 5,4%. Já o *MP-GO* registrou 849 milhões e índice de 1,84%, acima do seu próprio limite de alerta de 1,8%.
+[PAUSA CURTA]
+M: O *TJ-GO* se defendeu dizendo que está abaixo do limite prudencial de 5,7% e do teto máximo de 6%, portanto sem infração formal. Mas atenção: *limite de alerta* não gera punição, porém é sinal vermelho para o gestor de orçamento. Se a *RCL* crescer menos que a folha no próximo quadrimestre, o risco de atingir o limite prudencial aumenta — o que vedaria admissões e reajustes.
+[PAUSA CURTA]
+F: Terceira pauta: o Governo de Goiás está elaborando as regras para *dividir o teto de gastos entre os Poderes e órgãos autônomos*. O projeto deverá ser enviado à *Alego* em breve. *TJ-GO*, *Alego* e *Defensoria Pública* são as principais partes interessadas na expansão do teto. Para o Tesouro Estadual, o nó é calibrar as fatias sem comprometer o *resultado primário* e sem abrir espaço para novos ciclos de expansão de despesas obrigatórias.
+[PAUSA CURTA]
+M: E ainda nessa linha: um decreto publicado no dia 22 de junho tratou das *condicionantes de desoneração de ICMS* vinculadas à Lei Complementar federal 224 de 2025. O decreto garante que, se o descumprimento de contrapartidas federais decorrer exclusivamente daquela lei complementar, os benefícios fiscais estaduais *não serão cancelados*. Na prática, protege o contribuinte goiano de perder *renúncia de receita* por razões alheias à sua vontade — mas o impacto sobre o estoque de benefícios vigentes ainda precisa ser mensurado pela *Receita Estadual*.
+[PAUSA CURTA]
+F: Por fim, o *Instituto Mauro Borges* projeta crescimento do *PIB* goiano de 2,3% em 2026, com intervalo entre 1,8% e 2,8%. O motor é a indústria e os serviços, que compensam a acomodação do agro após o ciclo excepcional de 2025. No mercado de trabalho, só nos dois primeiros meses do ano foram geradas 25 mil e quinhentas vagas formais líquidas — colocando Goiás entre os estados com maior geração proporcional de empregos no país. E o estado soma 14 anos consecutivos de *superávit na balança comercial*.
+[PAUSA CURTA]
+M: O recado para quem trabalha com planejamento e orçamento: crescimento de PIB projetado em 2,3% sustenta a base de arrecadação de *ICMS*, mas o ciclo de queda da Selic ainda não se traduz em receita imediata. O olho tem que ficar no *RGF* do 2º quadrimestre, que vence em setembro.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
