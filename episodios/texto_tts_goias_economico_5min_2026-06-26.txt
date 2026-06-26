@@ -1,0 +1,30 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É sexta-feira, 26 de junho de 2026. Hoje o episódio traz quatro pautas de peso: a aprovação da divisão do teto do *Propag* entre os Poderes, o primeiro aval da *LDO 2027*, um benefício de *ICMS* para o feijão e o retrato macroeconômico de Goiás segundo o Instituto Mauro Borges. Vamos lá.
+[PAUSA]
+
+F: Em desdobramento ao que noticiamos ontem, a Alego aprovou ontem, quinta-feira 25, o projeto de lei que regulamenta a distribuição interna do limite global anual de *despesas primárias* do estado no âmbito do *Propag* — o Programa de Pleno Pagamento de Dívidas dos Estados. O texto do governador Daniel Vilela divide o *teto de gastos* entre Executivo, Tribunal de Justiça, Assembleia Legislativa, tribunais de contas, Ministério Público e Defensoria Pública.
+
+M: Tecnicamente, esse projeto é o elo que faltava entre a adesão ao *Propag* — aprovada pela Alego em 2025 — e a execução orçamentária concreta. A Secretaria da Economia argumentou que, sem uma norma estadual, cada Poder poderia interpretar de forma diferente as regras federais da *Lei Complementar 212 de 2025*, gerando insegurança jurídica. Um detalhe importante: os valores individualizados de cada órgão ainda não foram formalizados, pois dependem da assinatura do aditivo do *Propag* com o Tesouro Nacional — prevista para os próximos meses. O limite global leva em conta créditos adicionais vigentes até 30 de junho de 2026.
+[PAUSA]
+
+F: Ainda ontem, a Alego deu o primeiro aval à *LDO 2027* — a Lei de Diretrizes Orçamentárias para o próximo exercício. O projeto do Executivo projeta receita total de 47,8 bilhões de reais, sendo 41,3 bilhões de natureza corrente. A arrecadação tributária está estimada em 27,1 bilhões de reais.
+
+M: Os números fiscais do projeto são ambiciosos: *resultado primário* positivo de 401 milhões de reais e despesa total projetada na faixa de 47 bilhões de reais. Os *investimentos* programados chegam a 3,3 bilhões de reais, com prioridade para educação, saúde, segurança e infraestrutura. Dois destaques do processo legislativo: o relator Lincoln Tejota acatou emendas do deputado Coronel Adailton que limitam os grupos de natureza de despesa — os famosos GND 1, 3, 4 e 5 — ao orçamento inicial de 2025 corrigido pelo *IPCA*. A regra vale para todos os Poderes e órgãos autônomos. A *LDO* segue agora para segunda votação.
+[PAUSA]
+
+F: Também na semana, a Alego carimbou benefício de *ICMS* nas operações com feijão in natura. A medida reduz a carga tributária interestadual de 6,06% para 2,4%, equiparando Goiás ao Distrito Federal e a estados concorrentes na cadeia do grão. Vale lembrar que 70% de toda a produção estadual de feijão precisa ser escoada para fora do estado, pois o mercado interno não absorve o volume total.
+
+M: Do ponto de vista de *renúncia de receita*, a medida tem impacto a monitorar no *resultado primário*. A lógica do governo, porém, é de que a alíquota mais competitiva estimula o emplacamento de notas fiscais nas operações interestaduais, reduzindo a informalidade e potencialmente compensando parte da perda de arrecadação. O movimento repete a estratégia usada para outros produtos do agro goiano, como a soja — que já teve alíquota interestadual reduzida anteriormente.
+[PAUSA]
+
+F: Para fechar, o Instituto Mauro Borges, o IMB, divulgou projeções macroeconômicas que mostram Goiás em trajetória positiva. O *PIB* goiano deve crescer 2,3% em 2026, com variação entre 1,8% e 2,8%. Nos dois primeiros meses do ano, foram geradas 25,5 mil novas vagas formais, colocando o estado entre os maiores criadores de emprego do país em termos proporcionais.
+
+M: No campo externo, Goiás acumula 14 anos consecutivos de superávit na balança comercial — e o IMB projeta saldo positivo também em 2026. O cenário inflacionário favorável, com *IPCA* estimado em 3,7%, reforça o poder de compra das famílias e favorece o consumo. A ressalva do instituto fica por conta de riscos externos: tensões geopolíticas e volatilidade no comércio internacional podem pressionar o setor exportador goiano, especialmente o agro. Para quem trabalha com *LOA* e *LDO*, os dados do IMB são referência na calibragem das projeções de receita tributária, particularmente o *ICMS* sobre exportações.
+[PAUSA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
