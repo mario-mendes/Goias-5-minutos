@@ -1,0 +1,28 @@
+[VINHETA_IN]
+[PAUSA]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Hoje é sábado, 27 de junho de 2026. Abrimos com um dado que reforça a solidez estrutural da economia goiana: o IBGE aponta avanço consistente da diversificação da indústria do estado, com novos investimentos em setores de maior valor agregado. Os dados consolidados mostram que, em 2025, a indústria goiana cresceu 2,4%, colocando Goiás na quarta posição entre os estados com maior expansão da *produção industrial* — bem acima da média nacional de 0,6%.
+
+F: E a composição desse crescimento é o que chama atenção do ponto de vista fiscal. Segmentos como fabricação de máquinas e equipamentos registraram expansão de 25,8%; artigos do vestuário subiram 14,5%; produtos químicos cresceram 5,9%; e veículos automotores avançaram 6,1%. Essa diversificação é estratégica porque amplia a base de incidência do *ICMS* e reduz a dependência do estado em relação ao ciclo do agronegócio.
+[PAUSA CURTA]
+M: Passando para o Legislativo. A Assembleia Legislativa de Goiás viveu uma votação tensa nesta semana. De acordo com O Popular, a Alego aprovou, em sessão com clima acalorado, a destinação de 310 milhões de reais para o Programa de Urbanização e Assentamentos — o *Puama II*. A oposição questionou a regularidade da votação e apontou possível ilegalidade no rito adotado. A matéria envolve *empenho* de recursos habitacionais de grande porte e segue sob escrutínio jurídico.
+
+F: Vale lembrar o contexto orçamentário: o Puama II é um programa habitacional financiado com recursos estaduais. Com 310 milhões de reais em jogo, qualquer questionamento sobre o processo legislativo pode gerar impacto nos contratos e no cronograma de *desembolso* das obras. A oposição deve acionar o Tribunal de Contas do Estado para análise da legalidade da votação.
+[PAUSA CURTA]
+M: Em desdobramento ao que noticiamos ontem: a lei que divide o *teto Propag* entre os Poderes do estado foi aprovada, mas o prazo crítico é já na próxima segunda-feira, 30 de junho. É até lá que vence o limite global considerando os créditos adicionais em vigor. O aditivo com o Tesouro Nacional ainda não foi assinado, e a Secretaria da Economia monitora esse fechamento com atenção para garantir conformidade com a *Lei de Responsabilidade Fiscal*.
+
+F: Outro desdobramento importante: a *LDO 2027*, que recebeu o primeiro aval da Alego na quinta-feira, aguarda agora a segunda votação. Com receita total projetada em 47,8 bilhões de reais, a lei de diretrizes vai nortear a elaboração da *LOA* do próximo exercício. O calendário aponta que a segunda votação deve ocorrer na semana que vem, já na primeira sessão ordinária de julho.
+[PAUSA CURTA]
+M: No campo da *renúncia de receita*, um tema relevante segue aguardando sanção governamental: a concessão de *crédito outorgado de ICMS* nas operações interestaduais com feijão in natura. A Alego aprovou a medida, que reduz a carga tributária efetiva de 12% para 2,4% nas saídas do grão produzido em Goiás — equiparando o estado ao Distrito Federal e a concorrentes como Paraná e Minas Gerais. Goiás é o terceiro maior produtor nacional de feijão, com mais de 11% da produção brasileira.
+
+F: Pelo ângulo do *resultado primário*, essa renúncia precisa ser dimensionada com cuidado. O benefício fiscal reduz a arrecadação de *ICMS* no curto prazo, mas a expectativa do governo é que o ganho de competitividade aumente o volume de operações e compense a perda de *receita tributária* ao longo do tempo. A Secretaria da Economia deverá informar o impacto estimado no Demonstrativo de Renúncia de Receita da *LDO 2027*.
+[PAUSA CURTA]
+M: Por fim, um número do mercado de trabalho que merece registro: Goiás gerou 25,5 mil novas vagas formais apenas nos dois primeiros meses de 2026, colocando o estado entre os que mais criam empregos no país proporcionalmente ao estoque de trabalhadores. O dado reforça a capacidade de geração de receita previdenciária estadual e sustenta a trajetória de *equilíbrio fiscal* apontada nas projeções do Instituto Mauro Borges.
+
+F: E o estado acumula 14 anos consecutivos de *superávit na balança comercial*, o que mantém o fluxo de divisas favorável e sustenta a base de exportações — fator determinante para o *ICMS* sobre operações interestaduais e para o câmbio que impacta os repasses federais ao estado.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
