@@ -1,0 +1,25 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É domingo, 28 de junho de 2026. Começamos com a semana legislativa mais movimentada do primeiro semestre: a *Alego* fechou a semana com uma série de votações que mexem direto com o *patrimônio público* e o *orçamento* estadual.
+[PAUSA CURTA]
+F: A principal delas é a aprovação definitiva do projeto que cria *Fundos de Investimento Imobiliário* com bens do Estado. Em segunda votação, na quarta-feira passada, os deputados chancelaram por 21 votos a 5 a proposta do Executivo que autoriza a *alienação e transferência* de imóveis dominicais para constituição de um ou mais FIIs. Os imóveis inicialmente mapeados têm valor patrimonial estimado em 604 milhões de reais. A projeção do governo é que os empreendimentos derivados desses ativos movimentem até 10 vírgula 3 bilhões e gerem cerca de 1,24 bilhão em receitas ao Estado ao longo da operação.
+[PAUSA CURTA]
+M: Do ponto de vista fiscal, a lógica é substituir a venda direta — que gera *receita pontual* e muitas vezes abaixo do valor de mercado — por uma estratégia de valorização contínua dos ativos, com gestão profissional privada. O Estado permanece cotista majoritário, mantendo o controle das decisões estratégicas. A oposição, porém, criticou a falta de transparência: o governo não divulgou a lista definitiva dos imóveis e poderá transferir novas áreas ao fundo por decreto, sem aprovação legislativa específica para cada bem.
+[PAUSA CURTA]
+F: Na mesma sessão de 24 de junho, foi lido o *parecer prévio* do *Tribunal de Contas do Estado*, o TCE-GO, sobre as contas anuais do Poder Executivo relativas ao exercício de 2025. O documento, que tramita na Alego sob o processo número 12958 barra 26, inicia agora seu trâmite legislativo — são os deputados estaduais quem têm a palavra final para aprovação ou rejeição das contas do governo. Para quem trabalha com *resultado primário* e *execução orçamentária*, esse julgamento é um dos momentos mais relevantes do calendário fiscal.
+[PAUSA CURTA]
+M: Ainda na semana legislativa: a *LDO* para 2027 avança na *Comissão de Tributação, Finanças e Orçamento* da Alego. O colegiado definiu que o deputado Anderson Teodoro, relator da matéria, apresentará o relatório final na terça-feira, 30 de junho. A proposta, registrada sob o processo 7668 barra 26, estabelece as prioridades do governo e as metas fiscais para o próximo exercício, além das diretrizes para elaboração e execução do orçamento, incluindo regras sobre despesas com pessoal e encargos sociais.
+[PAUSA CURTA]
+F: Esse é o prazo que o time de orçamento precisa acompanhar: depois do relatório da *Comissão de Finanças*, a *LDO* vai a plenário. E a pressão é grande, porque o *Executivo* tem até 15 de setembro para enviar à Alego o Projeto do Orçamento Geral do Estado, o OGE 2027. Para dar dimensão dos números: a *LOA* vigente prevê *Receita Corrente Líquida* de 47,3 bilhões de reais, com o *ICMS* estimado em 19 bilhões — a principal fonte tributária do Estado. A *folha de pessoal* totaliza 29,4 bilhões, sendo 14,8 bilhões para servidores ativos do Executivo e 5,6 bilhões referentes ao *déficit previdenciário* projetado pela GoiásPrev.
+[PAUSA CURTA]
+M: Outro número que merece atenção dos colegas da Secretaria da Economia: as *emendas impositivas*. A Secretaria de Relações Institucionais, a Serint, projeta executar entre 60 e 65% do total até o dia 3 de julho — véspera da janela eleitoral que suspende esse tipo de pagamento. Até a semana passada, apenas 108,5 milhões dos 560 milhões previstos para 2026 tinham sido quitados, o equivalente a 20% do total. O ritmo de *empenho* e *liquidação* precisará ser bem acelerado nos próximos dias para cumprir a meta.
+[PAUSA CURTA]
+F: Vale lembrar que o prazo de 3 de julho coincide com o início do período de maior sensibilidade eleitoral. Os parlamentares querem garantir o máximo de *execução de emendas* nas suas bases antes da corrida de outubro. Do ponto de vista da *transparência fiscal*, os dados estão disponíveis no portal EmendasGO, ferramenta útil para quem monitora a execução orçamentária em tempo real.
+[PAUSA CURTA]
+M: Para fechar, segurança pública também entrou na pauta orçamentária esta semana. A Alego aprovou em definitivo a exigência de *diploma de ensino superior* para ingresso em carreiras específicas da Secretaria de Segurança Pública — uma mudança que, no médio prazo, afeta o *perfil de despesa com pessoal* e os planos de carreira vinculados ao orçamento da SSP.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
