@@ -1,0 +1,27 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Segunda-feira, 29 de junho de 2026. Encerramos o primeiro semestre fiscal e o calendário traz obrigações importantes: até esta semana, o Estado deve publicar o *Relatório de Gestão Fiscal* do primeiro quadrimestre, nos termos do artigo 55 da *LRF*. Quem acompanha o portal da Transparência de Goiás já pode checar se o prazo foi cumprido.
+
+F: E a arrecadação chega ao intervalo com notícia positiva para o agro. A Secretaria da Economia publicou, em 23 de junho, a redução da alíquota do *ICMS* sobre o feijão in natura comercializado para outros estados: de doze por cento para dois vírgula quatro por cento. A medida busca ampliar a competitividade dos produtores goianos e fortalecer a produção estadual, segundo o governo. O ponto fiscal a observar é o impacto na *renúncia de receita* — qualquer desoneração precisa estar acompanhada de estimativa de impacto e fonte de compensação, conforme exige a *LRF*.
+[PAUSA CURTA]
+
+M: Ainda na Alego, a semana que passou trouxe novidade para a *folha de pessoal*. O plenário aprovou, em votação final, o projeto 12254 barra 26, que atualiza o regime jurídico dos servidores estaduais. O texto amplia o conceito de assédio sexual para condutas praticadas no ambiente de trabalho ou em razão dele, independentemente de hierarquia, e endurece as regras sobre abandono de cargo — inclusive com possibilidade de exoneração voluntária mediante devolução dos valores recebidos indevidamente.
+
+F: Na prática, para quem trabalha com orçamento, o impacto é indireto: processos disciplinares concluídos com exoneração reduzem o *empenho* de remuneração, mas geram passivos de ressarcimento que precisam ser monitorados. A *folha de pessoal* já é o maior componente do orçamento estadual: na *LOA* 2026, a previsão total é de 29 vírgula 4 bilhões de reais, sendo 14 vírgula 8 bilhões para servidores ativos do Executivo e 8 vírgula 7 bilhões para inativos.
+[PAUSA CURTA]
+
+M: Ponto de atenção no interior: a Alego referendou o decreto de calamidade financeira da Prefeitura de Iporá. Com base no artigo 65 da *Lei de Responsabilidade Fiscal*, o município fica autorizado a adotar mecanismos extraordinários de gestão fiscal, incluindo limitação de *empenhos*, revisão de contratos e racionalização de despesas. Esse instrumento existe justamente para situações em que a receita não cobre os compromissos básicos — e exige acompanhamento do TCE-GO.
+
+F: No quadro macro do Estado, o Instituto Mauro Borges projeta crescimento do *PIB* goiano de dois vírgula três por cento em 2026, podendo variar entre um vírgula oito e dois vírgula oito por cento. Nos dois primeiros meses do ano, Goiás já gerou 25 vírgula 5 mil novas vagas formais, e o estado acumula 14 anos consecutivos de superávit na balança comercial. O setor industrial puxa o resultado, com desempenho acima da média nacional.
+[PAUSA CURTA]
+
+M: Mas há alerta fiscal relevante dentro da própria *LOA*. O secretário da Economia, Francisco Sérvulo Nogueira, sinalizou na audiência de aprovação do orçamento que as receitas crescem 8%, enquanto as despesas crescem a uma taxa de 25%. Muito desse avanço está ligado à *folha de pessoal* e às vinculações constitucionais de saúde. Isso pressiona o *resultado primário* e exige disciplina no ritmo de *empenho* ao longo do segundo semestre.
+
+F: Por último, uma mudança que afeta diretamente a fiscalização do *ICMS*: desde 1º de junho, empresas com faturamento anual acima de 4 vírgula 8 milhões de reais são obrigadas a integrar os meios de pagamento eletrônico com a emissão de documentos fiscais. São cerca de 11 mil estabelecimentos goianos enquadrados. A medida combate a emissão de recibos sem nota e deve ampliar a base de *arrecadação* de *ICMS* no segundo semestre.
+[PAUSA CURTA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
