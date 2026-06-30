@@ -1,0 +1,33 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Hoje é 30 de junho de 2026 — último dia do primeiro semestre fiscal. Uma data que exige atenção redobrada de quem trabalha com *orçamento público*, porque o relógio da *LRF* nunca para.
+[PAUSA CURTA]
+F: Exato. Com o encerramento do terceiro bimestre hoje, abre-se o prazo de 30 dias para publicação do *Relatório Resumido de Execução Orçamentária*, o *RREO*, conforme o artigo 165, parágrafo terceiro da Constituição Federal. Secretaria da Economia, conta regressiva iniciada.
+[PAUSA CURTA]
+M: E no campo macroeconômico, o Instituto Mauro Borges reforçou as projeções para este ano: *PIB* goiano deve crescer 2,3% em 2026, com variação entre 1,8% e 2,8%. A expansão é sustentada principalmente pela indústria e pelo setor de serviços, mesmo com a acomodação do agro após o ciclo excepcional de 2025.
+[PAUSA CURTA]
+F: No mercado de trabalho, os dados também animam: apenas nos dois primeiros meses do ano, Goiás gerou 25 mil e 500 novas vagas formais, colocando o estado entre os que mais criam empregos no Brasil proporcionalmente ao estoque de trabalhadores. E o *IPCA* estadual projetado é de 3,7% — dentro da meta.
+[PAUSA CURTA]
+M: No comércio exterior, Goiás completa 14 anos consecutivos de superávit na *balança comercial* — marca rara entre os estados brasileiros — e deve manter saldo positivo em 2026, mesmo diante da volatilidade cambial e das tensões no comércio internacional.
+[PAUSA CURTA]
+F: Mudando para o campo legislativo: na sessão ordinária da Assembleia Legislativa do dia 24 de junho, os deputados aprovaram a autorização para que o Estado aliene bens imóveis dominicais por meio de *fundos de investimento imobiliário*. A medida abre uma nova frente para monetização do patrimônio estadual e pode gerar receita não tributária relevante para o *resultado primário* de 2026.
+[PAUSA CURTA]
+M: Na mesma sessão, os parlamentares também ratificaram a exigência de ensino superior para ingressar na Polícia Técnico-Científica de Goiás. Trata-se de impacto direto na *folha de pessoal* futura: servidores mais qualificados tendem a ingressar em faixas salariais mais altas, o que exige monitoramento do limite prudencial de despesas com pessoal previsto no artigo 22 da *LRF*.
+[PAUSA CURTA]
+F: Em desdobramento ao que noticiamos ontem sobre o *ICMS* do feijão: a fonte do benefício fiscal foi a sessão extraordinária da Alego de 17 de junho, quando o Plenário carimbou oficialmente a redução da alíquota interestadual para 2,4%. O Decreto que operacionalizou a medida foi publicado pela Secretaria da Economia em 23 de junho. Toda *renúncia de receita*, lembramos, exige estimativa de impacto e fonte de compensação nos termos da *LRF*.
+[PAUSA CURTA]
+M: Outra novidade com reflexo direto na *arrecadação* do *ICMS*: a primeira fase da integração obrigatória entre meios de pagamento eletrônico e emissão de documentos fiscais entrou em vigor em 1º de junho para empresas com faturamento anual acima de 4 vírgula 8 milhões de reais — cerca de 11 mil estabelecimentos em Goiás. A próxima etapa alcança Empresas de Pequeno Porte em setembro.
+[PAUSA CURTA]
+F: A lógica é clara: quanto maior a aderência ao *SPED* e à nota fiscal eletrônica integrada ao pagamento, menor é a sonegação e maior é a base tributável do *ICMS*. Para quem faz *LOA*, essa expansão do cadastro fiscal é uma variável importante na projeção de receita do segundo semestre.
+[PAUSA CURTA]
+M: E ainda na pauta fiscal: o governo divulgou o resultado preliminar do concurso público para Auditor Fiscal da Receita Estadual. O reforço no quadro de fiscalização chega em momento estratégico, justamente quando a Receita Estadual aposta em malhas fiscais especializadas e em uma atuação mais orientativa para ampliar a regularização espontânea de contribuintes.
+[PAUSA CURTA]
+F: Por fim, um alerta vindo do interior: a Assembleia Legislativa aprovou o decreto de calamidade financeira da Secretaria Municipal de Finanças de Iporá. A medida aciona o artigo 65 da *LRF*, permitindo que o município adote mecanismos extraordinários de gestão fiscal — como limitação de *empenho*, revisão de contratos e racionalização de despesas — para preservar o equilíbrio das contas públicas locais.
+[PAUSA CURTA]
+M: O caso de Iporá é um sinal de alerta que ressoa na esfera estadual: municípios em dificuldade financeira tendem a pressionar por mais *FPE*, por parcelamentos de dívidas com o estado e por emendas impositivas. Tudo isso entra no radar do gestor do *orçamento* estadual.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
