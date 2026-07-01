@@ -1,0 +1,29 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Hoje é primeiro de julho de 2026 — começa o segundo semestre fiscal e, com ele, um conjunto de novos marcos que afetam diretamente o orçamento, a gestão de pessoal e a conformidade tributária do Estado. Vamos às pautas.
+[PAUSA]
+F: A primeira pauta é eleitoral, mas com impacto orçamentário direto. A partir de amanhã, quatro de julho, entram em vigor as *condutas vedadas a agentes públicos* previstas na legislação eleitoral. Ficam proibidas nomeações sem justa causa, exonerações arbitrárias, celebração de contratos, inauguração de obras públicas com participação de candidatos e transferências voluntárias de recursos. São restrições que valem três meses antes do primeiro turno — marcado para quatro de outubro.
+[PAUSA CURTA]
+M: Na prática, para quem trabalha com *empenho*, *liquidação* e *contratos*, isso significa que qualquer ato de pessoal ou repasse que não esteja amparado em necessidade comprovada passa a ter risco eleitoral. A Alego inclusive publicou cartilha eleitoral orientando parlamentares e servidores candidatos sobre a desincompatibilização. Atenção redobrada nos próximos noventa dias.
+[PAUSA]
+F: Segunda pauta: a Assembleia Legislativa de Goiás abre os trabalhos de julho nesta tarde, em sessão híbrida, com noventa e quatro processos aptos à deliberação. O destaque vai para propostas de saúde — como laudos vitalícios para doenças autoimunes — e terceira idade. Mas do ponto de vista fiscal, o que importa é a retomada do calendário legislativo após o fechamento do primeiro semestre. A Alego precisa votar matérias orçamentárias antes do recesso de julho.
+[PAUSA CURTA]
+M: Vale lembrar que em vinte e quatro de junho, na última sessão antes do recesso, os deputados autorizaram a *venda de bens do Estado para criação de fundo de investimento*. A medida tem potencial de gerar receita não recorrente e precisa ser acompanhada de perto nos próximos *demonstrativos contábeis* do Tesouro Estadual.
+[PAUSA]
+F: Terceira pauta: *reforma tributária* e o novo cenário de conformidade híbrida. A partir deste semestre, o *ICMS* passa oficialmente a conviver com o *IBS* — o Imposto sobre Bens e Serviços — que entra em fase de testes com alíquota simbólica de zero vírgula um por cento. Isso não muda as obrigações do *ICMS* em Goiás — alíquota modal de dezenove por cento permanece. Mas as empresas precisam operar os dois sistemas simultaneamente, o que eleva o risco de erros de escrituração.
+[PAUSA CURTA]
+M: E atenção: o painel de *arrecadação estadual* da Secretaria da Economia está temporariamente fora do ar. A própria secretaria informa que novas cargas de dados serão realizadas por conta das adaptações necessárias à reforma tributária. Isso afeta a análise de *receita corrente líquida* em tempo real — analistas e gestores devem buscar os dados diretamente nos demonstrativos do *SIAFE* ou aguardar a reabertura do painel.
+[PAUSA]
+F: Quarta pauta: o novo *SIAFIC* — Sistema Integrado de Planejamento, Orçamento e Finanças de Goiás. Com a unificação das plataformas *SEONET* e *AFT* em ambiente único, os órgãos do Estado passam a executar planejamento, orçamento e execução financeira em uma só tela. Em breve, o sistema terá automação inteligente para emissão de *empenhos*, *liquidações* e pagamentos com poucos cliques. A Subsecretaria Central de Orçamento coordena a migração ao lado da área de tecnologia da Secretaria-Geral do Governo.
+[PAUSA CURTA]
+M: Para quem está no dia a dia da execução orçamentária, esse é um ponto crítico de transição. A integração elimina retrabalho e duplicidade de dados, mas exige adaptação de rotinas e de equipes. O ciclo atual de elaboração da *LOA* 2027 já corre dentro do novo *SIAFIC*, com prazo para lançamento dos *IPOFs* até dezoito de julho — portanto, a próxima quinzena é decisiva para os órgãos setoriais.
+[PAUSA]
+F: Quinta e última pauta: o calendário do *ICMS* em Goiás segue sem alterações em 2026. O recolhimento continua no vigésimo dia após o encerramento do período de apuração, em parcela única, para todos os segmentos — comércio, indústria, serviços, energia, telecom e combustíveis. O vencimento de julho cai no dia vinte. Quem teve prorrogação por problemas técnicos em abril precisa conferir se não há pendência acumulada.
+[PAUSA CURTA]
+M: Um lembrete de gestão fiscal: com o início do segundo semestre, as Secretarias têm trinta dias para publicar o *RREO* do terceiro bimestre, prazo que vence em trinta de julho. O portal da transparência é o canal obrigatório. E os *Relatórios de Gestão Fiscal* — *RGF* — do segundo quadrimestre vencem no final de setembro. Agenda cheia para o Tesouro Estadual.
+[PAUSA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
