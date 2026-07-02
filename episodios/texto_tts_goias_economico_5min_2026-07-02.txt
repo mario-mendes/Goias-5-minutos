@@ -1,0 +1,35 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É segunda-feira, dois de julho de 2026. Estreamos a semana com agenda legislativa cheia e dois temas de peso para quem trabalha com *orçamento* e *política fiscal* em Goiás.
+[PAUSA CURTA]
+F: Começamos pela Assembleia Legislativa. A Alego abriu julho com uma das pautas mais movimentadas do semestre: noventa e três processos legislativos na Ordem do Dia da sessão de ontem, primeiro de julho, em formato híbrido.
+[PAUSA CURTA]
+M: O destaque de maior impacto fiscal é o projeto da Governadoria que pede autorização para criar a *Invest GO* — a Agência Goiana de Promoção de Investimentos, Competitividade e Inovação. Segundo o governador Daniel Vilela, Goiás talvez seja um dos únicos estados que ainda não tem uma agência desse tipo. A estruturação contou com consultoria do *BID*, o Banco Interamericano de Desenvolvimento.
+[PAUSA CURTA]
+F: Para o orçamento, a criação da Invest GO significa um novo centro de custo e, potencialmente, uma nova estrutura de *renúncia de receita* vinculada a atração de empresas. O legislativo vai acompanhar de perto o impacto na *LDO* e na próxima *LOA*.
+[PAUSA CURTA]
+M: Também estava na pauta o veto integral do governador ao projeto que alterava o *Plano de Carreira de Praças* da Polícia Militar e do Corpo de Bombeiros. A razão técnica do veto foi dupla: vício de iniciativa, pois a matéria é de competência privativa do Executivo, e *repercussões orçamentárias* sobre o processo promocional em andamento nas corporações militares.
+[PAUSA CURTA]
+F: É um caso clássico de controle de *folha de pessoal*: qualquer ponto atribuído às condecorações no critério de promoção por merecimento tem efeito direto sobre vencimentos e enquadramento na carreira. O veto chegou exatamente no período de condutas vedadas, reforçando a necessidade de cautela com atos de pessoal.
+[PAUSA CURTA]
+M: Agora, uma pauta que mexe com o *agro* e com a *renúncia de receita* do estado. A Comissão Mista da Alego aprovou a *remissão* — o perdão — de créditos de *ICMS* decorrentes da circulação interna de gado bovino entre produtores rurais em Goiás.
+[PAUSA CURTA]
+F: O problema tem origem nas movimentações de gado entre propriedades sem emissão de nota fiscal — prática comum no passado, feita apenas com a Guia de Trânsito Animal. Desde 2012, produtores receberam autos de infração por essa prática. Agora, com base no Convênio *ICMS* cento e quarenta e um barra dois mil e vinte e cinco do *Confaz*, o estado poderá perdoar dívidas relativas a operações realizadas até trinta e um de dezembro de dois mil e vinte e três.
+[PAUSA CURTA]
+M: A estimativa da *Secretaria da Economia* é que aproximadamente dez mil produtores rurais sejam beneficiados, e o volume de débitos que podem ser anulados chega a quatrocentos milhões de reais. Quem ainda discute o débito na esfera administrativa ou judicial terá de desistir dos recursos para acessar o perdão.
+[PAUSA CURTA]
+F: Junto a esse tema, a Comissão também aprovou a extinção da contribuição ao *Fundeinfra*, a chamada "taxa do agro". O fundo arrecadou mais de três vírgula um bilhões de reais entre dois mil e vinte e três e janeiro de dois mil e vinte e seis, e cerca de dois vírgula cinco bilhões já estão formalizados em contratos de obras rodoviárias. Com o encerramento da cobrança, a *Goinfra* assume a titularidade dos contratos e projetos em andamento.
+[PAUSA CURTA]
+M: Atenção para um prazo fiscal importante: o *Programa Negocie Já II* encerra as adesões em trinta e um de julho de dois mil e vinte e seis. Contribuintes com débitos de *ICMS*, *IPVA* e *ITCD* têm apenas este mês para aproveitar descontos de cinquenta a noventa e nove por cento sobre multas e juros. O *ICMS* pode ser parcelado em até cento e vinte prestações.
+[PAUSA CURTA]
+F: Para os gestores tributários, o recado é direto: depois do dia trinta e um de julho, a renegociação dentro do Negocie Já II só vale para parcelamentos já ativos. Quem deixar passar perde os benefícios sobre o saldo remanescente. A adesão é feita pelo Sistema de Negociação do Contribuinte, o *SNC*, disponível no portal da Secretaria da Economia.
+[PAUSA CURTA]
+M: Por fim, uma pauta de *planejamento orçamentário*. O ciclo de elaboração da *LOA* dois mil e vinte e sete está em andamento. Os *IPOFs* — Instrumentos de Planejamento, Orçamento e Finanças — devem ser lançados até dezoito de julho, já dentro do novo *SIAFIC*. A proposta orçamentária será enviada à Alego em setembro.
+[PAUSA CURTA]
+F: A novidade estrutural é que os antigos sistemas *SEONET* e *AFT* foram unificados em uma única plataforma. O *SIAFIC* passa a reunir planejamento, orçamento e execução financeira em um mesmo ambiente, reduzindo retrabalho e inconsistências entre as fases do processo. Em breve, o sistema contará com automação inteligente para *empenhos*, liquidações e pagamentos.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
