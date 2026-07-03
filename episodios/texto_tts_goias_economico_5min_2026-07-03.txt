@@ -1,0 +1,35 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É sexta-feira, três de julho de 2026, e a pauta de hoje tem *LDO* travada, *Invest GO* mais perto da aprovação definitiva, o relógio do *SIAFIC* correndo para o ciclo da *LOA* de 2027 e um prazo crítico para quem quer regularizar *incentivos fiscais de ICMS*. Vamos direto ao ponto.
+[PAUSA]
+
+F: A principal novidade de hoje é o emperramento da *LDO de 2027* na Alego. A votação que estava prevista para esta semana foi adiada depois que os deputados Antônio Gomide, do PT, e Givago Valadares, do PRTB, pediram vistas ao relatório na Comissão de Tributação, Finanças e Orçamento na última quarta-feira.
+
+M: Gomide foi contundente: disse que o governo está com um *déficit de cinco bilhões de reais* e que a secretária da Economia não apareceu para explicar o que está sendo planejado gastar no ano que vem. Ele ainda lembrou que, ao contrário de anos anteriores, não houve nenhuma audiência pública para discutir a *LDO*. As vinte e duas emendas apresentadas pelos deputados também foram rejeitadas, o que aumentou a tensão no colegiado.
+
+F: O presidente da Comissão de Finanças, Wagner Neto, do Solidariedade, confirmou que a secretária Renata Lacerda Noleto vai se reunir com os parlamentares na próxima terça-feira, dia sete. A expectativa é de que, após essa reunião, o relatório seja aprovado e o texto vá ao plenário no mesmo dia. Lembrando que a *LDO* estabelece as diretrizes para elaboração e execução do orçamento de 2027 e que a proposta projeta disponibilidade de caixa de onze vírgula setenta e três bilhões de reais para o período.
+
+M: Dois pontos críticos da peça merecem atenção técnica: a *reserva de contingência* foi fixada em dois vírgula dois por cento da receita corrente líquida, sendo um vírgula dois por cento destinado a *emendas parlamentares*. E a projeção para 2027 aponta uma margem líquida negativa de trezentos e trinta e seis vírgula cinco milhões de reais entre o crescimento das despesas obrigatórias continuadas e o limite de expansão permitido — um risco fiscal real a monitorar.
+[PAUSA]
+
+F: Em desdobramento ao que noticiamos ontem, a *Invest GO* — Agência Goiana de Promoção de Investimentos, Competitividade e Inovação — avançou à votação definitiva na Alego. Na sessão extraordinária de dois de julho, o plenário deu sequência à tramitação do processo treze mil duzentos e sessenta e um barra vinte e seis. A aprovação final deve ocorrer nos próximos dias. Para o orçamento estadual, a nova entidade representará um novo centro de custo a ser incorporado nas próximas *LOA* e *LDO*.
+[PAUSA]
+
+M: Outro tema que exige atenção das equipes de orçamento: o ciclo de elaboração da *LOA de 2027* está em andamento e o prazo é curto. O lançamento dos *IPOFs* — Instrumento de Planejamento, Orçamento e Finanças — vai até dezoito de julho, e a proposta orçamentária será enviada à Alego em setembro.
+
+F: A novidade deste ciclo é a unificação dos antigos sistemas SEONET e AFT numa única plataforma, o novo *SIAFIC*, que reúne planejamento, orçamento e execução financeira em um único ambiente. Em breve o sistema contará com automação inteligente para *empenho*, liquidação e pagamento. A Subsecretaria Central de Orçamento já realizou videoconferência com mais de trezentos servidores de diferentes órgãos e Poderes para alinhar as diretrizes do ciclo.
+[PAUSA]
+
+M: Por fim, um alerta de prazo para os contribuintes: a convalidação de *incentivos fiscais de ICMS* — prevista na Lei estadual vinte e três mil novecentos e setenta e cinco, de dezembro de dois mil e vinte e cinco — encerra o período de adesões em trinta e um de julho de 2026. O programa permite regularizar créditos tributários constituídos ou não, inscritos ou não em dívida ativa, desde que o fato gerador tenha ocorrido até trinta e um de dezembro de dois mil e vinte e quatro.
+
+F: Os descontos são expressivos: no pagamento à vista, a *redução de juros, multas e encargos* chega a noventa e nove por cento. No parcelamento, os abatimentos variam conforme o número de parcelas. Débitos do Protege Goiás podem ser parcelados em até sessenta vezes. Para aderir, o contribuinte precisa estar adimplente com o *ICMS* da parcela não incentivada, sem crédito inscrito em dívida ativa, e migrar para o programa ProGoiás. O acesso é pela Plataforma Digital de Processos da Secretaria da Economia.
+[PAUSA]
+
+M: Resumindo o dia: *LDO de 2027* vai a reunião técnica na Alego na terça-feira sete de julho; *Invest GO* na reta final de aprovação; prazo de dezoito de julho para os *IPOFs* da *LOA de 2027* no novo *SIAFIC*; e trinta e um de julho como último dia para convalidar *incentivos de ICMS* com desconto de até noventa e nove por cento.
+[PAUSA CURTA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
