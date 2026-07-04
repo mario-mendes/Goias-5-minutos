@@ -1,0 +1,32 @@
+[VINHETA_IN]
+[PAUSA]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Hoje é sábado, quatro de julho de dois mil e vinte e seis. Abrimos com um desdobramento direto do que noticiamos ontem: a *LDO* de dois mil e vinte e sete segue travada na Alego, mas agora temos os números que explicam a tensão fiscal por trás do impasse.
+
+F: Exato. O projeto enviado pelo governador Daniel Vilela prevê uma disponibilidade de caixa de onze vírgula setenta e três bilhões de reais para dois mil e vinte e sete. Para entender o tamanho da queda: em dois mil e vinte e quatro essa disponibilidade chegou a dezessete vírgula vinte e sete bilhões. Em dois mil e vinte e cinco caiu para treze vírgula vinte e três bilhões. E a projeção fechada para dois mil e vinte e seis é de onze vírgula cinquenta e quatro bilhões. Ou seja, uma redução de quase seis bilhões de reais em três anos.
+
+M: Foi justamente esse cenário que levou o deputado Antônio Gomide, do PT, a cobrar a presença da secretária Renata Lacerda Noleto na Comissão de Finanças. O relator Anderson Teodoro acatou apenas três das vinte e duas emendas apresentadas — todas as três de sua própria autoria. As dezenove emendas parlamentares foram rejeitadas, entre elas propostas da oposição com diretrizes para a *Universidade Estadual de Goiás*. A reunião decisiva ficou marcada para terça-feira, dia sete, às quatorze horas.
+
+F: E o relator justificou as rejeições dizendo que as emendas tratavam de matéria própria da *LOA*, não da *LDO*. Já o presidente da Comissão, Wagner Neto, destacou que o déficit acima de cinco bilhões existe, em parte, porque houve superávit acumulado nos anos anteriores, superior a vinte bilhões. Com a saída do estado do *Regime de Recuperação Fiscal* e a entrada no Propag, Goiás passou a ter maior liberdade para realizar investimentos que antes eram vetados. A palavra final do Plenário deve vir ainda na semana que vem.
+[PAUSA CURTA]
+
+M: Mudando de assunto: boas notícias para o ambiente de negócios do estado. Goiás registrou a abertura de quase cento e sete mil novas empresas no primeiro semestre de dois mil e vinte e seis, segundo dados divulgados hoje pela Junta Comercial do Estado, a Juceg. Só de Microempreendedores Individuais foram mais de oitenta e dois mil registros.
+
+F: O capital social das empresas abertas nesse período ultrapassou dez vírgula treinta e cinco bilhões de reais. Desse total, um mil, cento e noventa e cinco empresas tinham capital social acima de quinhentos mil reais e respondem por quatro vírgula três bilhões em aportes. O estoque total de negócios ativos no estado chegou a um vírgula três milhão de empresas. Goiânia lidera, com mais de quatrocentos mil estabelecimentos ativos, seguida por Aparecida de Goiânia, Anápolis e Rio Verde.
+[PAUSA CURTA]
+
+M: Outro tema de interesse para quem lida com *ICMS* e *renúncia de receita*: o prazo do programa *Negocie Já dois* se encerra em trinta e um de julho — daqui a menos de quatro semanas. Até o início de abril, o programa já havia negociado um vírgula vinte e sete bilhão de reais com mais de oitenta e dois mil contribuintes.
+
+F: O *ICMS* liderou as adesões: foram quase novecentos e trinta e três milhões em parcelamentos e cento e onze milhões pagos à vista. Pagamentos à vista têm desconto de até noventa e nove por cento em juros e multa. Parcelamentos garantem entre quarenta e noventa por cento de desconto. Também entram no programa débitos de *IPVA*, *ITCD* e pena pecuniária. O acesso é pelo portal goias ponto gov ponto br barra negocieja.
+[PAUSA CURTA]
+
+M: Por fim, um alerta para empresas com benefícios fiscais de *ICMS* em situação irregular. O prazo para aderir ao programa de convalidação de incentivos do governo goiano também vence em trinta e um de julho. A medida alcança créditos tributários cujo fato gerador ocorreu até trinta e um de dezembro de dois mil e vinte e quatro.
+
+F: Para aderir, o contribuinte precisa estar adimplente com o *ICMS* da parcela não incentivada, não ter crédito inscrito em dívida ativa e manter regularidade com o *Fundo Protege Goiás*, além de migrar para o programa *ProGoiás*. A convalidação também vale para empresas com TARE suspenso ou revogado. Uma das pautas mais relevantes do programa envolve o transporte de gado entre propriedades rurais sem nota fiscal — um impasse histórico que pode perdoar até quatrocentos milhões de reais em débitos. A adesão é feita pela Plataforma Digital de Processos da Secretaria da Economia.
+[PAUSA CURTA]
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
