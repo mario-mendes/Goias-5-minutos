@@ -1,0 +1,34 @@
+[VINHETA_IN]
+[PAUSA]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Hoje é segunda-feira, 7 de julho de 2026, e esta é a edição 036. Começamos com o tema que domina a agenda fiscal do estado: a *LDO 2027*.
+[PAUSA CURTA]
+F: Em desdobramento ao que noticiamos ontem, hoje é o dia decisivo. A Comissão de Tributação, Finanças e Orçamento da Alego — a CTF — realiza às 14 horas reunião extraordinária com a presença esperada da secretária da Economia, *Renata Lacerda Noleto*. O objetivo é votar o relatório do deputado Anderson Teodoro e liberar a matéria para o Plenário ainda nesta semana.
+[PAUSA CURTA]
+M: A pressão da oposição é intensa. O deputado Antônio Gomide, do PT, cobrou explicações sobre como o Executivo pretende equacionar um *déficit projetado superior a 5 bilhões de reais* com disponibilidade de caixa de 11 vírgula 73 bilhões para 2027. Já o relator Anderson Teodoro esclareceu que as emendas rejeitadas tratavam de matérias da *LOA* — obras e ações — e não de diretrizes orçamentárias.
+[PAUSA CURTA]
+F: Se a reunião de hoje avançar, o presidente Bruno Peixoto sinalizou que a *LDO* poderá ser votada em primeira e segunda fases em sessões extraordinárias ainda nesta semana.
+[PAUSA]
+M: Na segunda pauta: a *GoiásFomento* lançou na última quinta-feira a inteligência artificial *ZAIA* — uma ferramenta que promete reduzir de duas semanas para apenas um dia o prazo de aprovação de crédito para microempreendedores, agricultores familiares e pequenos empresários goianos.
+[PAUSA CURTA]
+F: O presidente da agência, Rivael Aguiar, informou que a expectativa é triplicar a taxa de aprovação dos pedidos, que hoje está em torno de 12%, podendo chegar a mais de 30%. O sistema vai reunir dados financeiros, histórico de pagamentos e informações públicas, cruzando tudo com as regras de negócio da GoiásFomento para uma resposta mais rápida e precisa.
+[PAUSA CURTA]
+M: Vale registrar que a GoiásFomento opera financeiramente 20 programas sociais do governo estadual, com movimentação de 1 vírgula 27 bilhão de reais só em 2025. Cada dia a menos no ciclo de análise de crédito representa ganho real de *eficiência no gasto público* indireto.
+[PAUSA]
+F: Terceira pauta: atenção, contribuintes goianos. O prazo para *convalidação de incentivos fiscais* dos programas Produzir e Fomentar encerra em 31 de julho. A lei estadual 23.975, de dezembro de 2025, permite desconto de até 99% em juros e multas para pagamento à vista de débitos de *ICMS*. Quem pagar parcelado ainda tem abatimentos expressivos, dependendo do número de parcelas.
+[PAUSA CURTA]
+M: Para aderir, o contribuinte precisa estar adimplente com o *ICMS* da parcela não incentivada, não ter crédito inscrito em dívida ativa e migrar para o programa ProGoiás. A adesão é feita pela plataforma digital da Secretaria da Economia. Faltam menos de 25 dias — é hora de acionar o jurídico e o fiscal da empresa.
+[PAUSA]
+F: Na quarta pauta, um dado importante para o radar de *folha de pessoal* da Alego: a Casa anunciou a homologação do concurso público organizado pela Fundação Getúlio Vargas, com 101 aprovados para ingresso no quadro efetivo do Legislativo goiano. A diretora de Gestão de Pessoas, Sulema Barcelos, informou que a convocação dos selecionados deve ser marcada em breve.
+[PAUSA CURTA]
+M: A chegada de 101 novos servidores repõe parte do efetivo perdido por aposentadorias nos últimos anos. Do ponto de vista orçamentário, o impacto na *folha de pessoal* da Alego precisará estar contemplado na *LOA 2027* — mais um elemento que reforça a importância da reunião de hoje na CTF para definir as diretrizes do próximo exercício.
+[PAUSA]
+F: Por fim, um desdobramento da pauta fiscal do agro: a Comissão Mista da Alego aprovou a *remissão de ICMS* sobre circulação interna de gado bovino entre produtores rurais — o chamado perdão de débitos históricos desde 2012, quando produtores foram autuados por transportar animais com guia sanitária sem nota fiscal. A estimativa é de que o perdão alcance até 400 milhões de reais em débitos.
+[PAUSA CURTA]
+M: No mesmo pacote, avançou o fim da chamada *taxa do agro*, o Fundeinfra, com a transferência das obras em execução para a Goinfra. O fundo havia arrecadado mais de 3 vírgula 1 bilhões de reais, dos quais cerca de 2 vírgula 48 bilhões já estavam formalizados em contratos de rodovias, pontes e viadutos pelo estado. A *renúncia de receita* futura do imposto agora fica compensada pelo encerramento da contribuição ao fundo.
+[PAUSA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
