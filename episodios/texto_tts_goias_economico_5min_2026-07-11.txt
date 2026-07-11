@@ -1,0 +1,32 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: É sábado, onze de julho de dois mil e vinte e seis. Quatro pautas no radar hoje: a nova agência de atração de investimentos aprovada antes do recesso da *Alego*; o prazo final para convalidação de *incentivos fiscais*; o parecer do *TCE-GO* sobre as contas de dois mil e vinte e cinco; e a alienação de imóveis dominicais para constituição de *fundo imobiliário*. Vamos a elas.
+[PAUSA]
+
+F: A Assembleia Legislativa aprovou, em definitivo, o projeto de lei número treze mil duzentos e sessenta e um barra vinte e seis, que autoriza a criação da *Invest GO* — Agência Goiana de Promoção de Investimentos, Competitividade e Inovação. A votação foi unânime na primeira fase, com vinte e dois votos favoráveis e nenhum contrário. A nova entidade terá personalidade jurídica de direito privado e poderá, inclusive, instalar escritórios internacionais para prospecção de negócios.
+
+M: Do ponto de vista orçamentário, a *Invest GO* entra como instrumento extra-fiscal: ela não gera *empenho* imediato, mas cria estrutura para captar investimentos privados e reduzir a dependência do Estado em aportes diretos. O governo argumenta que Goiás já tem *PIB* superior a trezentos bilhões de reais e que o próximo passo é ampliar a inserção internacional — tomando como referência modelos como a Invest Minas e a Invest Paraná.
+[PAUSA]
+
+F: Atenção, contribuinte: o prazo para adesão ao programa de *convalidação de incentivos fiscais* encerra em trinta e um de julho. A medida, amparada na Lei número vinte e três mil novecentos e setenta e cinco de dezembro de dois mil e vinte e cinco, permite a regularização de créditos de *ICMS* com descontos de até noventa e nove por cento em juros e multas. A convalidação alcança créditos constituídos ou não, inscritos ou não em dívida ativa, desde que o fato gerador tenha ocorrido até trinta e um de dezembro de dois mil e vinte e quatro.
+
+M: Para aderir, o contribuinte precisa estar adimplente com o *ICMS* da parcela não incentivada, sem inscrição em dívida ativa, e migrar para o programa *ProGoiás*. A medida também se aplica a empresas com *TARE* suspenso ou revogado. Do lado da *renúncia de receita*, a Secretaria da Economia ainda não divulgou o impacto final no *resultado primário*, mas a expectativa é de regularização volumosa nos próximos vinte dias.
+[PAUSA]
+
+F: Na sessão do dia vinte e quatro de junho, o Plenário da *Alego* recebeu a leitura do parecer prévio do *Tribunal de Contas do Estado* sobre as contas anuais do Poder Executivo referentes ao exercício de dois mil e vinte e cinco. O processo tramita agora sob o número doze mil novecentos e cinquenta e oito barra vinte e seis. O *TCE-GO* não reprova nem aprova diretamente — o parecer prévio é a etapa técnica que antecede a deliberação final do Parlamento.
+
+M: Para quem trabalha com *LRF*, isso importa: o julgamento das contas pelo Plenário da *Alego* é exigência constitucional e baliza eventuais restrições ao governador nas eleições de outubro. O ciclo orçamentário de dois mil e vinte e cinco — marcado por expansão de investimentos e superávit primário — será o espelho dessa avaliação.
+[PAUSA]
+
+F: Por fim, a *Alego* também aprovou a alienação de imóveis dominicais estaduais para constituição de um ou mais *fundos de investimento imobiliário*. A proposta da Governadoria, aprovada com vinte e um votos a favor e cinco contra, usa o acervo imobiliário subutilizado do Estado como ativo gerador de receita não tributária.
+
+M: A oposição questionou a falta de especificação dos imóveis no texto, o que dificulta a transparência sobre o impacto patrimonial. Do ponto de vista fiscal, a operação pode gerar *receita de capital*, melhorando pontualmente o *resultado primário*, mas não computa como arrecadação corrente — detalhe relevante no controle do limite de *despesas* sob o regime fiscal vigente.
+[PAUSA]
+
+F: Recapitulando: *Invest GO* aprovada e caminhando para sanção; prazo de *convalidação fiscal* encerra em trinta e um de julho; *TCE-GO* emitiu parecer sobre as contas de dois mil e vinte e cinco; e fundo imobiliário de imóveis estaduais avança apesar de polêmica sobre transparência.
+
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
