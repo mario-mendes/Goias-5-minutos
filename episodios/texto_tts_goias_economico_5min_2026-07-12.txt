@@ -1,0 +1,31 @@
+[VINHETA_IN]
+M: Bom dia, Economia! Aqui é o Goiás Econômico em cinco minutos.
+[PAUSA CURTA]
+M: Hoje é domingo, 12 de julho de 2026, e nossa pauta traz quatro temas que saem diretamente do calendário fiscal e orçamentário do Estado. Vamos começar com o mais importante da semana passada: a *LDO* de 2027.
+[PAUSA CURTA]
+F: Isso mesmo. Na tarde da última terça-feira, dia 7, a Assembleia Legislativa aprovou em definitivo o projeto de Lei de Diretrizes Orçamentárias para 2027. A *LDO* estima disponibilidade de *caixa de 11 vírgula 73 bilhões de reais* para o próximo exercício e define educação, saúde, segurança pública, infraestrutura e gestão eficiente como áreas prioritárias.
+[PAUSA CURTA]
+M: E um número chama atenção no texto: os *investimentos públicos* realizados em 2025 cresceram 90% em relação ao ano anterior. A Secretaria da Economia classifica esse resultado como o maior volume de *investimento* da *série histórica goiana*, atribuído à expansão de obras e projetos estratégicos.
+[PAUSA CURTA]
+F: Com a aprovação da *LDO*, os deputados encerraram o semestre legislativo e entraram em recesso parlamentar. As sessões plenárias só retornam no dia 14 de agosto. Isso significa que qualquer proposta orçamentária ou fiscal que ainda dependa de votação terá que aguardar esse prazo.
+[PAUSA CURTA]
+M: Ainda na sessão do dia 7, a Alego carimbou dois projetos do Executivo estadual com impacto direto na política de *ICMS* e na competitividade industrial. O primeiro é o *PL 13.809 barra 26*, que cria uma hipótese excepcional e temporária para preservar o *crédito outorgado de ICMS* quando uma empresa beneficiária ficar impossibilitada de operar em território goiano por caso fortuito ou força maior — como desastres, incêndios ou interdições.
+[PAUSA CURTA]
+F: O segundo é o *PL 13.810 barra 26*, que estende o *incentivo fiscal de ICMS* a fabricantes de máquinas rodoviárias e agrícolas. Até agora, esse benefício era restrito a montadoras de veículos automotores. A ampliação coloca esse segmento industrial no mesmo patamar tributário, o que pode atrair novas plantas produtoras de equipamentos para o *agronegócio* goiano.
+[PAUSA CURTA]
+M: Falando em agronegócio: outro desdobramento relevante é o corte no *ICMS* interestadual do feijão. O governador Daniel Vilela anunciou em junho a redução da *alíquota interestadual* de 6 vírgula 06% para 2 vírgula 4%, uma queda de 60,4%. A *renúncia de receita* estimada é de cerca de 12 milhões de reais por ano, a partir de 2027.
+[PAUSA CURTA]
+F: O ajuste busca corrigir uma desvantagem competitiva. Atualmente, Goiás é o quinto maior produtor de feijão do Brasil, respondendo por quase 10% da produção nacional. O *Valor Bruto da Produção Agropecuária* do feijão goiano está estimado em 1 vírgula 63 bilhão de reais em 2026, com alta de 20 vírgula 5% frente ao ano anterior. Como 70% da produção estadual precisa ser exportada para outros estados, a alíquota maior funcionava como freio de competitividade.
+[PAUSA CURTA]
+M: Outro ponto que merece atenção é a extinção da chamada "taxa do agro" — a contribuição ao *Fundeinfra*. A Comissão Mista da Alego aprovou proposta que encerra essa cobrança e transfere à *Goinfra* a titularidade, gestão e fiscalização dos contratos em andamento. Desde a criação do fundo, foram arrecadados mais de 3 vírgula 1 bilhões de reais, dos quais cerca de 78% já estão formalizados em contratos de duplicação, pavimentação e restauração de rodovias.
+[PAUSA CURTA]
+F: É importante destacar: a extinção da contribuição não paralisa as obras. A *Goinfra* assumirá a continuidade dos projetos, evitando rupturas nos cronogramas de *empenho* e execução. Para quem acompanha *resultado primário*, o fim da arrecadação do *Fundeinfra* reduz receita vinculada, mas também encerra uma rubrica de passivo contingente no *balanço fiscal* do Estado.
+[PAUSA CURTA]
+M: E um lembrete rápido para os colegas que trabalham com *regularização tributária*: o prazo para adesão ao programa de *convalidação de incentivos fiscais de ICMS* — com descontos de até 99% em juros e multas — encerra no dia 31 de julho. Restam apenas 19 dias. A base legal é a Lei estadual 23.975 de 2025, e a condição exige migração ao programa *ProGoiás*.
+[PAUSA CURTA]
+F: Para quem trabalha com *LOA*, *LDO* ou *execução orçamentária*, o resumo da semana é este: a diretriz para 2027 está aprovada com *caixa estimado de quase 12 bilhões de reais*; o pacote fiscal incluiu proteção a incentivos existentes e ampliação para o setor de máquinas agrícolas; e o *agro* segue como âncora da política de *renúncia de receita* calculada do Estado.
+[PAUSA CURTA]
+M: Este foi o Goiás Econômico em cinco minutos.
+F: Um abraço a todos os colegas da Secretaria da Economia de Goiás. Boa semana de trabalho!
+[PAUSA CURTA]
+[VINHETA_OUT]
